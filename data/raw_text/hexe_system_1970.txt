@@ -1,0 +1,934 @@
+    by Richard W. Vernon and Thomas J. Miller
+
+    Cleveland, Ohio
+    November
+
+1
+This information is being published in prelimi-
+nary form in order to expedite its early release.
+
+
+
+
+                                                    c
+                                         ABSTRACT
+
+
+         A B r a y t o n power s y s t e m was o p e r a t e d s u c c e s s f u l l y f o r a
+t o t a l o f 2561 h o u r s i n a vacuum environment. T w o r o t a t i n g
+u n i t s were t e s t e d and compared. With t h e e x c e p t i o n o f t h e
+h e a t s o u r c e and h e a t s i n k , t h e components were f l i g h t - t y p e
+hardware, No m a j o r t e c h n o l o g i c a l problems o c c u r r e d d u r i n g
+system o p e r a t i o n .
+
+         With t h e d e s i g n working f l u i d ( a m i x t u r e of h e l i u m and
+xenon w i t h a m o l e c u l a r w e i g h t o f 8 3 , 8 ) , an a l t e r n a t o r g r o s s
+o u t p u t o f 11.9 k i l o w a t t s was o b t a i n e d .      The c o r r e s p o n d i n g
+g r o s s and n e t c o n v e r s i o n e f f i c i e n c i e s were 0 . 3 3 and 0.29
+respectively.         Data a r e p r e s e n t e d f o r t u r b i n e i n l e t tempera-
+t u r e s from 13000 F t o 1600' F, compressor o u t l e t p r e s s u r e s
+from 2 5 p s i a t o 44 p s i a , and compressor i n l e t t e m p e r a t u r e s
+from 450 F t o 94' F.
+        EXPERIMENTAL PERFORMANCE OF A 2-15 KILOWATT BRAYTON
+
+          POWER SYSTEM USING A MIXTURE OF HELIUM AND XENON
+
+                by R i c h a r d W. Vernon and Thomas J. M i l l e r
+
+                                 Lewis Research Center
+
+
+                                             SUMMARY
+
+          A B r a y t o n power s y s t e m w a s o p e r a t e d s u c c e s s f u l l y f o r a t o t a l
+o f 2561 h o u r s i n a vacuum environment. Two r o t a t i n g u n i t s were
+t e s t e d and compared. With t h e e x c e p t i o n o f t h e h e a t s o u r c e and
+h e a t s i n k , t h e components were f l i g h t - t y p e hardware. No m a j o r
+t e c h n o l o g i c a l problems o c c u r r e d d u r i n g s y s t e m o p e r a t i o n .
+
+         With t h e d e s i g n w o r k i n g f l u i d ( a m i x t u r e of h e l i u m and
+xenon w i t h a m o l e c u l a r w e i g h t of 83.8), a n a l t e r n a t o r g r o s s
+o u t p u t o f 1 1 . 9 k i l o w a t t s was o b t a i n e d .  The c o r r e s p o n d i n g g r o s s
+and n e t c o n v e r s i o n e f f i c i e n c i e s were 0 . 3 3 and 0 . 2 9 r e s p e c t i v e l y ,
+Data a r e p r e s e n t e d f o r t u r b i n e i n l e t t e m p e r a t u r e s from 1300' F
+t o 1600O F, c o m p r e s s o r o u t l e t p r e s s u r e s from 25 p s i a t o 44 p i a ,
+and compressor i n l e t t e m p e r a t u r e s from 45' F t o 94' F.
+
+
+                                        INTRODUCTION
+
+          The NASA-Lewis R e s e a r c h C e n t e r i s p r e s e n t l y d e v e l o p i n g a
+c l o s e d - l o o p B r a y t o n c y c l e s y s t e m ( r e f . 1 & 2) f o r s p a c e a p p l i c a t i o n s .
+T h i s s y s t e m w a s d e s i g n e d t o d e l i v e r from 2 t o 1 0 kW o f e l e c t r i c a l
+power c o n t i n u o u s l y and t o have shutdown and r e s t a r t c a p a b i l i t y . A t
+t h e p r e s e n t t i m e , ground t e s t s o f a l l major components, s u b s y s t e m s ,
+and t h e c o m p l e t e power c o n v e r s i o n s y s t e m , w i t h o u t n u c l e a r h e a t s o u r c e
+and w a s t e - h e a t r a d i a t o r , have been o r a r e b e i n g conducted.
+
+         Component t e s t s have i n d i c a t e d t h a t t h e s y s t e m w i l l b e c a p a b l e
+o f p r o d u c i n g 15 kW o f g r o s s power o u t p u t w i t h a d d i t i o n a l c o o l i n g
+c a p a b i l i t y f o r t h e a l t e r n a t o r . An e f f o r t i s i n p r o g r e s s t o p r o v i d e
+t h e hardware r e q u i r e d f o r a d d i t i o n a l c o o l i n g o f t h e a l t e r n a t o r .
+
+          The power c o n v e r s i o n s y s t e m was o p e r a t e d i n a vacuum e n v i r o n m e n t
+f o r a t o t a l o f 2561 h o u r s i n t h e Space Power F a c i l i t y a t t h e L e w i s
+R e s e a r c h C e n t e r . No m a j o r t e c h n o l o g i c a l problems were e n c o u n t e r e d .
+The system, w i t h t h e e x c e p t i o n o f t h e h e a t - s o u y c e and h e a t - s i n k s u b -
+s y s t e m s , c o n s i s t e d of f l i g h t - t y p e hardware,
+          The r o t a t i n g u n i t o f t h e s y s t e m i n c l u d e s a t u r b i n e , a l t e r -
+n a t o r , and compressor a l l mounted on a s i n g l e s h a f t , The s h q f t
+is supported e n t i r e l y . b y gas l u b r i c a t e d bearings. Other system
+components i n c l u d e a r e c u p e r a t o r , a waste h e a t exchanger, c o o l a n t
+l o o p hardware, and a s s o c i a t e d s y s t e m c o n t r o l s .
+
+         Two working f l u i d s were used i n t h e power c o n v e r s i o n gas l o o p ,
+One w a s t h e d e s i g n f l u i d , a m i x t u r e of h e l i u m and xenon gases mixed
+t o a m o l e c u l a r w e i g h t of 8 3 . 8 .   I n addition, krypton (molecular
+w e i g h t of 8 3 . 8 ) was a l s o used.         Performance r e s u l t s are p r e s e n t e d
+i n r e f e r e n c e 3 f o r t h e s y s t e m o p e r a t i n g on k r y p t o n w i t h t h e r o t a t i n g
+u n i t first tested.            Reference 4 p r e s e n t s a l i m i t e d amount o f d a t a
+and compares s y s t e m performance f o r t h e two working f l u i d s .
+
+        The purpose of t h i s r e p o r t i s t o p r e s e n t g e n e r a l performance
+d a t a f o r t h e s y s t e m o p e r a t i n g w i t h t h e m i x t u r e o f h e l i u m and xenon.
+Two r o t a t i n g u n i t s were t e s t e d and d a t a f o r b o t h u n i t s a r e compared.
+Experimental d a t a a r e presented f o r v a r i a t i o n s i n t u r b i n e i n l e t
+t e m p e r a t u r e from 1300 t o 1600' F, compressor i n l e t t e m p e r a t u r e
+from 45 t o 94' F, and compressor o u t l e t p r e s s u r e from 2 5 p s i a t o
+44 p s i a ,
+
+
+                        BRAYTON POWER SYSTEM DE5 C R I PTI ON
+
+         A s c h e m a t i c o f t h e power s y s t e m i s p r e s e n t e d i n f i g u r e 1.
+The components c o m p r i s i n g t h e gas l o o p are the h e a t - s p u r c e h e a t
+e x c h a n g e r , t h e B r a t y o n r o t a t i n g u n i t (BRU), and t h e Brayton h e a t
+e x c h a n g e r u n i t (BHXU), The h e a t e x c h a n g e r u p i t i n c l u d e s t h e
+r e c u p e r a t o r and t h e waste h e a t exchanger, The subsystems r e q u i r e d
+f o r o p e r a t i o n a r e : h e a t s o u r c e , gas management, e l e c t r i c a l , end
+t h e h e a t r e j e c t i o n subsystem. A photograph o f t h e s y s t e m i n s t a l l e d
+i n t h e t e s t f a c i l i t y i s p r e s e n t e d i n f i g u r e 2,
+
+                             Brayton R o t a t i n g U n i t (BRU)
+
+          The r o t a t i n g u n i t i n c l u d e s a t u r b i n e , a l t e r n a t o r , and com-
+p r e s s o r mounted on a s i n g l e s h a f t , D u r i n g normal o p e r a t i o n t h e
+b e a r i n g s were o p e r a t e d i n a hydrodynamic ( s e l f - a c t i n g ) mode
+l u b r i c a t e d w i t h t h e working g a s , D u r i n g s t a r t u p and shutdown,
+e x t e r n a l p r e s s u r i z a t i o n was s u p p l i e d t o t h e b e a r i n g s by t h e g a s
+management s u b s y s t e m t o m a i n t a i n b e a r i n g - t o - s h a f t c l e a r a n c e . The
+u n i t was i n s t a l l e d w i t h t h e s h a f t v e r t i c a l , t u r b i n e end up, P e r -
+formance c h a r a c t e r i s t i c s o f t h r e e r o t a t i n g u n i t s a r e d e s c r i b e d i n
+r e f e r e n c e 5,
+
+
+
+                                                                                                    2
+          The d e s i g n s h a f t s p e e d i s 36,000 rpm. The a l t e r n a t o r d e s i g n
+c o n d i t i o n s a r e 1 2 0 v o l t ( l i n e - n e u t r a l ) , 208 v o l t ( l i n e - l i n e ) a t
+1200 h e r t z ,        Reference 6 p r e s e n t s experimental r e s u l t s €or t h e
+a l t e r n a t o r and r e q u i r e d c o n t r o l s .
+
+                       B r a y t o n H e a t Exchanger U n i t (BHXU)
+
+          The h e a t e x c h a n g e r u n i t i n c l u d e s a r e c u p e r a t o r , a waste h e a t
+e x c h a n g e r and d u c t i n g r e q u i r e d t o c o n n e c t t o t h e r o t a t i n g u n i t .
+The r e c u p e r a t o r i s a g a s - t o - g a s c o u n t e r f l o w u n i t , The waste h e a t
+exchanger i s a g a s - t o - l i q u i d cross-counterflow u n i t .                      P l a t e and
+f i n n e d - s u r f a c e c o n s t r u c t i o n i s u s e d f o r a l l f l o w passages. The
+waste h e a t e x c h a n g e r h a s r e d u n d a n t c o o l a n t f l o w p a s s a g e s , though
+o n l y one l i q u i d l o o p was u s e d a t any t i m e .               The d e s i g n and p e r -
+formance r e s u l t s o f two B r a y t o n h e a t e x c h a n g e r u n i t s a r e p r e s e n t e d
+i n r e f e r e n c e 7.
+
+                                Gas Management Subsystem
+
+      T h i s s u b s y s t e m s u p p l i e s working f l u i d f o r gas i n j e c t i o n s t a r t s
+and h y d r o s t a t i c s u p p o r t o f b e a r i n g s d u r i n g s t a r t u p s and shutdowns.
+The s u b s y s t e m a l s o p r o v i d e s f o r c h a n g e s o f gas l o o p p r e s s u r e .
+
+                                   E l e c t r i c a l Subsystem
+
+          The e l e c t r i c a l s u b s y s t e m r e g u l a t e s t h e a l t e r n a t o r o u t p u t
+v o l t a g e and s h a f t s p e e d ; d i s t r i b u t e s a l t e r n a t o r power among t h e
+u s e r ' s l o a d b u s s , a p a r a s i t i c l o a d r e s i s t o r , and a d c power s u p p l y
+f o r s y s t e m r e q u i r e m e n t s ; and c o n t r o l s t h e s y s t e m d u r i n g s t a r t u p s ,
+s t e a d y - s t a t e o p e r a t i o n , and shutdowns. The performance o f t h e
+e l e c t r i c a l s u b s y s t e m i s r e p o r t e d i n r e f e r e n c e s 8 and 9 .
+
+                               H e a t Re j e c t i on Subsystem
+
+         A s i l i c o n e l i q u i d , Dow C o r n i n g 200 (2 c s a t 77' F ) , was
+c i r c u l a t e d t h r o u g h t h r e e p a r a l l e l p a t h s t o remove h e a t from t h e
+waste h e a t e x c h a n g e r , t h e a l t e r n a t o r , and t h e e l e c t r i c a l s y s t e m
+p a c k a g e s which were mounted on c o l d p l a t e s , For added r e l i a b i l i t y ,
+two i d e n t i c a l c o o l i n g l o o p s were i n s t a l l e d . D u r i n g normal o p e r a t i o n
+one l o o p w a s a c t i v e and t h e o t h e r w a s i n a c t i v e .       The pump and m o t o r
+i n e a c h l o o p a r e c o n s t r u c t e d as a s e a l e d assembly.
+
+
+
+
+                                                                                                      3
+                                  Heat S o u r c e Subsystem
+
+     I n t h e s o u r c e h e a t e x c h a n g e r t h e working f l u i d p a s s e d t h r o u g h
+a bank of 40 U-tubes i n p a r a l l e l , The t p b e s were r a d i a n t l y h e a t e d .
+
+
+                                         TEST FA C I LI TY
+
+          The t e s t w a s c o n d u c t e d i n t h e NASA Space Power F a c i l i t y l o c a t e d
+n e a r Sandusky, Ohio. The Space Power F a c i l i t y i s one o f s e v e r a l
+t e s t f a c i l i t i e s forming t h e Plum Brook S t a t i o n o f t h e NASA L e w i s
+Research C e n t e r , A 1 0 0 - f o o t d i a m e t e r by 120-foot/ h i g h aluminum
+vacuum chamber, w i t h i n a c o n c r e t e e n c l o s u r e , i s t h e p r i n c i p a l
+f e a t u r e of t h i s f a c i l i t y ( f i g . 3 ) .    The c o n c r e t e enclosure provides
+s h i e l d i n g f o r t h e conduct o f n u c l e a r e x p e r i m e n t s a s w e l l a s w i t h -
+s t a n d s t h e m a j o r i t y o f t h e a t m o s p h e r i c p r e s s u r e d i f f e r e n t i a l when
+t h e chamber i s e v a c u a t e d . Experiment access t o t h e chamber from
+t h e a d j a c e n t assembly and d i s a s s e m b l y a r e a s i s p r o v i d e d by two
+50 by 5 0 - f o o t d o o r s i n t h e chamber and e n c l o s u r e , r e s p e c t i v e l y .
+
+          Vacuum l e v e l s i n t h e              t o r r r a n g e have been a c h i e v e d s i n c e
+t h e f a c i l i t y became o p e r a t i o n a l i n 1969. The Brayton power s y s t e m
+was l o c a t e d i n t h e c e n t e r o f t h e 1 0 0 - f o o t d i a m e t e r chamber f o r
+t e s t i n g . A l l performance t e s t i n g was conducted u n d e r vacuum con-
+d i t i o n s and r e p r e s e n t e d t h e f i r s t o p e r a t i o n a l t e s t program o f t h e
+f a c i l i t y and t h e Brayton power system,
+
+
+                                       INSTRUMENTATION
+
+         The i n s t r u m e n t a t i o n i n s t a l l e d for t h e t e s t was d i v i d e d i n t o
+two c a t e g o r i e s : c o n t r o l and development.               Control instrumentation
+c o n s i s t e d of t h o s e measurements r e q u i r e d f o r t h e c o n t r o l , m o n i t o r i n g ,
+and o p e r a t i o n o f t h e power system.
+
+         Development i n s t r u m e n t a t i o n c o n s i s t e d o f s e n s o r s i n s t a l l e d i n
+a d d i t i o n t o t h e c o n t r o l sensors t o determine o v e r a l l system per-
+formance a s w e l l a s g r o s s component performance,
+
+          The performance d a t a p r e s e n t e d i n t h i s r e p o r t were o b t a i n e d
+t h r o u g h t h e measurements l i s t e d i n t a b l e I . All p r e s s u r e measure-
+ments were made u s i n g s t a t i c p r e s s u r e t a p s w i t h s t r a i n gage p r e s s u r e
+t r a n s d u c e r s c o n n e c t e d . T o t a l p r e s s u r e p r o b e s and r a k e s were n o t
+
+
+
+
+                                                                                                    4
+r e q u i r e d due t o t h e low v e l o c i t i e s i n t h e g a s loop.   Temperature
+measurements were made u s i n g e i t h e r i r o n - c o n s t a n t a n o r Chromel-
+A l u m e l thermocouples d e p e n d i n g on t h e l o c a t i o n . B s t h s u r f a c e and
+stream (probe) t y p e s were u s e d as r e q u i r e d , L i q u i d c o o l a n t f l o w
+measurements i n t h e h e a t r e j e c t i o n s y s t e m were made u s i n g t u r b i n e -
+t y p e flowmeters.         Gas l o o p f l o w w a s measured by a s h o r t , h i g h
+recovery Venturi (Dall tube)
+
+         The d a t a were r e c o r d e d u s i n g t h e f a c i l i t y d i g i t a l d a t a
+a c q u i s i t i o n system.
+
+
+                                 OPERATING EXPERIENCE
+
+          The Brayton powek s y s t e m was o p e r a t e d f o r a t o t a l o f 2561
+h o u r s . T h i s t o t a l t i m e w a s accumulated on a l l s y s t e m components
+e x c e p t t h e r o t a t i n g u n i t (BRU).        The b e a r i n g s o f t h e f i r s t BRU
+were damaged a t 668 h o u r s o f o p e r a t i o n due t o a 44 p e r c e n t s h a f t
+overspeed. The o v e r s p e e d w a s caused by a 3-phase s h o r t c i r c u i t
+i n t h e a l t e r n a t o r power c o n n e c t o r when l o w - t e m p e r a t u r e s o l d e r ,
+u s e d i n t h e c o n n e c t o r , melted.         C o r r e c t i v e a c t i o n was t a k e n , t h e
+BRU w a s r e p l a c e d w i t h an i d e n t i c a l u n i t t h a t had accumulated
+1000 h o u r s o f o p e r a t i o n i n a s e p a r a t e t e s t , and no f u r t h e r problems
+were e n c o u n t e r e d . The i n i t i a l 584 h o u r s o f o p e r a t i o n w i t h t h e
+f i r s t BRU were w i t h k r y p t o n and t h e f i n a l 8 4 h o u r s were w i t h t h e
+helium-xenon m i x t u r e . With t h e second u n i t , BRU-2, t h e s y s t e m
+was o p e r a t e d f o r 1 8 9 3 * h 6 u r s , 358 h o u r s w i t h k r y p t o n and 1535 h o u r s
+w i t h helium-xenon.             D u r i n g t h i s t e s t p e r i o d 1214 hours of continue
+ous o p e r a t i o n were a c h i e v e d w i t h helium-xenon ( o v e r 1100 h o u r s
+c o n t i n u o u s w i t h a t u r b i n e i n l e t t e m p e r a t u r e o f 1600' F).
+
+          During e a r l y t e s t i n g of t h e system w i t h t h e first r o t a t i n g
+u n i t , problems w i t h t e s t s u p p o r t equipment l i m i t e d t h e t u r b i n e
+i n l e t t o 15000 F. The problems were c o r r e c t e d and t h e d e s i g n
+t u r b i n e i n l e t t e m p e r a t u r e (1600' F) was o b t a i n e d w i t h t h e second
+rotating unit.
+
+
+                                   PERFORMANCE RESULTS
+
+          The s y s t e m performance w a s mapped by v a r y i n g t h e t h r e e
+i n d e p e n d e n t p a r a m e t e r s : t u r b i n e i n l e t t e m p e r a t u r e (1600O F
+d e s i g n v a l u e ) , compressor i n l e t t e m p e r a t u r e (80° F d e s i g n v a l u e ) ,
+and t h e compressor o u t l e t p r e s s u r e (system d e s i g n r a n g e from
+1 4 p s i a t o 45 p s i a ) . The d e s i g n o p e r a t i o n a l range o f compressor
+
+
+
+                                                                                                  5
+o u t l e t p r e s s u r e was i n t e n d e d t o p r o v i d e gross a l t e r n a t o r o u t p u t s
+from 2.25 t o 1 0 . 5 k i l o w a t t s a t t h e d e s i g n t e m p e r a t u r e s ,
+
+      The symbols u s e d a r e p r e s e n t e d i n Appendix A and t h e methods
+of c a l c u l a t i o n a r e p r e s e n t e d i n Appendix B.
+
+
+                       V a r y i n g Compressor O u t l e t P r e p s u r e
+
+         The e f f e c t o f compressor o u t l e t p r e s s u r e on a l t e r n a t o r g r o s s
+o u t p u t and s y s t e m g r o s s c o n v e r s i o n e f f i c i e n c y c a n be d e t e r m i n e d
+from f i g u r e 4. A t t h e d e s i g n t u r b i n e i n l e t t e m p e r a t u r e of 1600° F
+t h e g r o s s output., measured a t t h e a l t e r n q t o r t e r m i n a l s , v a r i e d from
+6.3 k i l o w a t t s a t 25.7 p s i a t o 11.9 k i l o w a t t s a t 44,4 p s i a . F o r
+t h e s e c o n d i t i o n s t h e g r o s s e f f i c i e n c y , t h e r a t i o of gross a l t e r n a t o r
+o u t p u t t o t h e r m a l power added, i n c r e a s e d from 0.30 t o a b o u t 0 . 3 3 .
+A t a t u r b i n e i n l e t t e m p e r a t u r e of 1300° F t h e a l t e r n q t o r g r o s s o u t -
+p u t v a r i e d from 3.6 k i l o w a t t s a t 25.8 p s i a t o 7 . 5 k i f o w a t t s a t
+43.7 p s i a , The c o r r e s p o n d i n g values f o r gross c o n v e r s i o n e f f i c i e n c y
+a r e 0.20 and 0.24.               The r a t e o f change o f a l t e r n a t o r gross o u t p u t
+w i t h r e s p e c t t o c o m p r e s s o r o u t l e t p r e s s u r e r a n g e d from a b o u t 0.29
+kW/psia a t 1600' F t u r b i n e i n l e t t o a b o u t 0.21 kW/psia a t 1300' F
+turbine i n l e t .
+
+         A l l of the a l t e r n a t o r gross output i s not available t o a user,
+Components i n t h e e l e c t r i c a l s u b s y s t e m and t h e c o o l a n t pumps requ$rq
+e l e c t r i c a l power t o m a i n t a i n system o p e r a t i o n . The t o t a l r e q u i r e -
+ment i s a r e l a t i v e l y c o n s t a n t h o u s e k e e p i n g laad of a p p r o x i m a t e l y
+1150 w a t t s p l u s a s m a l l p a r a s i t i c l o a d r e s i d u a l t o accommodate
+s l i g h t v a r i a t i o n s i n t h e s y s t e m o p e r a t i n g p o i n t ( r e f , 8 ) , Assuming
+250 w a t t s o f p a r a s i t i c l o a d r e s i d u a l , the n e t power a v a i l a b l e t o
+a u s e r would t h e n b e t h e a l t e r n a t o r g r o s s o u t p u t minus 1.4 k i l o w a t t s ,
+The n e t power and n e t c o n v e r s i o n e f f i c i e n c y a r e p r e s e n t e d i n f i g u r e
+5. The n e t e f f i c i e n c y i s d e f i n e d a s t h e r a t i o o f n e t power a v a i l a b l e
+t o t h e t h e r m a l power added. A t a t u r b i n e i n l e t t e m p e r a t u r e o f 1600' F
+t h e n e t power v a r i e d from 5 . 1 k i l o w a t t s a t 26 p s i a compressor o u t l e t
+p r e s s u r e t o 1 0 . 5 k i l o w a t t s a t 44.4 p s i a . The c o r r e s p o n d i n g v a l u e s
+f o r n e t c o n v e r s i o n e f f i c i e n c y a r e 0 . 2 4 and 0 , 2 9 .
+
+
+                        V a r y i n g T u r b i n e I n l e t Temperature
+
+     The e f f e c t s o f v a r y i n g t u r b i n e i n l e t t e m p e r a t u r e c a n be d e t e r -
+mined from f i g u r e 4. F o r a 100 d e g r e e d e c r e a s e i n t u r b i n e i n l e t
+
+
+
+
+                                                                                                    6
+t e m p e r a t u r e , t h e a l t e r n a t o r g r o s s power d e c r e a s e ranged from
+a b o u t 0.9 k i l o w a t t a t 26 p s i a compressor o u t l e t p r e s s u r e t o
+a b o u t 1 . 4 k i l o w a t t s a t 44 p s i a , The g r o s s c o n v e r s i o n e f f i c i e n c y
+d e c r e a s e d by a b o u t 0.09 when t u r b i n e i n l e t t e m p e r a t u r e was r e -
+duced from 1600 t o 1300' F.
+
+                     V a r y i n g Compressor I n l e t Temperature
+
+          The a l t e r n a t o r gross o u t p u t and g r o s s c o n v e r s i o n e f f i c i e n c y
+are p r e s e n t e d a s a f u n c t i o n of compressor i n l e t t e m p e r a t u r e i n
+f i g u r e 6. Data were o b t a i n e d f o r t u r b i n e i n l e t t e m p e r a t u r e s from
+1300 t o 1600° F.              F o r a l l t u r b i n e i n l e t t e m p e r a t u r e s , a LOo F
+i n c r e a s e i n compressor i n l e t t e m p e r a t u r e r e s u l t e d i n a d e c r e a s e
+of a b o u t 0 . 4 k i l o w a t t s i n a l t e r n a t o r gross o u t p u t . A t 1600° F
+turbine i n l e t temperature the gross conversion e f f i c i e n c y decreased
+from 0 . 3 4 a t 52' F c o m p r e s s o r i n l e t t e m p e r a t u r e t o 0 . 3 2 a t 88' F.
+
+          The s y s t e m n e t o u t p u t and n e t c o n v e r s i o n e f f i c i e n c y a r e p r e -
+s e n t e d i n f i g u r e 7. A t a t u r b i n e i n l e t t e m p e r a t u r e o f 1600' F
+t h e n e t o u t p u t v a r i e d from 9.3 k i l o w a t t s a t 50' compressor i n l e t
+t e m p e r a t u r e t o 7.5 k i l o w a t t s a t 90' F. The c o r r e s p o n d i n
+c o n v e r s i o n e f f i c i e n c i e s a r e 0.30 a t 50° F and 0 . 2 7 a t 90 % net      F.
+
+
+                   Comparison o f System Performance With
+                          t h e Two R o t a t i n g U n i t s
+
+          A comparison o f a l t e r n a t o r ? g r o s s o u t p u t and gross c o n v e r s i o n
+e f f i c i e n c y f o r BRUs 1 and 2 i s p r e s e n t e d i n f i g u r e 8,               The o u t p u t
+and c o n v e r s i o n e f f i c i e n c y f o r t h e s y s t e m w i t h BRU-2 a r e g r e a t e r
+t h a n w i t h BRU-1 f o r any g i v e n t u r b i n e i n l e t t e m p e r a t u r e and com-
+p r e s s o r o u t l e t p r e s s u r e , A t a t u r b i n e i n l e t t e m p e r a t u r e o f 1500' F
+and 26 p s i a c o m p r e s s o r o u t l e t p r e s s u r e t h e a l t e r n a t o r g r o s s o u t p u t
+w i t h BRU-2 w a s 0 , s k i l o w a t t g r e a t e r t h a n w i t h BRU-1; a t 44 p s i a
+t h e d i f f e r e n c e was 0 . 9 k i l o w a t t , The g r o s s c o n v e r s i o n e f f i c i e n c y
+f o r t h e s y s t e m w i t h BRU-2 w a s a b o u t 0.02 h i g h e r t h a n w i t h BRU-1.
+
+          The s h a f t power a v a i l a b l e t o the a l t e r n a f o r i s t h e d i f f e r e n c e
+between t h e power d e v e l o p e d i n t h e t u r b i n e and t h e power consumed
+i n t h e c o m p r e s s o r , A comparison o f g a s f l o w r a t e , and t e m p e r a t u r e
+d i f f e r e n c e s a c r o s s t h e t u r b i n e and c o m p r e s s o r i s p r e s e n t e d i n
+f i g u r e 9 f o r t h e two r o t a t i n g u n i t s f o r a 1500° F t u r b i n e i n l e t
+temperature.             The g a s f l o w r a t e 'and t e m p e r a t u r e i n c r e a s e across
+t h e c o m p r e s s o r a r e t h e same f o r t h e two u n i t s ,           Therefore, t h e
+compressor power r e q u i r e m e n t s were t h e same.
+
+
+
+
+                                                                                                           7
+          The g a s t e m p e r a t u r e d r o p a c r o s s t h e t u r b i n e f o r BRU-2 was
+a b o u t 8O F l a r g e r t h a n f o r BRU-1,             The 8' F d i f f e r e n c e r e p r e s e n t s
+a b o u t 0 . 4 k i l o w a t t l a r g e r o u t p u t f o r t h e t u r b i n e o f BRU-2 a t a
+compressor o u t l e t p r e s s u r e o f 26 p s i a ( 0 . 7 7 lbm/sec g a s flow r a t e ) ,
+A t a compressor o u t l e t p r e s s u r e o f 44 p s i a ( 1 . 3 2 lbm/sec g a s flow
+r a t e ) t h e 8' F r e p r e s e n t s a b o u t 0 . 7 k i l o w a t t l a r g e r o u t p u t f o r t h e
+t u r b i n e o f BRU-2.         The d i f f e r e n c e i n t u r b i n e powers, a s i n d i c a t e d -
+by g a s t e m p e r a t u r e change, was v e r y c l o s e t o t h e d i f f e r e n c e i ' n
+measured a l t e r n a t o r g r o s s o u t p u t . T h e r e f o r e , t h e d i f f e r e n c e i n
+b o t h a l t e r n a t o r g r o s s o u t p u t and s y s t e m g r o s s c o n v e r s i o n e f f i c i e n c y
+was a p p a r e n t l y due t o a d i f f e r e n c e i n t u r b i n e performance between
+t h e two r o t a t i n g u n i t s ,
+
+
+                                     SUMMARY OF RESULTS
+
+          A Brayton c y c l e power c o n v e r s i o n s y s t e m was o p e r a t e d i n qi
+vacuum environment f o r a t o t a l o f 2 5 6 1 h o u r s ( o v e r 1100 h o u r s
+c o n t i n u o u s l y a t a t u r b i n e i n l e t t e m p e r a t u r e of 1600' F ) ,       The
+system, w i t h t h e e x c e p t i o n o f t h e h e a t s o u r c e and h e a t s i n k s u b -
+s y s t e m s , r e p r e s e n t e d f l i g h t - t y p e hardware.       Two r o t a t i n g u n i t s
+were t e s t e d . No major t e c h n o l o g i c a l problems were e n c o u n t e r e d ,
+
+          The system produced 1 1 . 9 k i l o w a t t s o f g r o s s power a t a
+t u r b i n e i n l e t t e m p e r a t u r e o f 1600' F, compressor i n l e t tempera-
+t u r e o f 80' F, and a compressor d i s c h a r g e p r e s s u r e o f 44.4 p s i a .
+For t h e s e c o n d i t i o n s t h e n e t power was 1 0 . 5 k i l o w a t t s and t h e n e t
+c o n v e r s i o n e f f i c i e n c y was 29 p e r c e n t ,
+
+          D i f f e r e n c e s i n a l t e r n a t o r power o u t p u t and s y s t e m c o n v e r s i o n
+e f f i c i e n c y were a p p a r e n t when d a t a f o r t h e two r o t a t i n g u n i t s were
+compared. The d i f f e r e n c e s a p p r e a r e d t o r e s u l t from d i f f e r e n t               '
+
+
+t u r b i n e performance f o r t h e two r o t a t i n g u n i t s .
+
+
+
+
+                                                                                                           8
+                                             REFERENCES
+
+1. Klann, John L.:        2 t o 1 0 Kilowatt So1a.r o r Radioisotope Brayton Power
+      System. I n t e r s o c i e t y Energy Conversion Engineering Conference.
+      Vol. 1. IEEE, 1968, pp. 407-415.
+
+                          Brayton-B Power System - A Progress Report. Pro-
+2. Brown, W i l l i a m J.:
+      ceedings of t h e Fourth I n t e r s o c i e t y Energy Conversion Engineering
+      Conference. AIChE, 1969, pp. 652-658.
+
+3, Fenn, David B.;   Deyo, James N, ; Miller, Thomas J. ; and Vernon, Richard W. :
+      Experimental Performance o f a 2-15 Kilowatt Brayton Power System i n t h e
+      Space Power F a c i l i t y Using Krypton. NASA TM X-52750, 1970.
+
+4. Klann, John L.; Vernon, Richard W.; Fenn, David B.; and Block, Henry C. :
+     Performance of t h e Electrically-Heated 2 t o 1 5 kWe Brayton Power Sys-
+     t e m . Presented a t t h e AIAA F i f t h I n t e r s o c i e t y Energy Conversion En-
+     gineering Conference, Las Vegas, Nev., Sept, 21-24, 1970.
+
+5. Beremand, Donald G.; Namkoong, David; and Wong, Robert Y. : Experimental
+     Performance C h a r a c t e r i s t i c s of Three I d e n t i c a l Brayton R o t a t i n g Units.
+     Presented a t t h e AIAA F i f t h I n t e r s o c i e t y Energy Conversion Engineering
+     Conference, Las Vegas, Nev., Sept, 21-24, 1970.
+
+6. Ingle, B i l l D ” ; and Wimmer, Heinz L,: Experimental Performance of @
+     10 kW, 1200 Hertz Brayton Cycle A l t e r n a t o r and Controls f o r Space
+     Power. Presented a t t h e AIAA F i f t h I n t e r s o c i e t y Energy Conversion En-
+     gineering Conference, Las Vegas, Nev., Sept. 21-24, 1970.
+
+7. Kaykaty, Gabriel N. : Design Description and Performance T e s t R e s u l t s from
+     Two I d e n t i c a l Brayton Heat Exchanger Units. Presented a t t h e AIAA F i f t h
+     I n t e r s o c i e t y Energy Conversion Fhgineering Conference, Las Vegas, Ne-v.,
+     Sept. 21-24, 1970.
+
+8. Thollot, P i e r r e A.; Bainbridge, Richard C , ; and Nestor, James: Descript-
+     i o n and Performance of t h e E l e c t r i c a l Subsystem f o r a 2 t o 1 5 kWe Bray-
+     t o n Power System, Presented a t t h e AIAA F i f t h I n t e r s o c i e t y Energy Con-
+     version Engineering Conference, Las Vegas, Nev., Sept. 21-24, 1970.
+
+9. Thomas, Ronald L.; B i l s k i , Raymond S.; and Wol.$+ Robert A,:             Requirements,
+     Design, and Performance of a Control System f o r a Brayton Power System.
+     Presented a t t h e AIAA F i f t h I n t e r s o c i e t y Energy Conversion Engineering
+     Conference, Las Vegas, Nev., Sept. 21-24, 1970.
+
+
+                                                                                                      9
+                                              APPENDIX A
+
+                                                  SYMBOLS
+
+
+        discharge coefficient f o r Dall tube
+cD
+
+                                                                                     0
+C       c o n s t a n t p r e s s u r e s p e c i f i c h e a t , B t u / l b mass       R
+ P
+
+h       p r e s s u r e d i f f e r e n t i a l , i n , of w a t e r
+    W
+
+                                                             2
+P       s t a t i c p r e s s u r e , lb f o r c e / i n ,
+
+
+P       power, k W
+
+
+Q       t h e r m a l power, k W
+
+
+R       gas constant,             ( f t ) ( l b force)/'R        (lb mass)
+
+                              0
+T       temperature,              R
+
+
+        g a s l o o p f l o w r a t e , l b mass/sec
+wG
+
+A       difference operator
+
+
+        efficiency
+
+
+
+
+                                                                                             10
+Subscripts :
+
+
+a       alternator
+
+
+AD      added
+
+
+C       compressor
+
+
+G       W S
+
+
+GR      gross
+
+
+n       net
+
+
+t       turbine
+
+
+1       compressor i n l e t c o n d i t i o n
+
+
+2       compressor o u t l e t c o n d i t i o n
+
+
+5       recuperator cold side outzet condition
+
+
+6       Dall tube
+
+
+10      turbine i n l e t condition
+
+
+11      turbine o u t l e t condition
+
+
+
+
+                                                   11
+
+
+
+                               r   .'
+                                                   APPENDIX B
+
+                                         METHODS OF CALCULATION
+
+                The f o l l o w i n g e q u a t i o n s and d e f i n i t i o n s , a l o n g w i t h t h e i d e a l
+      g a s r e l a t i o n s h i p s , were used t o c a l c u l a t e t h e performance of t h e
+      e n g i n e from t h e measured d a t a .
+
+           The gas mass f l o w r a t e was c a l c u l a t e d by u s i n g t h e f o l l o w i n g
+      equation :
+
+
+
+
+      where                          h w = (P,) ( 2 7 . 8 3 2 )                                                         (B2)
+
+                During t h e c a l i b r a t i o n o f t h e D a l l t u b e , t h e d i s c h a r g e c o -
+      e f f i c i e n t was o b t a i n e d a s a f u n c t i o n o f t h e g a s Reynolds number.
+      F o r a f i r s t a t t e m p t t o c a l c u l a t e t h e f l o w r a t e , a Reynolds' number
+. I
+      and d i s c h a r g e c o e f f i c i e n t were assumed. Then w i t h t h i s c a l c u l a t e d
+      f l o w r a t e , a check o f t h e assumed Reynolds number was made and i f
+      t h e two d i s a g r e e d , a n o t h e r Reynolds number w a s assumed and t h e same
+      p r o c e s s was r e p e a t e d . When t h e d i f f e r e n c e between t h e assumed
+      Reynolds number and t h e c a l c u l a t e d Reynolds number was l e s s t h a n
+      one p e r c e n t , t h e f l o w r a t e v a l u e was w i t h i n t h e a c c u r a c y o f t h e
+      measurements used t o o b t a i n i t .
+
+              A c t u a l t u r b i n e .power was c a l c u l a t e d a s f o l l o w s :
+
+                                      Pt = W C
+                                              G'
+                                                         (Tlo    - Trl) (1,055)                                         (B31
+
+              A c t u a l compressor power was c a l c u l a t e d a s f o l l o w s :
+
+                                          = W C         (Tz     - T1) (1.055)                                           (B4)
+                                     pc            G'
+
+              Thermal power t r a n s f e r r e d t o t h e g a s from r e c u p e r a t o r o u t l e t
+      t o t u r b i n e i n l e t was c a l c u l a t e d a s f o l l o w s :
+
+
+
+
+                                                                                                                12
+     The e s t i m a t e d n e t s y s t e m o u t p u t power was c a l c u l a t s e d a s
+follows :
+
+                      P       = P               - 1.4 kW
+                          n         a
+                                        GR
+
+    .   where 1.4 kW r e p r e s e n t s t h e e s t i m a t e d s y s t e m i n t e r n a l
+        power r e q u i r e m e n t b a s e d upon measurements o b t a i n e d
+        during system operation,
+
+     The s y s t e m g r o s s c o n v e r s i o n e f f i c i e n c y was c a l c u l a t e d as
+follows :
+                                            D
+
+
+
+
+     The estimated s y s t e m n e t conversion e f f i c i e n c y was calculated
+as follows:
+                       P
+                              -         n
+                     Y? - e,,
+
+
+
+
+                                                                                                    13
+                                     TABLE I .    INSTRLJMENTATION USED FOR PERFORMANCE EVALUATION
+
+
+           SENSOR LOCATION 6L MEASUREMENT                                SENSOR QUANTITY                    SENSOR TYPE
+
+Compressor I n l e t m a s t e Heat
+Exchanger O u t l e t                            Tempe r a t u r e              2              Probe Thermocouple ( I - C )
+                                                 Pressure                       1              S t r a i n Gage T r a n s d u c e r
+
+Compressor O u t l e t                           Pressure
+                                                                     I
+                                                                     I
+                                                                                1
+                                                                                           1   S t r a i n Gage T r a n s d u c e r
+
+Compress o r Out l e t / R e c u p e r a t o r
+Cold S i d e I n l e t                           Temperature                    3              Probe Thermocouple (C-A)
+                                                                     i
+R e c u p e r a t o r Cold S i d e I n l e t     Press u r e
+                                                                     I          1          I s t r a i n Gage T r a n s d u c e r
+
+
+R e c u p e r a t o r Cold S i d e O u t l e t   Temperature                                   Probe Thermocouple (C-A)
+                                                 Pressure
+
+Turbine I n l e t                                Temperature                                   Probe Thermocouple (C-A)
+                                                 Pressure                                      S t r a i n Gage T r a n s d u c e r
+
+
+                                                 Temperature                                   Probe Thermocouple (C-A)
+                                                 Pressure
+
+Waste Heat Exchanger I n l e t
+(Coolant)                                        Temperature                    3              S u r f a c e Thermocouple (I -C)
+                                                 Pre ss u r e                   1              S t r a i n Gage T r a n s d u c e r
+                                                 Weight Flow                    1              T u r b i n e Type Flowmeter
+
+Waste Heat Exchanger O u t l e t
+(Coolant)                                        Temperature                    3              S u r f a c e Thermocoupxe (I -C2
+                                  TABLE I .   INSTRUMENTATION USED FOR PEEORMANCE EVALUATION
+                                                            (continued)
+
+
+           SENSOR LOCATION & MEASUEMENT                         SENSOR QUANTITY              SENSOR TYPE
+
+A l t e r n a t o r Coolant I n l e t         Temperature              1          S u r f ace Thermocouple (I -C)
+                                              P r e ssure              1          S t r a i n Gage T r a n s d u c e r
+                                              Flow                     1          T u r b i n e Type Flowmeter
+
+A l t e r n a t o r Coolant O u t l e t       Temperature              1          S u r f a c e Thermocouple (I -C)
+
+Gas Flow ( D a l l Tube)                      Pressure
+                                                 Differential
+                                                                             I                I
+                                                                                 Waste heat
+                                                                                 exchanger
+Electrical subsystem6- -- 1
+                                                                      I
+                                                                      I
+                                                                           /y, ---+
+                                                                      I
+                                                                      I
+                                                                      I
+                                                                      I
+                                                                      I
+                                                                      I
+                                                                      I
+                                                                      I
+                                                                      I
+                                                                      !I
+                                                                      I
+                                                                      I
+                                                                      I
+                                                                      I
+                                                                      I
+                                                                      I
+                                                             ..       I
+                                                                      I
+                                                                      I
+                                                                      I
+                                                                      I
+                                                                      I
+                                                                      I
+                                                                      I
+                                                                      I
+                                                                      I
+                                                                      I                                                          400 hertz
+                                                                      I
+                                                                  - I
+                                                                      I                                                           power from
+                                                                    I                                                             electrical
+ L   _________---____     ~
+
+                              I                              -I-:                                                                 system
+                              I                                   I
+                              1
+                              I
+                                  Heat rejection subsystem        I
+                                                                  I
+                              I                                   I
+                                                                                                            \Accumulators
+                                                                            Facility heat sink
+        Schematic diagram, Brayton pwer system. .
+                                                                                         Heat rejection subsystem schematic diagram.
+
+
+
+                              F i g u r e 1.     Schematic diagrams o f Brayton power system
+                                                 and Heat r e j e c t i o n subsystem
+0
+r-
+0
+9
+c;
+
+
+
+
+     Figure 2. - Brayton system installed in SPF.
+                                                                                                 ASSEMBLY AREA
+
+
+                                                                                    ENCLOSURE
+                                                                                    DOORNO. I
+                  MBER DCQR CLOSED        CHAMBER DOOR OPEN
+
+
+                                     100 1
+                                                               1'                           c-NASA
+              BRIDGE FOLDED UP                                                              \ TRANSFER ENGINE
+
+
+
+
+Figure 3   - C r o s s s e c t i o n through T e s t Chamber - S p a c e Power F a c i l i t y
+                        l5OO0 F                                  Nominal C o n d i t i o n s
+                        1400'   F -Turbine                            I n l e t Temperature
+               0        1300'   4                        S h a f t S p e e d = 36,000 rpm
+                                                         Compressor I n l e t Temp, = 80'                 F
+
+
+
+
+     12
+
+     11
+
+
+     10
+
+
+5'    9
+6
+c,    8
+3
+a
+c,
+3
+0
+      7
+m
+m
+0
+L4
+U     6
+L4
+0
+c,
+m
+C     5
+si
+W
+c,
+rl
+4     4
+
+
+      3   -______-.
+          1              28               32               36               40                 44
+                                                Compress o r D i s c h a r g e P r e s s u r e (PSI A)
+
+
+          €TGGIJRE 4.     S y s t e m Gross P e r f o r m a n c e w i t h R o t a t i n g U n t t BRU-2
+                                                          Nominal Conditions
+       _I--           -
+                                                      Turbine I n l e t Temperature
+       --                                             S h a f t Speed = 36,000 rpm
+       ----                                           Compressor I n l e t Temp, = 80’   F
+
+
+
+
+11
+
+10
+
+
+
+
+              /’
+     24               28          32           36            40           44
+                                       Compressor Discharge P r e s s u r e (PSIA)
+
+     F I G U R E 5,   System Net Performance w i t h R o t a t i n g Unit BRU-2
+           0      1600° F7                                        Nominal C o n d i t i o n s
+
+
+           A      1400'     F                           S h a f t Speed = 3 6 , 0 0 0 rpm
+                                                        C o m p r e s s o r D i s c h a r g e P r e s s , = 35 p s i a
+
+
+
+
+Y
+3
+0
+
+
+
+
+m
+r:
+Ll
+ar
+Y
+4
+4
+
+
+                  - ---__       -_
+                  50                 60                  70                 80                 90             100
+                                          C o m p r e s s o r I n l e t T e m p e r a t u r e (OF)
+
+     FIGURE 6 .   S y s t e m G r o s s P e r f o r m a n c e w i t h R o t a t i n g U n i t BRU-2
+                                                        Nominal Conditions
+      -----                                     Turbine I n l e t Temperature
+      ---                                       S h a f t Speed = 36,000 rpm
+                                                Compressor Discharge P r e s s .
+      -- - -                                                               = 35 p s i a
+
+
+
+
+ 40         50            60            70            80            90         100
+                           Compressor I n l e t Temperature      (OF)
+
+FTGUFE 7.   System N e t Performance w i t h R o t a t i n g Unit BRU-.2
+                                                                Nominal C o n d i t i o n s
+                                                     Turbine I n l et Temperature
+                                                     S h a f t S p e e d = 36,000 rprn
+                                                     Compressor I n l e t Temp. = 80° F
+
+
+
+
+.15   I-
+12
+
+
+11
+
+
+10
+
+
+ 9
+
+
+ 8
+
+
+ 7
+
+
+ 6
+
+
+ 5
+
+
+ 4
+
+  3
+      24           28              32                36               40                44
+                        Compressor D i s c h a r g e P r e s s u r e (PSIA)
+
+      FIGURE 8 .    Comparison o f S y s t e m P e r f o r m a n c e w i t h R o t a t i n g U n i t s
+                    BRUs 1 and 2 f o r t h e Helium-Xenon Working F l u i d
+                                                     Nominal Conditions
+        0      System w i t h BRU-2            S h a f t Speed = 36,000 rpm
+        a      System w i t h BRU-1            Turbine I n l e t Temp, = 1500°0F
+                                               Compressor I n l e t Temp. = 80 F
+
+
+
+
+380
+
+360
+
+
+340
+
+
+
+
+180 I
+   24          28            32           36            40           44
+                           Compressor Dis'charge P r e s s u r e fPSIA)
+  FIGURE 9 .    COMPARISON OF ROTATING UNITS BRUS 1 AND 2
+                                                                               ___ - _ _
+                                                                      NASA-Lew is -Com'l
+

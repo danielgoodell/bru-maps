@@ -1,0 +1,1410 @@
+                                                               E-   6735
+
+
+
+       NASA      TECHNICAL                                   NASA TM X-67989
+                 MEMORANDUM
+
+
+l
+?. •   oo
+       o^
+!t TX
+
+
+                                         CA
+                                                COPY
+
+
+       PRELIMINARY PERFORMANCE OF THE BRAYTON 4 25-INCH RADIAL
+       COMPRESSOR OPERATING IN A HELIUM-XENON GAS MIXTURE
+
+
+       by Armen Asadourian, Thomas P. Hecker, and Roman Kruchowy
+       Lewis Research Center
+       Cleveland, Ohio
+       December, 1971
+This information is being published in preliminary form
+in order to expedite its early release.
+     PRELIMINARY PERFORMANCE OF THE BRAYTON 4.25-INCH RADIAL
+
+        COMPRESSOR OPERATING IN A HELIUM-XENON GAS MIXTURE
+
+                              by
+
+     Armen Asadourian, Thomas P. Hecker, and Roman Kruchowy
+
+                    Lewis Research Center
+
+
+                           SUMMARY
+
+     The .performance of a 4.25-inch radial compressor was
+evaluated using a helium-xenon gas mixture. Compressor perform-
+ance was mapped during the Brayton cycle power system testing at
+Lewis Research Center. The range of testing included three
+shaft speeds: the design speed of 36,000 rpm, 10 percent over-
+speed (39,600 rpm), and 10 percent underspeed (32,400 rpm). A
+range of compressor inlet temperatures from 60° F to 120° F and
+discharge pressures from 20 to 45 psia was included. The effects
+of turbine inlet temperatures (from 1200° F to 1600° F) on the
+compressor were also studied. The data presented include plots
+of weight flow, compressor pressure ratio, efficiency, and tem-
+perature-rise ratio.
+
+
+                          INTRODUCTION
+
+     Several electrical power generating systems have been de-
+signed and developed for space applications. A system which
+has considerable interest is a single-shaft dynamic system which
+operates on a Brayton thermodynamic cycle. The system is de-
+signed to provide 2 to 15 kW of useable power at 1200 Hz.
+
+     The power system consists of two major components, viz., a
+Brayton rotating unit (BRU - a turbine, alternator, and compressor
+supported on a single shaft by gas bearings) and a set of heat ex-
+changers (ref. 1). The turbomachinery is designed to operate at
+36,000 rpm. A helium-xenon gas mixture, which has a molecular
+weight of nominal 83.8, was used as the working fluid and was
+heated by an electric heat source. Previous studies of the BRU
+performance, operating with argon and krypton gas, are reported
+in reference 2. An .investigation of the power system operating
+with krypton gas is presented in reference 3 while the system
+using a helium-xenon gas mixture is evaluated in references 4
+and 5. A study of the performance, in argon, of the M.25-inch
+compressor which is used in the BRU is evaluated in reference 6.
+
+     Preliminary results of an investigation of the performance
+of the i|.25-inch compressor operating as a component of the power
+system and with helium-xenon gas are presented in this report.
+Data are presented for ranges of compressor inlet temperatures,
+compressor discharge pressures, and speeds. The effects of tur-
+bine inlet temperatures fr'om 1200° F to 1600° F on compressor
+performance were also studied. The data presented herein cover
+a broad spectrum of compressor operating conditions, using helium-
+xenon gas, and will be useful in future design work in power sys-
+tems of this type.
+
+
+                    APPARATUS AND PROCEDURE
+
+                   Description of Compressor
+
+     The radial compressor under study was designed for a nomi-
+nal 6-kilowatt Brayton cycle space electrical power system. The
+working fluid for the system is a mixture of helium-xenon (He-Xe)
+gas having a molecular weight of nominal 83.8. A summary of com-
+pressor design point values for the reference design power level
+is given in Table 1. Additional information on the compressor
+design can be found in references 6 and 7.
+
+     The compressor impeller has 15 blades that at the impeller
+exit are curved backward 30° from radial. The impeller-inlet
+blade-tip diameter is 2.60 inches. At its exit, the impeller is
+U.25 inches in diameter and has a blade height of .205 inch. A
+vaneless diffuser occupies a .085-inch radial gap between the im-
+peller exit and the vaned diffuser. The vaned diffuser contains
+17 vanes .213 inch high that are an integral part of the scroll
+assembly.
+
+                          Test Facility
+
+     The compressor was tested as part of the overall testing of
+the Brayton cycle power system at NASA-Lewis Research Center. A
+schematic diagram of the system is shown in Appendix A.
+
+     The system main components are the Brayton rotating unit (BRU)
+and the Brayton heat exchanger unit (BHXU) . The test support equip-
+ment includes an electric heat source, a gas-management module, a
+gas-reclamation module, and a heat-rejection module. The entire
+gas loop was insulated with a high-temperature quartz blanket. The
+insulation was generally 6 inches thick; the duct from the waste
+heat exchanger to the compressor inlet, the compressor itself, and
+the ducting from the compressor to the recuperator"*s high-pressure
+side inlet were enclosed by 2 inches of insulation. The BRU speed
+was controlled by a speed control utilizing a parasitic load bank
+to dissipate generated power in excess of that consumed by a sima-
+lated vehicle load. A complete description of the Brayton cycle
+main components and test support equipment can be found in refer-
+ence 3.
+
+                         Instrumentation
+
+     Instrumentation used consisted of pressure transducers, tem-
+perature sensors, turbine flowmeters, capacitance-type proximity
+probes, and speed sensors. Absolute pressures were measured by
+means of a static-pressure tap and a strain-gage type of trans-
+ducer, at both the inlet and outlet of the compressor. For the
+venturi at the compressor inlet, differential pressure was mea=-
+sured with a differential strain-gage transducer; gas flow rate
+was calculated accordingly. The BRU bearing clearances were
+sensed by means of capacitance type of proximity probes.
+
+     All data were recorded by means of an on-line digital data
+system and printed out in engineering units by an electric type-
+writer.
+
+                            Procedure
+
+     The gas-loop startup and shutdown techniques were similar to
+those described in reference 3. During the test, constant values
+of BRU speed, compressor inlet temperature, and turbine inlet tem-
+perature were maintained while compressor discharge pressure was
+varied.                  • •                   .
+
+     The investigation was conducted through a turbine inlet tem-
+perature range of 1200 to 1600 F and compressor discharge pressure
+range of 20 to 45 psia at compressor inlet temperatures of 60, 80,
+100, and 120° F. The BRU was also tested at three different speeds:
+the designed speed of 36,000 rpm, 10 percent over design speed
+(39,600 rpm), and 10 percent under design speed (32,MOO rpm).
+
+     The turbine inlet temperature was set by a Power controller for
+the electric heater and was maintained within +3 F of the nominal
+value. Compressor discharge pressure was set by changing the gas
+inventory in the loop and was maintained within .10 psi. The BRU
+speed was set by changing the characteristics of the speed controller
+and was set within 50 rpm of the nominal value.
+
+
+                           DISCUSSION
+
+     The performance of the BRU U.25-inch radial compressor is pre-
+sented in figures 1-9 for the following ranges of test variables:
+                               Rotational speed:                           32,400 - 39,600 rpm
+
+               <               Turbine inlet temperature:                                          1200' - 1600° F
+
+                               Compressor discharge pressure:                                               20 - 45 psia
+
+                               Compressor inlet temperature:                                               60 - 120° F
+
+           The impact of these variables on weight -flow and compressor
+      pressure ratio is shown in figures 1-6, and the effects on'vtempera-
+      ture rise ratio and compressor efficiency are presented in figures
+      7 and 8 respectively. The equivalent weight flow and compressor
+      speed are presented in figure 9 with compressor efficiency and •
+      pressure ratio.
+
+                                                                     Flow Rate
+
+           The effects of compressor discharge pressure on weight flow
+      are shown in figures 1 through 5. The weight flow increases with
+      increasing discharge pressure, (PCD), rotative .speed, and with de-
+      creasing turbine inlet temperature and compressor inlet tempera-
+      ture. The maximum weight, flow of 1.435 Ib/sec occurred at :a com-
+      pressor inlet temperature of 60° F, compressor discharge pressure
+      of 45 psia, turbine inlet temperature of 1200° F and 39,600 rpm
+      (fig.            1C)..       ....   ,           : . , :• • . ' . ;   .   .   '   <   •   .   .   :    .   .   :   .   ,   :
+
+
+                                          Compressor Static Pressure Ratio                                                          \
+
+           The compressor static, pressures ratios (discharge to inlet,
+      PCD^CI^ obtained are presented in figures 1 through 6. Figures
+      1 through 5 show the effects of compressor discharge pressure on
+      compressor pressure ratio for constant compressor inlet .tempera-
+      tures whereas figure 6 shows effects of compressor discharge
+      pressure for lines of constant turbine inlet temperature on com-
+      pressor pressure ratio. The compressor pressure ratio increases
+      with increasing speed and turbine inlet temperature; decreases
+      slightly with increasing discharge pressure and compressor inlet
+      temperature. At a turbine inlet temperature of 1600° F and speed
+      of 36,000 rpm (figure 5b) increasing the compressor inlet tempera-
+      ture from 60° to 120 resulted in a decrease in compressor pressure
+      ratio from approximately 1.96 to approximately 1.82.
+                                                                                                                                        ;
+                                          Compressor Temperature Rise Ratio
+
+           The effects of compressor discharge pressure on compressor
+      temperature rise ratio are presented in.figure 7. ' The temperature
+      rise ratio is
+                                              T            T
+...                                            CD - PT
+                                              —:    ±±                     where
+  *                                              T
+              I <J •                              V_r -L
+
+
+
+
+      T            = Compressor, discharge temperature
+T           = Compressor inlet temperature
+    \j J-
+
+     The temperature rise ratio (figure 7) increased with decreas-
+ing speed. Compressor discharge pressure and turbine inlet tem-
+perature have very little effect on the temperature rise ratio.
+The increased compressor discharge temperatures due to the BRU in-
+sulation resulted in compressor temperature rise ratios which were
+higher than those calculated during previous tests.
+
+                                Compressor Efficiency
+
+           The effects of compressor discharge pressure on compressor
+efficiency,^ , are presented in figure 8. The efficiency is de-
+fined as:
+-F-T-nCH-1  o c> • *
+
+
+
+
+                                           r            0.4""'
+
+
+where
+                            c
+                                  T
+                                      CI
+                                      CD
+                                           fa-JT*'- "
+                                                  ci
+
+
+T           = Compressor inlet temperature,                R
+
+P           = Compressor discharge pressure, psia
+
+Ppy = Compressor inlet pressure, psia
+
+X           = Compressor discharge temperature,                  R
+
+     The compressor efficiency (figure 8) increased slightly with
+increasing discharge pressure and turbine inlet temperature. The
+efficiency decreased with increasing compressor inlet temperature
+and with speed (figure 8) . The indicated efficiency varied from
+approximately 69 to 75 percent during the test. The efficiencies
+observed during the test were lower than those calculated during
+previous tests. As mentioned in the apparatus section, the BRU
+was insulated. This reduced the heat loss and increased the com-
+pressor discharge temperature, resulting in lower calculated effi-
+ciencies.
+
+                          Standardized Compressor Data
+
+     The data shown in figure 9 are presented in the conventional
+method used in compressor studies. The effects of equivalent
+weight flow W*fi. on compressor efficiency, pressure ratio, and
+equivalent spe%d are shown. The data are plotted, for constant
+ratios of constant turbine inlet temperature to compressor inlet
+temperature for the range of turbine inlet temperature from 1200
+to 1600° F. As the equivalent weight flow is increased, the com-
+pressor equivalent speed and .^pressure ratio increase. The com-
+pressor efficiency shows only a s^j.ght variation over the entire
+range.                        •                                   c
+                       CONCLUDING REMARKS
+
+     The performance characteristics of a 4.5-inch radial com-
+pressor, as part of the BRU, using He-Xe gas were obtained
+during operation of a Brayton cycle power system. The test
+parameters included a range of compressor, inlet temperatures,
+turbine inlet temperatures, compressor discharge pressures and
+rotative speeds. These test parameters were independently'
+varied to obtain pressure ratio, weight flow, temperature rise
+ratio and efficiency characteristics of the compressor.
+
+     The preliminary results of the experimentation showed:
+
+     1. Compressor static pressure ratio increased with in-
+creasing rotational speed and turbine inlet temperature but
+decreased with increasing compressor inlet temperature. Com-
+pressor pressure ratio was not significantly affected by com-
+pressor discharge pressure.
+
+     2. Compressor weight flow changes linearly with compressor
+discharge pressure over the experimental range. Small increases
+in weight flow were observed with decreasing compressor inlet
+temperature, with increasing rotational speed and turbine inlet
+temperature.
+
+     3. Decreasing the compressor inlet temperature and/or in-
+creasing the rotational speed produced an increase in the tempera-
+ture rise ratio. Compressor discharge pressure and turbine inlet
+temperature had virtually no effect on the compressor temperature
+rise ratio.
+
+     4. Compressor efficiency was slightly affected by rota-
+tional speed; large increases in compressor efficiency resulted
+by decreasing compressor inlet temperature. Turbine inlet tem-
+perature effect on efficiency was insignificant.
+
+
+
+Lewis Research Center,
+    National Aeronautics and Space Administration,
+        Cleveland, Ohio, December 14, 1971.
+                            REFERENCES
+
+1.   Klann, John L.; Wintucky, William T. : Status of the 2-to-
+       15 kWe Brayton Power System and Potential Gains from Com-
+       ponent Improvements. NASA TM X-67835, 1971.
+
+2.   Wong, Robert Y.; Klassen, Hugh A.; Evans, Robert C.; and
+       Winzig, Charles H.: Preliminary Investigation of a Single-
+       Shaft Brayton Rotating Unit Designed for a 2-to-10 Kilowatt
+       Space Power Generation System. NASA TM X-1869, 1969.
+
+3.   Valerino, Alfred S.; Macosko, Robert P.; Asadourian, Armen S. ;
+       Hecker, Thomas P.; and Kruchowy, Roman: Preliminary Per-
+       formance of a Brayton-Cycle-Power-System Gas Loop Operating
+       with Krypton Over a Turbine Inlet Temperature Range of 1200°F
+       to 1600°F. NASA TM X-52769, 1970.
+
+U.   Vernon, Richard W.; and Miller, Thomas J.: Experimental Per-
+       formance of a 2-15 Kilowatt Brayton Power System Using a
+       Mixture of Helium and Xenon. NASA TM X-52936, 1970.
+
+5.   Valerino, Alfred S.; and Ream, Lloyd W.: Performance of a
+       Brayton-Cycle Power Conversion System Using a Helium-Xenon
+       Gas Mixture. NASA TM X-67846, 1971.
+
+6.   Weigel, Carl, Jr.; Tysl, Edward R. ; and Ball, Calvin L. :
+       Overall Performance in Argon of 4.25 Inch Sv:eptback-Bladed
+       Centrifugal Compressor. NASA TM X-2129, 1970.
+
+7.   Anon: Design and Fabrication of the Brayton Cycle High Per-
+       formance Compressor Research Package. Final Report, NASA
+       CR-72533, 1967.
+TABLE I. - COMPRESSOR DESIGN PARAMETERS
+
+
+
+
+        ,• Working fluid, HeXe mixture with molecular weight
+           of nominal 83.8                           •
+
+          Inlet total pressure, P, , psia;   . •         13.5.
+
+          Inlet total temperature, T-^ °R                  540
+
+         Weight flow rate, W, Ib/sec                    0.756
+
+          Compressor total-pressure ratio, P^/P-^         1.9
+
+          Compressor total-temperature ratio, Tg/T-^     1.37-.
+
+          Compressor efficiency,   •, g                   0.80
+
+          Impeller total-pressure ratio, P.3/Pj_          2.03
+
+          Impeller efficiency,     13                   0.895
+
+         Rotative speed, RPM                            36 000
+
+          Impeller tip speed, U^Q, ft/sec           .      667
+
+          Specific speed, Ng                              0.11
+                                                                  1            '"f "-
+                                                               ! r
+                                                                ^ J-.
+
+                                            -*-
+                                      T«J«. &mt—.      n <
+                                                       ^r-i
+                                                            ' rvf^cow
+                                                                I   i                  K,OT"A
+                                                                                        OMn
+
+
+
+
+                                                          fflj-n^-^-                                V/&MV
+
+
+                      Client*
+                      HEKT
+                                                 A.wreRHA.TOft-' 1
+                                                                 1
+                                                                     1
+                                                                     1.
+                                                                               :
+                                                                                   —».
+                                                                                               I
+                                                                                                L   i_\v4e.
+
+
+                                                  1              ' A'
+                      Seueee.
+                                                                                                V
+          {                     _^
+                                                 T
+
+
+                                                       —i ^^ T
+                                                           i •
+                                                                !t!|
+                                                                I I
+                                                                i     I
+                                                                       T
+                                                                               *- CHECK
+                                                                                   v/A.»_ve:        lwj«.T«OH
+                                                                                                    LiKie.
+
+
+
+                                             1    Recure BW     1     |    ,             ,
+                                                                           •    ^fJffiTt. f —
+                     UEA.T                                                      MKT      I
+                                                       =^       i    i         Excm>m»| 1
+                                                                               |       i-
+                                                                           =>i|i=>S
+                                                                            ill,
+         U -
+         1
+                                 "*
+                                                                1     1    - it
+H
+      FLOW
+    TtutoofeM                                                   ! _ _ ! _ .T            1
+    RESERVOIR                            tSOi-VR
+                                      r • r».««.
+                                           i                               1
+1                                                        r_           t1
+1   COOwKUT                                                                1
+                     R eF< l<
+t   To
+     WA.T«je - — -    -   * ^-       JL!F[
+                                     ^            yL, _m \ COOUKHT! — — 1
+    HRA.-P                                               | PO»AP |                                     Mooout   E   VO.I.VE.
+    CxcHJkMftq
+
+
+
+
+                      Appendix A: Sehamatic of Power Loop
+       0   ,   :   10    20        30       UO
+           COMPRESSOR DISCHARGE PRESSURE, ^(PSIA)
+Figure I: Effect of Cbmpressor Discharge Pressure on Compressor
+          Pressure Ratio, and Weight Flow using Helium-Xenon Gas
+          at a Turbine Inlet Temperature of 1200 F,
+    (a) Rotational Speed 32,UOO RPM.
+            2.0 Jrdfej
+
+Dc5 O
+o
+co  M
+   e-«
+to
+w •<«
+            1.9 ft
+1o
+
+
+
+
+w
+to
+
+
+
+
+                          10       20      30        UO        50
+                         COMPRESSOR DISCHARGE PRESSURE, Pcp(PSIA)
+         Figure It Effect of Compressor Discharge Pressure on Compressor
+                   Pressure Ratio, and Weight Flow Using Helium-Xenon Gas
+                   at a Turbine Inlet Temperature of 1200 F
+                (b) Rotational Speed 36,000 RPM.
+I                                           .:..ij.,;... K, . s ^ . -   -j . . . i . . . ( l i , «   : :., i; . . ; . . i.   , .
+
+                                            T;-~^JrrnT~*T3TTrrr^"r3i*r^T"i"*""-LL" M^T-'ilrn'"" " -> ~~-~
+«O
+OM
+CO E-i
+
+H*4
+
+
+
+I
+O
+                                                                        -t! A^47i:—J t ilCT-i i"it,'3; 'A" '
+
+
+
+
+                                                                brirH^VrH-T^r-T'-f—firr-'.
+
+
+
+
+O
+
+
+
+
+             •7   !::;"i.i":'tTThJ^,.;-;}
+
+
+
+
+                                                  H....i,.i,i .H-J^I..).
+
+
+
+
+                  0                  10
+                                        lilttffl
+                                          20   30                                                          UO                      50
+                                   COMPRESSOR DISCHARGE PRESSURE, Pao(PSIA)
+         Figure 1. Effect of Compressor Discharge Pressure on Compressor
+                   Pressure Ratio, and Weight Flow Using Helium-Xenon Gas
+                   at a Turbine Inlet Temperature of 1200 F
+               (c) Rotational Speed 39,600 RPM.
+B
+                                     irii'ji'-' rrr; "— - -r - - •; -_r^~. ''.."•„__•_ :;_~r ___i
+
+
+
+
+CO
+        1.9 ^
+8
+        1.8
+
+
+
+        1.7
+
+        1.5
+
+
+        1.3
+
+
+        1.1
+ •
+^
+CO
+
+
+
+          .9
+
+
+
+
+         .5
+                      10       20              30                     UO                    50
+
+                    COMPRESSOR DISCHARGE PRESSURE, Pco (PSIA)
+
+     Figure 2: Effect of Compressor Discharge Pressure on Compressor
+               Pressure Ratio, and Weight Flow using Helium-Xenon Gas
+               at a Turbine Inlet Temperature of 1300 F and Rotational
+               Speed of 36,000 RPM.
+                      ~4-".'-J . J -4-1 ; .4-1- .. i ~   I - . . |:;i-l. '   l-m-lfhRJ-HJ-li-'-H-H-^F
+                       ::.»Fi]r:rr^yl,:. \~•'• }\\\-}^ \ ^~\$1 T:iflHr JFifeJ-}-}
+0)
+
+
+Pu
+PC! o
+
+
+
+
+o
+
+
+
+
+            " b Viil iiil '^: -^
+
+
+               0         10                              20                    30             UO
+                     COMPRESSOR DISCHARGE PRESSURE, P cp (PSIA)
+
+        Figure 3: Effect of Compressor Discharge Pressure on Compressor
+                  Pressure Ratio, and Weight Flow using Helium-Xenon Gas
+                  at a Turbine Inlet Temperature of lUOO F.
+             (a) Rotational Speed 32,UOO RPM.
+         Corap. In. Ten?).
+
+            60 F - O
+            80 F -
+
+           100 F - A
+           12D F - D
+
+
+
+
+                             20    30        UO           50
+
+             COMPRESSOR DISCHARGE PRESSURE, P ao (PSIA)
+
+Figure 3: Effect of Compressor Discharge Pressure oti Compressor
+         Pressure Ratio, and Weight Flow using Helium-Xenon Gas
+         at a Turbine Inlet Temperature of lliCO F.
+     (b) Rotational Speed 36,006 RPM.
+         2.2 r.:.^-^
+
+
+en       2.1
+to
+
+
+
+        2.0
+
+
+
+
+        1.9
+
+        1.5
+
+
+
+        1.3
+
+
+
+o       1.1
+w
+CO
+
+DD
+
+         .9
+I
+(H
+
+         .7
+
+
+
+                       10      20       30
+                   COMPRESSOR DISCHARGE PRESSURE, Pco(PSIA)
+     Figure 3: Effect of Compressor Discharge Pressure on Compressor
+               Pressure Ratio, and Weight Flow using Helium-Xenon Gas
+               at a Turbine Inlet Temperature of lUOO Fe
+          (c) Rotational .Speed 39,600 RPM.
+                                          F-T:-^:-r{r=TREFr'---q=Efr
+                      r i v - . : : .
+                                          " -:.:i:t;i:ii;-^ ' --'—'••
+                                        .'I--- r-i-; ; — ( ; ; • • t   j " - '•'       1 ---i         '      t     1 .'•--'   •   i   |- -
+                      -1 - - t"--^|.:::^;"ji:[:.--:z;:..[,-                        _ - • [ - , - • J ' ;•- {• - 11 ---:-; •
+CO O
+                      !EPto:ilEltoSl?iH:
+         1.9
+O
+O
+
+
+         1.8
+
+
+
+         1.7
+
+         1.5
+
+
+
+         1.3
+
+
+O        1.1
+ei
+
+           .9
+
+
+
+
+           .7
+
+
+
+           .5
+                0     10                                20                          30                             UO                        $0
+                      COMPRESSOR DISCHARGE PRESSURE, PCO(PSIA)
+
+       Figure U: Effect of Compressor Discharge Pressure on Compressor
+                 Pressure Ratio, and Weight 'Flow using Helium-Xenon 3as
+                 at a Turbine Inlet Temperature of 1$00 F and Rotational
+                 Speed of 36,000 RPM/
+to
+
+
+«O
+O M
+CO P-i
+CO <*
+
+
+O        1.7
+O
+
+
+
+
+         1.6
+
+
+         1.5
+
+         1.5
+
+
+         1.3
+
+O
+
+         1.1
+CQ
+
+
+
+
+§         .9
+g
+
+
+          .7
+
+
+
+          " 0         10       20        30       UO        50
+
+                  COMPRESSOR DISCHARGE PRESSURE, P<^PSIA)
+
+     Figure 5: Effect of Compressor Discharge Pressure on Compressor
+       :
+               Pressure Ratio, and Weight Flow using Helium-Xenon Gas
+               at a Turbine Inlet Temperature of 1600 F.
+          (a) Rotational Speed 32,UOO RPM.
+        0       10       20         30
+             COMPRESSORcDISCHARGE PRESSURE/ PC^PSIA)
+
+Figure $i Effect of Compressor Discharge Pressure on Compressor
+          Pressure Ratio, and Weight Flov using Helium-Xenon Gas
+          at a Turbine Inlet Temperature of 1600 F.
+     (b) Rotational Speed 36,000
+                            r    —j-
+                                       i — 4-   l
+                                                      Jr-sr
+                            T-     I      i         —fTVj-
+         2.0
+                 Comp. In. Temp. !
+
+
+
+
+o
+w
+CO
+
+
+9
+
+
+
+
+                 l_ ^
+          .u 0          !
+                            10           20                   30   UO
+
+                    COMPRESSOR DISCHARGE PRESSURE,
+
+     Figure S' Effect of Compressor Discharge Pressure on Compressor
+               Pressure Ratio, and Weight Flow using Helium-Xenon Gas
+             . at a Turbine Inlet Temperature of 1600 F.
+          (c) Rotational Speed 39,600 RPM0
+  1.7     COMP. IN. TEMP. -120   F
+
+
+
+
+                                     Turbine In. Te^p.
+  1.5                                     1200    F- D
+       COMP. IN. TEMP. " 100 F
+  1.8 :                                   11*00   F- D
+                                 m        1600 F - A
+  1.7
+
+
+
+  1.6 i
+  1.8
+                  E:lSH:^bl-::.rM..aJHi^lLfc:j,
+
+  1.7
+
+
+
+  1.6
+
+  1.8
+
+
+  1.7
+
+
+
+  1
+   *    0        10       20         30           UO
+            COMPRESSOR DISCHARGE PRESSURE, P<rD (PSIA)
+Figure 61 Effect of Compressor Discharge Pressure on Compressor
+          Pressure Ratio For Compressor Inlet Temperatures of
+          60 F, 80 F, 100 F, and 120 F using Helium-Xenon Gas.
+    (a) Rotational Speed 32,UOO
+                                                                                   :
+        19                                                                             F;n:i-5F"^r..r-T^L-'Tn:.-'
+          '       COMP. IN. TEMP. " 120 F
+
+                                      wi;';.;l:^4>t
+
+
+
+
+                  COMP. IN. TEMP. - 100 F
+
+
+
+
+                                                                              p: i Turbine in. Temp.
+
+                                                                                           1200            F- o
+                                                                                           1300            F-
+a:      1.7   ,,,>„» .
+                 COMP. IN. TEMP. • 80 F
+        2.0   j... .•':^aJ^±;i^,;j;!:,':::i!HJ-~|f^HTF!:^::; i
+              ;-r: ii£ir!;l:li- i !             :
+                                                   '      i f M -                          1500            F- O
+
+
+g
+                                                                            'riiin 1600 F .
+cr>
+
+
+o
+o
+               TT:];?: :IF ^^;m    ;            iMtM^;;^::;;; .; ?q.N-' ;";
+               iHziii        I^V-   >'Pftpil4kfe^-55^aH4iH^telL^i!l-i
+               i::!-... ::l::-hl t:Htri-i-!: H i-HTr Jii -.-: Ir.rW-i-i-:! i.l (: TTTp i-j RIljTTf] |' .
+                  COMP. IN. TEMP. « 60 F Jt-^Mf
+        2.0                                            HivlFITt .! i, :!;!"
+                                                    j^ip^ij:-!.;.^.
+
+
+        1.9
+
+
+
+        1.8
+              0                    10                     20                       30                      UO     50
+                       COMPRESSOR DISCHARGE PRESSURE, Pco (PSIA)
+      Figure 6: Effect of Conpressor Discharge Pressure on Compressor
+                Pressure Ratio for Compressor Inlet Temperatures of
+                60 F, 80 F, 100 F, and 120 F using Helium-Xenon Gas.
+          (b) Rotational Speed 36,000
+       2.1
+               COMP. IN. TEMP. - 120 F
+
+
+
+
+                    COMP. IN. TEMP. • 100 F
+
+
+
+
+                                                          Turbine In. Temp.
+
+                                                           1200 F - D
+
+                COMP. IN. TEMP. - 80 F                     UiOO F - D
+       2.2                                                 1600 F - A
+
+en
+       2.1
+                                   iifiH
+8
+                COMP. IN. TEMP. - 60 F
+                               j
+
+
+       2.2   JJ-.TT
+                                                      iS*
+
+
+
+
+       2.1 pill
+
+
+                          liVifcjUjtFfEtri
+                r
+                    (IT jPiTptfrtp?
+                         -•.:!;-.' 1,-in.Lvt:
+       2.0
+                                 10             20   30         140       50
+                         COMPRESSOR DISCHARGE PRESSURE, Pao (PSIA)
+     Figaro 6: Effect of Compressor Discharge Pressure on Compressor
+               Pressure Ratio For Compressor Inlet Temperatures of
+               60 F, 80 F, 100 F, and 120 F using Helium-Xenon Gas.
+         (c) Rotational Speed 39,600
+                                                                                               ^fcr^Hotatlonal' Speed ;
+                                                                                                                                     3?,UOO RPM - G'
+                                                                                                                                    36,000 RPM - o
+                       COMP. IN. TEMP. - 120 F
+                                                                                                                                   39,600 RPM -
+             .5
+                                                                                                        ; . 1-1 :
+
+                                              MI-                                                  —rprrr:
+                                                                                                  IfElTF
+             .3
+ q
+t-2|                                          1                                  ,trq.i::-
+
+
+
+                      COMP. IH. TEMP. " 100 P
+  o
+  M          3
+  E-i
+ .35               i;:.;!
+              U I?TIT
+ "8                 ^-r^I ;--r,. ; ;
+
+              3 """:-r.• :.„:••-Tibrnfe
+                                :i:::'niTi1
+
+                                               -: • - - • •   •••' ]-.   - • • ' • i^-'-   ^ r-'-'J '    - "jy   •   • I1 ;_' t i 1 • •   ! -J_-   i   • :
+
+
+
+                        COMP. IN. TEMP. - 80 F /iTfrF'-irT^]-;'-.
+                                                           ; :                                              vv
+                                                                  1J!,,,-.:.,J.,..J^fp:;^!" i.: :i;; :";- r:
+
+  §
+  CO
+  cn
+
+  o
+  O
+
+
+
+
+                                                                                                                     30                                UO    50
+                              COMPRESSOR DISCHARGE PRESSURE, P
+        Figure 7:, Effect of Compressor Discharge Pressure on the Compressor
+                   Temperature Rise Ratio at Compressor Inlet Temperatures
+                   of 60 F,:80 F, 100 F, and 120 F using Helium-Xenon Gas.
+             («.) Turbine Inlet Temperature 1200 F
+                                               Rotational-. Speed
+                                                  36,000 RPM - O
+
+                   COMP. IN. TEMP. - 12O F
+
+
+
+
+      H                   ^MKW'if
+
+                   COMP. IN. TEMP. " 100 P
+
+
+
+W
+CO
+M
+Oti
+
+
+                          i^HJiiiBifn;:
+i                  COMP. IN. TEMP. • 80 P
+w
+
+CO
+g
+o
+o
+                   COMP. IN. TEMP. - 60 F
+
+
+
+
+               0          10          20     30        HO        50
+                     COMPRESSOR DISCHARGE PRESSURE,. PCO(PSIA)
+      Figure 7: Effect of Compressor Discharge Pressure on the Compressor
+                 Temperature Rise Ratio at Compressor Inlet Temperatures
+                 of 60 F, 80 F, 100 F, and 120 F using Helium-Xenon Gas.
+            (b) Turbine Inlet Temperature 1300 F
+                                                                                              | Rotational Speed
+
+                                                  -                                          I 32,1|00 RPM - D
+                                                                             lit             I               .<
+                                                                                             }| 36,000 RPM - O
+                   COMP. IN. TEMP. " 120 F
+                                                                                                                 RPM - A
+                                                                                                                     TTTT:"!:^:
+
+
+
+
+                   COMP. IN. TEMP. -100 F
+
+
+
+
+               lT-|i^r: 1f.;i r r—r; WrnipTpmrppr:-                                  ;~
+               r:;.,r>;; :i[..y .:j^, .1 r..^|/-;f i£i'./ijjj^; 1 ;; : r : ! f : j ; |i :n
+              COMP. IN. TEMP. -80 F     ::T;~
+                                    f$f Hi
+                              j
+          .5 i^^:l^iipit^il^^^/lai
+                                           ;tf.
+                           s ?ts    ii
+                                  feiii:r                                                             \t:Sr
+          .U                                          •tH-i I i "- TiiiU : y?nt;:.l.:fIT^Ti
+CO                          i^ilpiHjlii te                       iji;iiMlii;ui!;.;i;idui|i
+          .3                                          pa                                     •WHi     t~,i_ •
+                                                                                                    *t&iifi?
+                                                                                                     TPI-
+8
+                   COMP. IN. TEMP. - 60 F j|\\- •
+          .5
+                                       I ' L - f L R l t p ffiTTPT
+                                       ^r-rrpTtt
+                                                                                                m±.
+                                                                                                inrr
+                                                                                                                            .-:j
+          •1» i
+
+          .3            T|i-|
+               MIJ';^^:-!               •:!;-H'!fim:H:-H:
+                                        ' •^'•"'^L:-.
+               0                     10                      20                              30                 hO          50
+                          COMPRESSOR DISCHARGE PRESSURE, Pao(PSIA)
+
+     Figure 7: Effect of Compressor Discharge Pressure on the Compressor
+               Temperature Rise Ratio at Compressor Inlet Temperatures
+               of 60 F, 80 F, 100 F, and 120 F using Helium-Xenon Gas.
+          (c) Turbine Inlet Temperature lUOO F
+                               ;-'4;M--:ttrMr:;Hr
+                       .:.!4; LJ-ilH^ijjiiitiijri;-!^                                                        Hi Rotational Speed
+
+                     'ittlittf                                                                                        36,000 RPM - O
+                                                                                                 ^rjrra^iM-lnl^Mjl!:^;
+                                                                                                   _:._L~riT-Li.
+
+                             COMP. IN. TEMP. " 120 F
+              .5
+
+              .h
+
+         1)   -3
+P"                                                                                                         -;.;i!;v
+ O
+     •
+                           COMP, IN. TEMP. " 100 F
+                                                                                                         Hit
+                                                                                                         Mr!
+                                                                                                      .,, ,,M]4
+                     j4iiyiiiiil1Jtttl£.iH£{il
+                                                                                              Effl
+              .3
+
+                             COMP. IN. TEMP. • 80                                                    F !r; i
+
+ pcj
+ 8
+CO
+                    III
+                                                                                                       . 4 ;_. r .
+O
+O
+
+
+                                                                                                                            v-f. '-
+                             COMP. IN. TEMP. - 60 F
+              •5 firm"
+                                                                                                                                          L:
+                                           1':'!   '   ' "_ ' i ; ^L; J'i '.". '. 1 '   * :
+
+               ,    i-       L - ' - L ' •-• ! . . - - c ~ _ U ' - J -
+              • U F-: -|l'i"•].::: ;!":j"-T|H:TtI!rirj-
+
+              .3
+                    ....                                                                  ffiiLiliU''! i1;!!.^
+                    !V : ;                                                                                                            - :\i-'- I
+                   0                               10                                   20 5v! v            30                          . 50
+                                  COMPRESSOR DISCHARGE PRESSURE,. Pao(PSIA)
+         Figure 7: Effect of Compressor Discharge Pressure on the Compressor
+                   Temperature Rise Ratio at Compressor Inlet Temperatures
+                   of 60 F, 80'F, 100 F, and 120 F using Helium-Xenon Gas.
+              (d) Turbine Inlet Temperature 1500 F
+                                                      1
+                 M'..'.'!: ir: : -!:'- fc.'H! -iiivi :;             Rotational Speed
+                i:     '     tijiil               -rr-i——
+                             "': :ii.JH1::':i:.
+                                                                    32,1*00 RPM - D
+                     COMP. IN. TEMP. - 120 F ]-f 36,000 RPM - Q
+                                                               !:J 39,600 RPM - ^
+
+
+
+
+  o
+1-°
+                     COMP. IN. TEMP. • 100 F
+
+
+
+
+                     COMP. IN. TEMP. - 80 F
+  ^—i
+
+ 13
+ §
+ CO
+ CO
+
+
+
+ o
+ o
+
+
+
+
+                                                                              o-
+
+                o                    10                   20   30        Uo        50
+                             COMPRESSOR DISCHARGE PRESSURE, ..PCD(PSIA)
+
+        Figure 7 :. Effect of Compressor Discharge Pressure on the Compressor
+                    Temperature Rise Ratio at Compressor Inlet Temperatures
+                    of 60 F, 80 F, 100 F, and 120 F using Helium-Xenon Gas.
+              (e) Turbine Inlet Temperature 1600 F
+                    ROTATIONAL SPEED - 39,600 RPM :j
+           80 ;'~; "Fn"^r^3H^nrrr~~rrr
+
+
+
+
+>*
+                  ROTATIONAL SPEED • 36,000 RPM-    jt00 p „ A
+           80
+CIE
+
+
+
+
+           75
+           70
+ESSOR
+
+
+
+
+           65
+
+o
+o
+                     -;jg^:TL,iM,|:iy.:::U^::-:-::^i
+                    ROTATIONAL SPEED • 32,UOO RPM
+
+
+
+
+           65 J
+
+                0         10        20        30       UO          50
+                      COMPRESSOR DISCHARGE PRESSURE, PC.O (PSIA)
+        Figure 8: Effect of Compressor Discharge Pressure on Compressor
+                  Efficiency at Rotational Speeds of 32,UOO, 36,000,
+                  and 39,600 RPM Using Helium-Xenon Gas.
+            (a) Turbine Inlet Temperature 1200 F
+                                                  Corap. In. Temp.
+
+                                                     60 F . o
+                                                    80 F - Q
+                                                   100 F - A
+         80           73T-
+                      -1 [-;^..
+                             -. I
+
+
+B
+53       75
+O
+M
+         70
+OJ
+8
+CO
+
+
+
+o
+o
+                   Tiafejte
+                  ROTATIONAL SPEED - 36,000 RPM
+              0           10        20     30
+                   COMPRESSOR DISCHARGE PRESSURE, Pao(PSIA)
+     Figure 8: Effect of Compressor Dixcharge Pressure on Compressor
+               Efficiency at a Rotational Speed of 36,000 RPM
+               using Helium-Xenon Gas.
+          (b) Turbine Inlet Temperature 1300 F
+                     ROTATIONAL SPEED - 39 ,600 RPM
+         80             li.rgjjM!'.:;'*..,,-            • ., ,       •'•I:
+
+        75
+        70
+        7n ^j-^iTMi-SiiisI
+                •Hl?J.fH^jT?K3r~
+         65 -.^-£Sp£
+                      "                      :   ni: V! i : : :
+
+>*.
+
+
+                   ROTATIONAL SPEED • 36,000 RPM
+
+
+
+
+O
+O
+
+
+
+               : ROTATIONAL SPEED - 32,1*00 RPM
+         o/^   •__        __„_ _
+         00    •:- -:• " - : } - ; H T ~ :
+
+
+
+
+                                                     :L;!-H;'?:J   • .'•..:.TilK-ii-.. ..: !. ::L' J'/"'
+
+
+
+
+               0                        10              20               30            UO                  50
+                            COMPRESSOR DISCHARGE PRESSURE, Pao (PSIA)
+      Figure 81 Effect of Compressor Discharge Pressure on Compressor
+                Efficiency at Rotational Speeds of 32,fcOO, 36,000,
+                and 39,600 RPM using Helium-Xenon Gas.
+          (c) Turbine Inlet Temperature 1UOO F
+          P-rr-rr-
+
+
+
+                                                                       p
+                  :                   :
+          E!;I JJ.. J^:.^*"':. '! '^"&;'l^[%!: iJ-K]h1
+          ".' '
+                                                           r;
+                      • . ^^'•i'"^r:""!'rT:TF''^"-hri-::;:-:r!-!-^
+                                                                           •
+     80
+
+g
+H
+o
+     ycj i---^i-ll^iiilUi-r; i.-1 m^-'JE^ja
+
+     .- -teT:^l'SiM^iWriMi
+w
+§
+CO
+
+
+
+
+1                                                  '-'---.i..-J._;.:
+
+
+
+
+           ROTATIONAL SPEEa) - 36,000 RPM !
+
+                                                                           .50
+                  COMPRESSOR DISCHARGE PRESSURE, Pto (psu)
+
+
+
+                                   Temperature 1500 F
+                                                                            -S.^
+                ROTATIONAL SPEED • 39 600 RPM
+
+
+
+
+        70 ~_-"ri~^^r--U^
+
+
+        65
+
+
+
+
+                ROTATIONAL SPEED - 36,000 RPM
+
+
+o
+
+
+
+
+8
+
+                 ROTATIONAL SPEED " 32,UOO RPM |
+       (50 . "~T~ r~7\ rTr   Ti •TT-T-i 7 ". "FT''i   T~   "."rr~"'p~"~
+
+       75
+       70
+
+       65
+
+            0           10                  20             30             1*0   50
+                   COMPRESSOR DISCHARGE PRESSURE, PaD (PSIA)
+    Figure 8: Effect of Compressor Discharge Pressure on Compressor
+              Efficiency at Rotational Speeds of 32,1100, 36,000,
+           . and 39,600 RPM using Helium-Xenon Gas.
+        (e) Turbine Inlet Temperature 1600 F
+                                                   53fep^±!
+
+
+
+
+  1.6 l.tr ^f^
+              Turbine Inlet Temperature
+   UO   s     Compressor Inlet Temperature
+
+            n-3.95
+            A-3»82
+            0-3.68
+
+            v-3.19
+            D-3.07
+            c>-2.96
+            Q-2.86
+
+
+
+
+              ;i• • o* • •      t i •'• • •
+              -..' '    •'•_''•',[
+
+                       .7                     .8   .9     1.0
+
+              EQUIVALENT WEIGHT FLOW, (LB./SEC)
+
+Figure 9: Effect of Equivalent Weight Flow on the Equivalent
+          Compressor Speed, Compressor Pressure Ratio, and
+          Compressor Efficiency.
+
+
+                                                                NASA-Lewis-Com'l
+

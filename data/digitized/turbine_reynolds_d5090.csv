@@ -1,0 +1,13 @@
+# Turbine efficiency vs Reynolds number, argon rig (NASA TN D-5090, Figure 14).
+# Re = W/(mu*r_t). Fig 14 is a CROSS-PLOT (faired curves) at equivalent design speed & PR -
+# the report states it "does not show any actual data points." Endpoints/design from the text:
+# total eff (rotor exit, stations 1->3) 0.890 -> 0.925 over Re 34950 -> 175800; design 0.913 at
+# Re 76200; static (1->3) 0.850 -> 0.885. Intermediate values read off the upper dashed (Total,
+# 1->3) curve. eff_total = our map basis eta_t(1->3); eff_static = eta_s(1->3).
+# source: text-stated anchors (T) + faired-curve reads (R).
+Re,eff_total,eff_static,source
+34950,0.890,0.850,T
+50000,0.901,0.860,R
+76200,0.913,0.872,T
+120000,0.920,0.880,R
+175800,0.925,0.885,T

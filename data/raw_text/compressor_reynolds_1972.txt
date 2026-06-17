@@ -1,0 +1,988 @@
+REYNOLDSNUMBER EFFECT ON
+OVERALL PERFORMANCE OF
+A 10.8-CENTIMETER (4.25-IN.)
+SWEPTBACK-BLADED
+CENTRIFUGAL COMPRESSOR
+
+by Curl Weigel und Calvin L, Ball
+Lewis Reseurch Center
+Clevehnd, Ohio 44135
+
+NATIONAL
+       AERONAUTdCS
+                 AND
+                   SPACE
+                       ADMINISTRATION   WASHINGTON, D. C.   JANUARY 1972
+                                                                                                              TECH LIBRARY KAFB, NM
+
+
+
+                                                                                                                         OL33LBl
+1. Report No.                                        2. Government Accession No.                           3. Recipient's C a t a l o g No.
+    NASA TN D-6640
+                                                                                                           5. Report Date
+4. Titleand           NUMBER EFFECT ON OVERALL
+               REYNOLDS
+                                                                                                               January 1972
+    PERFORMANCE OF A 10.8-CENTIMETER (4.25-IN. )                                                           6. Performing Organization Code
+    SWEPTBACK-BLADED CENTRIFUGAL CCXMPRESSOR
+7. Author(s1
+    C a r l Weigel and Calvin L. Ball                                                                I
+                                                                                                     L
+                                                                                                           8. Performing Organization Report No.
+                                                                                                              E-6586
+                                                                                                         10. Work Unit No.
+9. Performing Organization Name and Address                                                                    764 -74
+    Lewis Research C enter                                                                               11. Contract or Grant No.
+    National Aeronautics and Space Administration
+    Cleveland, Ohio 44135                                                                            , 13. Type of Report and Period Covered
+
+12. SponsoringAgencyNameandAddress                                                                            Technical Note
+    National Aeronautics and Space Administration                                                        14. SponsoringAgencyCode
+    Washington, D. C 2054 6    .
+15. Supplementary Notes
+
+
+
+
+16. Abstract
+    Experimental overall performance is given for a range of compressor Reynolds numbers from
+    0. 34X1O6 to 3. O3x1O6. The performance data were taken at 50 000 rpm, using argon gas. As
+    the Reynolds number was reduced from near design value to30 percent of design, the maximum
+    efficiency decreased about 1.5 percentage points. Reducing t h e Reynolds number from 30 p e r -
+    cent to approximately 10 percent of design caused the maximum efficiency to decrease another
+    2,5 percentage points. The variation in loss with Reynolds number is compared with the com-
+    monly used inverse power relation of loss with Reynolds number.
+
+
+
+
+17. Key Words[Suggested by Authorls))                                         18. Distribution Statement
+    Centrifugal compressor                                                        Unclassified - unlimited
+    Turbomachinery
+    Space power
+    Brayton cycle
+19. Security Classif. (of this report)
+           Unclassified
+                                                     20. Security Classif. (of this page)
+                                                                                                         I   21. NO. of Pages
+
+                                                                                                                      22             I   22. Price'
+
+                                                                                                                                              $3.00
+
+                               *For sale by the National Technical Information Service, Springfield, Virginia          22151
+I
+
+
+
+
+                REYNOLDS NUMBER EFFECT ON OVERALL PERFORMANCE OF A
+                      10.8-CENTIMETER (4.25-IN. 1 SWEPTBACK-BLADED
+                                   CENTRIFUGAL COMPRESSOR
+                                by Carl Weigel and Calvin L. Ball
+                                      Lewis Research Center
+
+                                            SUMMARY
+
+            Experimental overall performance for a 10.8-centimeter (4.25-in. ) centrifugal com-
+    p r e s s o r with sweptback blades is given for a range of compressor Reynolds numbers.
+    The compressor was designed for a Brayton cycle space power system with a nominal
+    design output of 6 kilowatts, with a range of 2 to 10 kilowatts. For this investigation,
+    the compressor was operated at a speed of 50 000 r p m , with an inlet temperature of
+    300 K (540'R) using argon gas. Overall performance was obtained for seven inlet pres-
+    sure levels, from 13.7 to 1.6 N/cm abs2(19.9          to 2.3 psia). This range of inlet pres-
+    sures resulted in a Reynolds number range based on tip diameter of 3.03X106 t o
+    0. 34X106. A s Reynolds number was decreased, the maximum efficiency point and surge
+    point moved progressively to lower flow rates. The maximum flow rate also decreased
+    as Reynolds number decreased. The maximum efficiency decreased about             1. 5 percent-
+    age points (0.813 to 0.800) as the Reynolds number was reduced from near design
+    (3.03X10 6) to about 30 percent of design (0.88XlO ). Further6reduction of the Reynolds
+    number to about 10 percent of design (0.34~10       6) caused the maximum efficiency to de-
+    crease 2.5 percentage points more (0.800 to 0.775). By using the inverse power rela-
+    tion of loss with Reynolds number that is commonly used as an approximate correlation,
+    a power of n = 0. 1 was found to closely approximate the slopeof the loss Reynolds num -
+    ber curve.
+
+
+
+                                          INTRODUCTION
+
+          The Lewis Research Center is conducting investigations on the closed Brayton cycle
+    system for space vehicle onboard electrical power generation (refs. 1 and 2). In support
+    of t h e Brayton cycle studies, experimental investigations are being conducted t o
+  determine the effect that Reynolds number has on the performance of small centrifugal-
+  and axial-flow compressors applicable to these systems (refs.           3 to 5). The turboma-
+  chinery for space power systems generally operates at lower Reynolds numbers than the
+  turbomachinery designed for airbreathing engine applications. This            is due t o t h e s m a l l e r
+  size machines being considered for space power systems, alongwith lower cycle p r e s -
+  sure ratios. The lower cycle pressure ratios result in lower required blade speedsand
+  lower associated relative flow velocities in the compressor and turbine. Adequate theo-
+  retical o r empirical correlations arenot available for small compressors to accurately
+  predict the loss in performance that results from a low design Reynolds number or the
+  subsequent change in performance as Reynolds number is changed. The difficulty i n a r -
+ riving at such a loss correlation is due to the complexityof t h e flow in the compression
+ process and the subdivision of the associated losses. Of the total compressor loss,
+ which has many origins, only that portion associated with viscous fluid effects has been
+ directly related to Reynolds number. We recognize, however, the potential influence of
+ boundary layer growth o r viscous effects on the other loss components, such as those
+ losses associated with secondary flows. At present, no method is available to accurately
+ calculate the magnitude of the viscous loss. The percent of the total loss resulting from
+ viscous effects is, in part, dependent on the particular compressor design, such as t h e
+ type of inducer, the impeller design, the type of diffuser, and the aerodynamic match be-
+ tween the various components.         An assessment of t h e u s e of conventional aerodynamic
+ parameters, the mechanisms causing losses, and the problem of geometric dissimilar-
+ ities of turbomachinery in predicting the effect of Reynolds number and efficiency is
+ given in references such as references 6 to 8.
+          To minimize development time and cost of the turbomachinery for a Brayton cycle
+ space power system, it is desirable to be able to take       a basic set of hardware that is de-
+ signed for a nominal power level and be able to use it for a range of power outputs. This
+ can be accomplished by adjusting the system pressure level. When the system pressure
+ level is changed, the Reynolds number at which the turbomachinery must operate is
+ changed. Since sufficient experimental data for small compressors are             not available to
+ accurately predict the change in compressor performance ('both efficiency and weight
+flow) with changes in Reynolds number, an experimental program is being conducted at
+the Lewis Research Center to better establish the Reynolds number influenceon com-
+pressor performance. This is in support of Brayton cycle system studies such as those
+given in references 9 and 10.
+         This report gives the performance of a 10.8-centimeter (4.25-in. ) sweptback-bladed
+centrifugal compressor for a range of Reynolds numbers. The overall performance of
+this compressor at design inlet conditions was reported in reference            11. The compres-
+s o r was designed for a single-shaft Brayton cycle system having a nominal design elec-
+t r i c a l power output of 6 kilowatts, with a range of 2 to 10 kilowatts. The AiResearch
+Mfg. Co. of Phoenix, Arizona, designed and fabricated the compressor (ref.                12). The
+2
+                                                        6
+compressor Reynolds number in this investigation was varied     from 0.34X106 to 3.03X10
+                                                     2 (2.3 to 19.9 psia). The
+by varying the inlet pressure from 1.6 to 13.7 N/cm abs                             inlet
+temperature was set at the design value of 300 K (540' R) f o r all tests. The compressor
+was operated. at a speed of50 000 rpm, using argon gas as the working fluid. The per -
+formance results given inthis report were obtained fromtests conducted at the Lewis
+Research Center.
+
+
+
+                                                  COMPRESSOR DESIGN
+
+        The compressor was designed for a nominal 6-kilowatt, single-shaft, Brayton cycle
+space electrical power system. The working fluid specified for the system was a mix-
+t u r e of helium-xenon (HeXe) gas having a molecular weight of 83. 8. Argon gas was used
+for this test program instead   of the design gas mixtureof helium-xenon because it had
+the same specific-heat ratio and was more readily available. The compressor design
+is presented in reference 12. A summary of the compressor design-point values for
+argon gas and equivalent values based on standard inlet pressure and temperature are
+given in table I for the reference design power level.
+
+
+                         TABLE I.       - COMPRESSOR DESIGN PARAMETERS FOR ARGON GAS
+                                                   2
+Inlettotalpressure,P1,N/cm                              abs; p s i a . . . . . . . . . . . . . . . . . . . . . .   . . . 13.96;20.25
+Inlettotal   temperature,        T1,            K ; OR . . . . . . . . . . . . . . . . . . . . . . . . .           . . . . . 300; 540
+Weight flow r a t e , w, k g / s e cl;b m / s e c .                                        .
+                                                                  . . . . . . . . . . . . . . .    . . . . . . .   . . . 0.356;0.785
+Equivalent       weight    flow,          w&/6, k g / s e cl;b m / s e c   . . . . . . . . . . . . . . . . . . .   . . . 0.263;0.581
+Overall     total-pressure        ratio,         P6;P 1. . . . . . . . . . . . . . . . . . . . . . . . .           . . . . . . . 1.9
+Overall     total-temperature            ratio,          T6/T1 . . . . . . . . . . . . . . . . . . . . . . .       . . . . . . . 1.37
+Overall    efficiency,             771-6    . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .            . . . . . . .0.80
+Impeller     total-pressure         ratio,         P3/Pl . . . . . . . . . . . . . . . . . . . . . . . .           . . . . . . .2.03
+Impeller     efficiency,       q1-3.           . . . . . . . . . . . . . . . . . . . . . . . . . . . . .           . . . . . . 0.895
+R o t a t i v sep e e dR, P Mr,p m .             . . . . . . . . . . . . . . . . . . . . . . . . . . . .           . . . . . . 52 200
+Equivalent         speed,   RPM/&,     rpm                . . . . . . . . . . . . . . . . . . . . . . . . . .      . . . . . . 5 1 176
+I m p e l l e tri ps p e e d ,      Ut3, m / s e cf; t / s e c    . . . . . . . . . . . . . . . . . . . . . . .    . . . . . 295;968
+Equivalentimpellertipspeed,                        Ut3/&,       m/sec;ft/sec     . . . . . . . . . . . . . . . .   . . . . . 289;949
+Compressor           work   factor,          fcw. . . . . . . . . . . . . . . . . . . . . . . . . . . .            . . . . . . 0.658
+Specificspeed,Ns. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                  . . . . . . .0.11
+Reynolds       number,     ReU.     .       . . . . . . . . . . . . . . . . . . . . . . . . . . . . .              . . . . . 3 . 1X106
+
+
+
+
+    The compressor impeller has 15 blades that are curved backward at the exit 30'
+from the radial direction. The impeller inlet blade tip diameteris 6.60 centimeters
+(2.60 in. ) and the hub diameter is 3.66 centimeters (1.44 in. ). The impeller exit tip
+diameter is 10.8 centimeters (4.25 in. ) and the exit blade height is 0.521 centimeter
+                                                                                                                                     3
+(0.205 in. ). Design velocity diagrams for the impeller inlet and outlet are shown in fig-
+u r e 1 for argon gas.
+      From the impeller exit to the vaned diffuser  inlet, t h e r e is a vaneless diffuser sec-
+tion about 0.216 centimeter (0.085 in. ) .long in the radial direction. The vaned diffuser
+section has 17 vanes of constant height (0.541 cm, or 0.213 in. ). The diffuser design
+velocity diagrams for argon gas a r e shown in figure 2.
+
+
+                                                                                                                "
+
+
+
+
+                                                                                                                           = 68.6 (225)
+
+
+
+
+            Shroud                                                      Mean                                 Hub
+                                                              Impeller inlet (station 2)
+
+
+
+                                                                     67.9'
+
+                        V' = 127 (418)
+                                                              V,   = 78.7 (258)
+
+                                 I                        I                                        I
+
+
+
+                                                               U = 295 (968)
+                                                   Impeller exit mean (station 3)
+               Figure 1. - Impeller design velocity diagrams for argon gas. All velocities in meters per second (fVseC).
+
+
+
+
+                                                 70.70
+
+
+                                     V,     = 64.9(213)
+
+
+
+
+                                                          Diffuser inlet (station 4)
+
+
+
+
+                                     V,
+                                                    440
+
+
+                                           = 78.6 (258)
+
+                                                          h           v = 110 (30)
+
+                                                          Vu = 75.9 (249)
+                                               Diffuser exit (station 5)
+                                         Figure 2. - Diffuser design velocity diagrams for argon
+                                          gas. A l l velocities in meters per second (ftlsec).
+
+
+
+
+4
+                               APPARATUS AND PROCEDURE
+
+                                         Test Apparatus
+    The impeller and vaned diffuser used in this investigation are shown in figure3.
+The impeller was cantilever-mounted on a shaft supported by two spring-loaded angular
+contact bearings. An air-oil mist system was used to lubricate and cool the bearings. A
+
+
+
+
+                 Figure 3. - Compressor impeller and vaned diffuser. Impeller exit
+                   diameter, 10. 8 centimeters (4.25 in.).
+
+
+
+carbon face seal was located outboard of the bearing on the impeller end of t h e shaft, and
+a labyrinth seal was used on the other end. The static (cold) impeller clearance between
+the shroud and the impeller exit blade tip was set at 0.020 centimeter (0.008 in. ). The
+compressor was fully enclosed in insulation. A cutaway view of the compressor with lo-
+cations of instrument and calculation stations is shown in figure'4. More details of the
+compressor test facility and apparatus are given in reference 11.
+
+
+                                                                                          5
+             o Total pressure
+                Static pressure
+            A Total temperature
+                                     ,rlnside diameter,
+                                         7.32 (2.88)
+
+
+
+
+                                                                                      ~              ..
+                                                                                   Bearing housing
+
+
+
+
+                                                                                 7
+
+
+
+
+              Figure 4. - Compressor cross section, showing instrument locations at stations
+                are in centimeters (in. ).
+                                                                                               1 and 6. All dimensions
+                                                                                                                         I
+                                                                                                                         4-01
+
+
+
+
+                                                          Test Procedure
+
+     Compressor performance was taken at a speed of 50 000 rpm for seven different in-
+let pressures, from 1.6 t o 1 3 . 7 N/cm 2 abs (2.3 to 19.9 psia). For each inlet p r e s s u r e
+the flow was varied from near maximum to compressor surge. The inlet temperature
+
+6
+was set at 300 K (540' R) and was essentially constant for all tests. The tests were run
+at 50 000 rpm because a severe shaft vibration occurredat the design speed of 52 200
+rpm (for argon gas).
+       During operation, a significant change in the character of compressor surge takes
+place. At the higher inlet pressures (P1 > 10.1 N/cm 2 abs (6 psia)) the compressor
+s u r g e was abru@, with violent pressure oscillations. At the very low inlet p r e s s u r e s t h e
+s u r g e or stall pressure oscillations were very mild and almost undetectable due to the
+low density of the gas. Because of t h i s , t h e minimum flow point at the very low inlet
+pressures was obtained at a flow rate j u s t above the point wherea rapid increase in inlet
+temperature, due to recirculation, was detected.
+
+
+
+                                     Calculation Procedure
+
+      The total-pressure ratio, temperature rise ratio, and adiabatic efficiency were com-
+puted from measured pressures and temperatures obtained at stations 1 and 6 (fig. 4).
+The performance parameters are given in appendix A. The compressor Reynolds num-
+b e r ReV was computed by using   the inlet total density pl, impeller exit tip speed    Ut3,
+impellerexittipdiameter     Dt3, andinletdynamicviscosity        IJ-   Theoverallefficiency
+presented herein was calculated using the exit temperature that was obtained from the
+inner ring of thermocouples (station 6, fig. 4). For all pressure levels below the design
+inlet pressure it was apparent that the outer ring of thermocouples was being appreciably
+affected by heat transfer. At the lower inlet pressures even the inner ring did not appear
+to provide for an accurate indication of the temperature rise across the compressor.
+Therefore, for the lower pressures an extrapolation of the temperatures measured by
+the inner ring of thermocouples at the higher inlet pressures was used. A comparison
+between the temperatures measured by the inner and outer rings of thermocouples is
+given in appendix B. Included is the extrapolation made to obtain the exit temperature at
+the very low inlet pressures.
+
+
+
+                                  RESULTS AND DISCUSSION
+
+     The following results were obtained froma 10.8-centimeter (4.25 -in. ) sweptback-
+bladed centrifugal compressor using argon gas as the working fluid. All performance
+was taken at 50 000 r p m , 96 percent of design equivalent speed, with an inlet temperature
+of 300 K (540' R).
+     The overall total-pressure ratioas a function of percent of design equivalent weight
+flow is shown in figure 5 for seven different inlet pressures. The corresponding com-
+
+                                                                                                    7
+                                                                        .         .   .
+                                                Inlet pressure,
+                                                           Compressor
+               c            number,
+                                Reynolds(psia)
+                                            N/crn2abs
+                                                                            ReU
+                E 1.6
+                3
+                v)
+                                            0    13.7    (19.9)      3.03~106
+                                            0     6.8     (9.9)      1.50
+
+
+
+
+                                                                                                                        0
+                                                  Percent of design equivalent weight flow
+                        Figure 5. - Total-pressure ratio as function of percent of design equivalent weight flow, for
+                          seven inlet pressures, at 96 percent of design equivalent speed.
+
+
+
+
+p r e s s o r Reynolds number based on tip diameter is shown for each inlet pressure. The
+peak total-pressure ratio progressively decreased from 1.96 t o 1.90 as the inlet pres-
+s u r e was reduced k o m 13. 7 N/cm 2 abs (19.9 psia) to 1.6 N/cm 2 abs (2.3 psia). This
+ change in inlet pressure corresponds to a change in compressor Reynolds number of
+                         6
+ 3. 03X106 to 0.34X10 . The compressor maximum flow rate generally decreased with de-
+ creasing inlet pressure. The flow rate at which compressor surge occurred also de-
+creased with decreasing inlet pressure. This trend can be partially attributed to increas-
+ing boundary layer thickness with decreasing Reynolds number. The increased boundary
+layer thickness in the compressor reduces the effectiveflow a r e a s , which in turn causes
+an increase in through-flow velocity of the gas. This resulting increase in the through-
+flow (radial) velocity at the impeller exit decreases the absolute tangential velocityo r
+whirl of the fluid. This in turn reduces the absolute flowangle leaving the impeller and
+changes the incidence angle of the flow entering the vaned diffuser. This incidence angle
+strongly influences the flow range over which the compressor may operate and thepoint
+at which maximum efficiency occurs. The flow         rate at which t h e maximum efficiency and
+surge occur can therefore be expected to v a r y with Reynolds number. The maximum flow
+r a t e should also behave in a like manner.
+       The ratio of compressor total-temperature rise t o inlet total temperature as a func-
+tion of percent of design equivalent weight flow is shown in figure 6. Because of heat-
+transfer effects, the exit temperatures were based on the inner ring of thermocouples,
+with the temperature obtained at the higher inlet pressures being extrapolated to obtain
+the temperatures used for the lower inlet pressures (see appendix B). The resulting tem-
+perature rise ratio is essentially constant with inlet pressure.
+       The adiabatic efficiency for each different pressure level is shown in figure 7 as a
+function of percent of design equivalent weight flow. The highest efficiency occurred      at
+
+8
+                                   Compressor inlet          Compressor
+                                                           Reynolds number,
+                                   Nlcmpiessure,
+                                         abs (psia)              ReU
+                               n        13.7
+                                         (19.9)               3.03x106
+                               0         6.8       (9.9)      1. m
+                               D          5.5      (8.0)      1.21
+                               V         4.1       15.9)       .88
+                               0         2.8       (4.0)       .60
+                               A          2.0      (2.9)       .43
+                               0          1.6      (2.31       .M
+
+
+
+
+            m           60
+                         100           70
+                                       90          80                             110         120
+                            Percent of design equivalent weight flow
+ Figure 6. -Ratio of compressor total-temperature rise to inlet total temperature as function
+  of percent of design equivalent weight flow, for seven inlet pressures, at 96 percent of de-
+  sign equivalent speed.
+
+
+
+
+                0     6.8      (9.9)        1.50
+                D     5.5      (8.0)        1.21
+                V     4.1      (5.9)         .88
+                0     2.8      (4.0)         .60
+                A     2.0      (2.9)         .43
+
+
+
+
+                         Percent of design equivalent weight flow
+Figure 7. - Overall adiabatic efficiency as function of percent of design equivalent weight
+  flow, for seven inlet pressures, at 96 percent of design equivalent speed.
+
+
+
+
+                                                                                                    9
+about 87. 5 percent of design equivalent weight flow at design inlet pressure. The max-
+imum efficiency point decreased with each decrease in inlet pressure. The maximum
+efficiency point also moved toa slightly lower flow rate with each decrease in inlet pres-
+s u r e . Although the maximum efficiency was obtained at a flow rate less than design, un-
+published data using this rotor indicate thatby changing the diffuser vane setting angle,
+the maximum efficiency can be moved to a higher flow rate. The influence of the diffuser
+vane setting angle on controlling compressor flow range and t h e weight flow at which peak
+efficiency occurs is also shown in reference 13 for a 15. 2-centimeter (6-in. ) radial-
+bladed centrifugal compressor. The gain in performance of t h e 6-kilowatt Brayton cycle
+power system when the maximum efficiency point is moved to a higher flow r a t e is indi-
+cated in reference 10.
+       The maximum efficiency points of figure 7 a r e shown as a function of design Reyn-
+olds number in figure 8. This figure shows a drop in maximum compressor efficiency of
+
+
+
+
+                                        Percent of design Reynolds number
+                               Figure 8. - Maximum adiabatic efficiency as function of
+                                 percent of design Reynolds number at 96 percent of
+                                designequivalent speed. Design ReU = 3. 1x106.
+
+
+
+
+about 1. 5 percentage points as Reynolds number o r inlet pressure is reduced to about 30
+percent of the design value. (This compared to operating the system   at 2-kW output for
+the 6-kW system. ) Operation below 30 percent of design Reynolds number resulted in a
+more rapid decrease in maximum efficiency. The maximum efficiency dropped        about 2.5
+percentage points as the Reynolds number was reduced from 30 percent to 10 percent of
+design.
+     One relationship that has been used in an attempt tocorrelate loss with Reynolds
+number for compressors is
+
+
+
+
+where vref and (ReU)ref a r e known values of efficiency and Reynolds number (ref. 14).
+The exponent n has been found to have an approximately constant value in the range of
+10
+                                           -
+0 . 1 to 0.25 (ref. 15). The loss 1 qmax as a function of compressor Reynolds number
+is shown in figure 9 . A dashed line for n = 0.2, which is commonly used for this range
+of Reynolds numbers, is shown for comparison with the loss curve. For the dashed
+n = 0.2 line, a Reynolds number of 3.03x10 6 (near design) and the corresponding loss of
+0.187 were chosen as the reference conditions. The rate that the losses increase with
+
+
+
+
+                         Figure 9. - Loss as function of compressor Reynolds number at 96 percent
+                          of designequivalent speed. Design ReU = 3.1~10'.
+
+
+
+
+decreasing Reynolds number is less than that predicted by n = 0. 2. A value of n = 0 . 1
+more closely approximates the loss curve. For a closer approximation of the loss with
+Reynolds number than is given by a single value of n = 0 . 1, the data can beroughly d i -
+vided into t h r e e p a r t s and the following experimental values of n applied for the corre-
+sponding Reynolds number range:
+
+                            n = 0.06, 1. 21X1O6 < ReU < 3. 03x106
+
+            6               n = 0.09, 0.43xlO 6 < ReU < 1. 21x10
+
+                            n = 0.2,         0 . 3 4 ~ 1 0<~ReU < 0 . 43X106
+
+The trend in the data obtained from this compressor illustrates the        point stated in refer-
+ence 6, that the Reynolds number influence doesnot necessarily follow the simplepower
+law but appears to follow a variable exponential function where the exponent is a function
+of Reynolds number, increasing with decreasing Reynolds number.             As t h e Reynolds num-
+ber becomes increasingly large (greater than 1X106, fig. 9) the loss approaches a con-
+stant value, and the exponent n approaches zero (ref. 16). This          is the same trend that
+the boundary layer thickness has been shown to exhibit on       a flat plate (ref. 7) and in pipes
+and ducts (ref. 17). As turbulent flow is fully developed at the higher Reynolds numbers
+the laminar sublayer at the wall diminishes, and surface roughness precludes further re-
+duction of the losses. The wall is described as aerodynamically rough when the rough-
+
+                                                                                                    11
+ ness elements protrude through the laminar sublayer, and increasing Reynolds number
+ has little or no effect on the losses. (The surface finish of the internal flow passages of
+ this compressor was approximately 81. 3X1Om6c m (32 pin. ) r m s . ) From the trend shown
+by t h e loss Reynolds number curve of figure 9 it would appear that the flow passages
+ were aerodynamically smooth for the major portion           of this test.
+         The overall compressor Reynolds number ReU,           as defined, has been primarily use-
+ ful in predicting performance changes in machines having geometric similarity, using the
+ same fluid under dynamically similar conditions. The loss            Reynolds number perform-
+ ance obtained from the two geometrically similar radial-bladed centrifugal compressors
+ reported in references 3 and 4 showed close agreement,           as would b e expected. However,
+the higher efficiency achieved by this centrifugal compressor over the same Reynolds
+number range can be attributed to design differences. The impeller designs are different
+ (sweptback blades/radial blades), and the vaned diffusers are different (two-dimensional-
+vane island-type blading/three-dimensional airfoil -type vanes).
+        In conclusion, the results of this investigation, when compared with the results of
+references 3 and 4, illustrate some of the inadequacies (which have been known for some
+time, for example, ref. 8) of the commonly used centrifugal compressor Reynolds num-
+b e r . As defined, the s a m e Reynolds number c a n b e obtained for compressors that are
+geometrically dissimilar with different specific speeds. And the same fluid velocity dis-
+tribution or flow regime in different parts of the machine cannot be assured. These prob-
+l e m s , of course, are secondary to the difficulty encountered in obtaining accurate exper-
+imental data when t h e p r e s s u r e is lowered to obtain low Reynolds numbers. Tempera-
+t u r e s and pressures become difficult to measure. When the energy addition to the gas is
+determined by the temperature rise, heat transfer in or out of the system becomes a s i g -
+nificant problem, with the rate of heat transfer being a function of Reynolds number. As
+stated in reference 7, it is not surprising that attempts at general correlations of com-
+p r e s s o r Reynolds number data show a great deal of scatter. The decrease in maximum
+efficiency that resulted from decreasing the compressor inlet pressure illustrates the
+significance of the Reynolds number influence on the compressor performance for the in-
+tended application.
+
+
+
+                                  SUMMARY OF RESULTS
+
+     A 10.8-centimeter (4.25-in. ) centrifugal compressor with sweptback blades was run
+at 50 000 r p m , 96 percent of design speed, with an inlet temperature of 300 K (540' R)
+using argon gas. Overall performance was obtained for seven different inlet pressures,
+from 13.7 to 1.6 N/cm abs2 (19.9 to 2.3 psia). This gave      a change in compressor Reyn-
+     6                   6
+olds number of 3.03X10 to 0. 34x10 . The measured temperature rise was corrected to
+
+
+12
+account for heat-transfer effects at the very low inlet pressures. The following changes
+in compressor performance were noted as the inlet pressureand Reynolds number were
+decreased:
+     1. The maximum total-pressure ratio dropped from 1.96 to 1.90.
+    2. The maximum efficiency point, the maximum flow rate, and t h e s u r g e point
+moved progressively to lower flow rates as Reynolds number was lowered.
+     3. The maximum adiabatic efficiency decreased about 1.5 percentage points as Reyn-
+olds number was decreased from near design to 30 percent of the design Reynolds num-
+ber. F r o m 30 percent to 10 percent of design Reynolds number the maximum efficiency
+was decreased by about 2.5 percentage points.
+    4. When the correlating equation
+
+
+
+
+was used, a power of n = 0. 1 more closely approximated the loss Reynolds number
+curve for the range of compressor Reynolds number ReU covered in this investigation
+than the more commonly used 0.2 power. (77 is adiabatic temperature rise efficiency
+and the subscript ref denotes known reference values. )
+     5. For a closer approximation of the loss with Reynolds number than is given by a
+single value of n = 0. 1, the data can be roughly divided into three parts and the following
+experimental values of n applied for the corresponding Reynolds number range:
+
+           6              n = 0.06, 1. 21x106 < ReU < 3. 03x10
+
+           6              n = 0.09, 0.43xlO 6 < ReU < 1. 21x10
+
+                          n = 0.2,   0. 34X1O6   < ReU < 0 . 4 3 ~ 1 0 ~
+Lewis Research Center,
+   National Aeronautics and Space Administration,
+       Cleveland, Ohio, October 29, 1971,
+            764 -74.
+
+
+
+
+                                                                                         13
+                                                  APPENDIX A
+
+                                                   SYMBOLS
+
+        C       specific heat at constant pressure of argon, 524 J/(kg)(K); 0. 125 Btu/(lbm)(OR)
+         P
+        D       diameter,
+                     m;         ft
+                compressor work factor , gJc (T - T1)/U;3
+           cw                               P 6
+                                                                        2
+        g
+        gravitational
+                    acceleration,
+                                9.807
+                                    m/sec2;               32. 17 ft/sec
+        AHis    isentropicspecificwork,(N)(m)/kg;           (ft)(lbf)/lbm
+       J        mechanicalequivalent     of heat,1.00(m)(N)/J;        778. 16 (ft)(lbf)/Btu
+
+       NS       specific
+                      speed,      RPM&$O(g       AHis)3/4
+xponent n
+       P        total (stagnation) pressure, N/cm'     abs; psia
+
+       P        static pressure, N/cm 2 abs;psia
+                   3 flow,m/see;
+                volume       3 ft/see
+       Q
+       R        gas constant, for argon 208. 13 (m)(N)/(kg)(K); 38. 683 (ft)(lbf)/(lbm)('R)
+
+       ReU      compressor Reynolds number, p1Ut3Dt3/p1
+       RPM      impeller rotational speed, rpm
+       T        total (stagnation) temperature, K; OR
+       U        impeller wheel speed, m/sec; ft/sec
+       V        absolute gas velocity, m/sec; ft/sec
+       W        weight (mass) flow rate, kg/sec; lbm/sec
+
+       Y        ratio of specific heat at constant pressure to specific heat at constant volume,
+                  for argon 1.667
+       6        ratio of compressor inlet total pressure to NASA standard sea-level pressure,
+                  P1/lO. 1 N/cm 2 abs; P1/14. 7 psia
+                adiabatic temperature rise efficiency,
+                                                         [ 6
+                                                            T
+                                                                1
+                ratio of compressor inlet total temperature toNASA standard sea-level
+                                                                                     I/
+                                                          (P /P ) (y-')/Y - 1 (T6 - T I )
+
+
+                  temperature, T1/288. 2 K ; T1/518. 7' R
+
+       P        dynamic viscosity, (N)(sec)/m2; lbm/(sec)(ft)
+                                             3
+       P        total density, kg/m3; lbm/ft
+
+
+       14
+1
+
+
+
+
+    Subscripts:
+    is    isentropic
+    m     meridional component
+    ref   reference values
+    t     tip
+    U     tangential component
+    1     station in inlet pipe upstream of compressor inlet flange (fig. 4)
+    2     station at impeller inlet
+    3     station at impeller outlet
+    4     station at diffuser vane inlet
+    5     station at diffuser vane outlet
+    6     station in exit pipe downstream of compressor scroll exit flange (fig. 4 )
+    Superscript:
+    1
+          relative to impeller
+
+
+
+
+                                                                                       15
+                                              APPENDIX B
+
+              HEAT-TRANSFER EFFECTS ON COMPRESSOR TEMPERATURE RISE
+
+         Analysis of the data indicated, particularly at the low Reynolds number, that the
+  measurement of the temperature rise across the compressor was being affectedby heat
+ transfer. This was attributed primarily to heat conduction affecting the exit thermocou-
+ ple readings and, at the lower inlet pressures, heat transfer out of the compressor be-
+ tween the measuring stations.
+         The six inlet (station 1, fig. 4 ) thermocouple readings were in good agreement
+ throughout the testing. However, the                   exit (station 6) thermocouple readings showed a
+ radial temperature difference between the ringof thermocouples near the center of t h e
+ pipe and those near the pipe wall. The difference in measured compressor temperature
+ r i s e obtained from the inner and outer thermocouple readings at the exit is shown in fig-
+ u r e 10. The temperature rise is shown as a function of inlet pressure for three different
+ flow r a t e s . At the highest inlet p r e s s u r e (13.7 N/cm 2 a b s , o r 19.9 p i a ) t h e exit thermo-
+ couple readings are in close agreement. But, as the inlet pressure and flow were de-
+ creased, the temperature riseobtained from the outer ring of thermocouples became
+ progressively lower than that obtained from the inner ring of thermocouples. This dif -
+ ference may be attributed to heat conduction affecting the readings                      of the outer ringof
+ thermocouples. The potential heat-conduction                     e r r o r s which exist when measuring stream
+temperatures are discussed in references 3 and 18. So the exit thermocouple readings
+ near the pipe wall (TsA) w e r e not used in computing the compressor temperaturerise.
+ The temperature rise calculated by using only the inner ring of exit thermocouples
+ (TGB - T1, fig. 10) shows a gradual decrease in temperature rise, for all but t h e v e r y
+low inlet pressures, as the inlet pressure (and thus Reynolds number) decreases. A de-
+ c r e a s e i n t e m p e r a t u r e r i scould
+                                            e     b e expected to accompany the decrease in inlet pres-
+s u r e due to the increasing boundary layer thickness at the lower Reynolds numbers. The
+more rapid decrease in temperature rise,computed by using only the inner ring of exit
+thermocouples, at the very low inlet pressures may have been caused by the combined ef-
+fects of heat conduction on the thermocouple readings and heat loss from the compressor
+gas between the measuring stations.                    When this measured temperature rise, which shows
+a pronounced decrease at the lower inlet pressures, is used to compute compressor effi-
+ciency, the maximum efficiency increases as t h e Reynolds number decreases at t h e
+lower Reynolds numbers. This trend                     is considered unlikely, since it is opposite to the
+trend of increasing viscous losses with decreasing Reynolds number and to the fact that
+the total-pressure-ratio cu.rves progressively decrease.
+        Heat loss out of the compressor, upstream of the exit measuring station was noted
+in previous investigations (refs. 4 and 19). One heat path was through the wall behind the
+
+16
+                                    temperature
+                                     Measured
+                                     rise Compressor
+                                             exit
+                                        thermocouple locations
+                                               (station 6)                       0             T6A - T1
+
+                                                                               ”-            T6B - temperature
+                                                                                  0 Used to obtain T1          rise
+                                              a Y T -6T ~AB           pressures
+                                                                        inletlowverythe at
+
+                              110
+
+
+
+
+                170
+                160
+                                                   (a) Measured temperature rise at design equivalent weight flow.
+          CT
+          0
+
+
+
+
+           L
+
+
+
+
+                        c               (b) Measured temperature rise at 87.5-percent design equivalent weightflow.
+           5             e
+                         0)
+                         cz
+
+                        -E
+          I
+           L
+           w
+           YI            L
+                              120
+           g 210
+
+
+                              100
+                170
+                160           90
+                                0              2              4           6           8    14 10                 12
+                                                             Compressorinletpressure, P1, Nlcm‘abs
+
+                                          1
+                                          2           4
+                                                               I
+                                                               6      8
+                                                                        I     10       12         14       16         18   20
+                                                                   Compressorinletpressure,     P1, psia
+                                              (c) Measured temperature rise at 80-percent design equivalent weight flow.
+                      Figure 10. - Comparison of compressor total-temperature rise obtained from inner and outer rings of
+                        exit thermocouples as function of inlet pressure, for three flow rates, at 96 percent of design
+                       equivalent speed.
+
+
+
+
+rotor to the bearing and seal oil flow. These compressors used a similar bearing and
+seal arrangement but with oil-jet lubrication rather than the air-oil mist systemthat was
+used in this compressor. In the previous investigations an attempt was made to deter-
+mine the heat loss by measuring the temperaturerise of the oil flow due to bearing and
+seal friction with the compressor evacuated. Then t h e oil temperature rise due to*ic-
+tion was subtracted from the oil temperature rise measured during performance testing
+to determine the heat transfer from the compressorgas to t h e lubricating oil. However,
+the temperature rise of the air-oil mist wasnot measured when this test was conducted.
+It was assumed that the heat transferwith this type of lubrication system would be neg-
+
+
+                                                                                                                                17
+ligible. But this heat-transfer path may have been a contributing factor in reducing the
+exit temperature readings at the lower inlet pressures. As previously mentioned, this
+low temperature rise gavean unrealistic increase in efficiency at the lower Reynolds
+numbers. To correct for this, the temperature rise curve (TsB - T ) of figure 10(b) was
+extrapolated with a straight line (dashed) to obtain valuesat the lower inlet pressures.
+The temperature rise curve of figure 10(b) was used because the values were obtained              at
+a flow rate near maximum efficiency. From this curve, a linear decrease in tempera-
+t u r e rise from the highest to the lowest inlet pressure was determined to be 1. 1 K (2' R).
+The ratio of the measured total-temperature rise t o inlet total temperature based on the
+temperature measured by the inner ring of thermocouples is shown in figure ll(a). By
+using the curve of the measured temperature rise ratio obtainedat the highest inlet pres-
+s u r e (13. 7 N/cm 2 abs, o r 19. 9 psia), the data points obtained at the lower inlet pres -
+sures were proportionally adjusted by using the linear decrease in temperature rise             with
+inlet pressure obtained from figure 10(b), Although the measured temperature rise
+curves (fig. ll(a))diverge at the lower flow rates, t h e t h r e e flow r a t e s shown in figure 10
+
+
+                                                               Inlet
+                                                               pressure,
+                                                                     Compressor
+                                                              N/cm2 abs(psia)Reynoldsnumber,
+                                                                                       ReU
+                                                             0 13.7      (19.9)     3.03~10~
+                                                             0 6.8        19.9)     1.50
+                                                             D 5.5        (8.0)     1.21
+                                                             V 4.1        (5.9)      .88
+                                                             0 2.8        14.0)      .60
+                                                             A 2.0        (2.9)      .43
+                                                             0 1.6        (2.3)      .34
+                           .5
+             3 -
+             - a -
+             F E E
+             a, a, "
+             cz-
+             E-+
+             W    B   '
+             c
+             -
+             t~       m
+                      u3
+                           .4
+             B
+             0-
+               Z!=
+              0 .-0 2
+             "C
+             c
+
+
+             .-0;2
+             c
+             m . E ITI
+             E    L
+                           .3
+                                                                    (a) Measured.
+
+
+
+
+                                                                                                                        0
+                                                      Percent of design equivalent weight flow
+                                                                   (b) Corrected.
+                            Figure 11. - Ratio of measured and corrected compressor total-temperature rise to inlet total
+                             temperature as function of percent of design equivalent weightflow, for seven inlet pres-
+                              sures.
+
+
+
+18
+I
+
+
+      were considered adequate to determine the temperaturerise ratio characteristics in the
+      range of maximum efficiency. The corrected total-temperature-rise ratio curves   are
+      shown in figure 11(b). The performance data presented in the body of this report were
+      computed by using the corrected curves of figure ll(b).
+
+
+
+
+                                                                                           19
+
+
+
+I -
+                                         REFERENCES
+
+ 1. Glassman, Arthur J . : Summary of Brayton Cycle Analytical Studies for Space-Power
+     System Applications. NASA T N D-2487, 1964.
+ 2. Resnick, B. T. : The Closed Brayton Cycle for Space Power:       An Assessment.
+      Paper66-GT/CLC-10,    ASME, Mar. 1966.
+ 3. P e r r o n e , G. L. ; and Milligan, H. H. : Brayton Cycle 3.2-Inch Radial Compressor
+      PerformanceEvaluation.Rep.            APS-5214 -R,AiResearch Mfg.Co. ('NASA
+      CR-54968),May 1966.
+ 4. Heidelberg, Laurence J. ; Ball, Calvin L. ; and Weigel, Carl: Effect of Reynolds
+      Number on Overall Performance of a 6-Inch Radial Bladed Centrifugal Compressor.
+      NASA T N D-5761, 1970.
+ 5. Heidelberg, Laurence J. ; and Ball, Calvin L. : Effect of Reynolds Number on Over-
+      all Performance of a 3. 7-Inch-Diameter Six-Stage Axial-Flow Compressor.
+      NASA TN D-6628, 1972.
+ 6. Balj 6, 0. E . : A Study on Reynoids Number Effects   in Turbomachines . J . Erg.
+      Power,vol.86,       no.3,July   1964,pp.227-235.
+ 7. Bullock, R.0. : Analysis of Reynolds Number and Scale Effects on Performance of
+      Turbomachinery. J. Eng.Power,vol.86,    no. 3,July 1964, pp. 247-256.
+ 8. Stepanoff, Alexey J. : Centrifugal and Axial Flow Pumps. Second ed.      ,
+      John Wiley & S o n s , I n c . , 1957, pp. 3-6, 72-73.
+ 9. Wong, Robert Y. ; Klassen, Hugh A. ; Evans, Robert C. ; and Winzig, Charles H. :
+     Effect of Operating Parameters on Net Power Output of a 2- to 10-Kilowatt Brayton
+     RotatingUnit. NASA T N D-5815, 1970.
+10. Klann, John L . : Steady-State Analysis of a Brayton Cycle Space-Power System.
+     NASA TN D-5673, 1970.
+11. Weigel, Carl, J r . ; Tysl, Edward R. ; and Ball, Calvin L. : Overall Performance in
+     Argon of 4.25-Inch Sweptback-Bladed Centrifugal Compressor. NASA TM X-2129,
+     1970.
+12. Anon. : Design and Fabrication of the Brayton Cycle High Performance Compressor
+     Research Package. Rep.     APS-5269 -R, AiResearch Mfg.Co. (NASA CR-72533),
+     Nov.29,1967.
+13. Ball, Calvin L. ; Weigel, Carl, Jr. ; and Tysl, Edward R. : Overall Performance of
+     a 6-Inch Radial-Bladed Centrifugal Compressor with Various Diffuser Vane Setting
+     Angles. NASA TM X -2 107, 1970.
+
+
+20
+I
+
+
+
+      14. Davis, Hunt; Kottas, Harry; and Moody, A. M. G. : The Influence of Reynolds Num-
+           ber on the Performance of Turbomachinery. Trans. ASME, vol. 7 3 , no. 5, July
+           1951, pp. 499-509.
+      15. Shepherd, D. G. : Principles of Turbomachinery. Macmillan    Co. , 1961, pp. 43-47.
+      16. Wislicenus, George F. : Fluid Mechanics of Turbomachinery.    Vol. 1, Second ed. ,
+           DoverPublications,Inc. , 1965, pp. 54-70.
+      17. Moody, Lewis F. : FrictionFactorsforPipe    Flow. T r a n s . ASME, vol. 66, no. 8,
+           Nov. 1944, pp. 671-684.
+      18. Futral, Samuel M. ; Kofskey, Milton; and Rohlik, Harold E. : Instrumentation Used
+           to Define Performance of Small Size, Low Power Gas Turbines. Paper     69-GT-
+           104, ASME, Mar. 1969.
+      19. Weigel, Carl; Ball, Calvin L. ; and T y s l , Edward R. : Overall Performance in
+           Argon of a 16.4 -Centimeter (6.44 -Inch) Sweptback-Bladed Centrifugal Compressor.
+           NASA TM X-2269, 197 1.
+
+
+
+
+       NASA-Langley, 1972   -I   E -6586                                                    21
+
+
+
+I -    "
+

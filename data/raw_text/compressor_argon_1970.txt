@@ -1,0 +1,674 @@
+1. Report No.                                 I 2. Government Accession No.                        I 3. Recipient's Catalog No.
+   NASA TM X-2129
+4. Title and Subtitle                                                                                  5. Report Date
+   OVERALL PERFORMANCE IN ARGON OF 4.25-INCH                                                              November 1970
+   SWE PTB ACK -BLADED CENTRIFUGAL COMPRESSOR                                                          6. Performing Organization Code
+
+
+7. Author(s)                                                                                           8. Performing Organization Report No.
+   C a r l Weigel, Jr., Edward R. Tysl, and Calvin L. Ball                                                E-5582
+                                                                                               ~
+                                                                                                       10. Work Unit No.
+9. Performing Organization Name and Address                                                               120-27
+   Lewis Research Center
+                                                                                                       11. Contract or Grant No.
+   National Aeronautics and Space Administration
+   Cleveland, Ohio 44135
+                                                                                                       13. Type of Report and Period Covered
+12. Sponsoring Agency Name and Address                                                                    Technical Memorandum
+   National Aeronautics and Space Administration
+                                                                                                       14. Sponsoring Agency Code
+   Washington, D. C. 20546
+                                                                                                   I
+15. Supplementary Notes
+
+
+
+
+16. Abstract
+    Overall compressor performance is presented as a function of equivalent weight flow. At the
+    design equivalent weight flow of 0.581 Ib/sec (0.263 kg/sec) and the design equivalent tip speed
+    of 949 ft/sec (289 m/sec), the compressor produced an overall total-pressure ratio of 1.92 and
+    an adiabatic efficiency of 0.795. The peak efficiency at design speed was 0.819 and occurred
+    at an equivalent weight flow of 0. 508 lb/sec (0.230 kg/sec).
+
+
+
+
+17. Key Words (Suggested by Author(s) )                                 18. Distribution Statement
+    Centrifugal compressor                                                   Unclassified - unlimited
+    4 . 2 5 Inch diameter
+    Brayton cycle
+
+
+19. Security Classif. (of this report)          20. Security Classif. (of this page)                    21. NO. of Pages      22. Price"
+
+          Unclassified                                    Unclassified                                         18                  $3.00
+                   OVERALL PERFORMANCE
+
+                   SWEPTBACK-BLADED CENTR I
+
+               by Carl Weigel, Jr., Edward R. Tysl, and Calvin Le Ball
+                                 Lewis Research Center
+
+
+
+      A 4.25-inch (10.8 -cm) diameter centrifugal compressor applicable for a nominal
+6 -kilowatt, single -shaft, Brayton-cycle spacepower system was tested using argon gas
+as the working fluid. vera11 performance is presented as a function of equivalent
+weight flow, and a comparison with predicted performance is made.
+      At the design equivalent weight flow of 0. 581 pound per second (0.263 kg/sec) and
+the design equivalent tip speed of 949 feet per second (289 m/sec), the compressor
+produced an overall total-pressure ratio of 1.92 and an adiabatic efficiency of 0.795.
+The peak efficiency at design speed was 0.819 and occurred at an equivalent weight flow
+of 0.508 pound per second (0.230 kg/sec). A s the speed was reduced from the design
+value to 50 percent of design, the peak efficiency increased from 0.819 to about 0.83.
+
+
+
+
+     The NASA Lewis Research Center is presently engaged in a research program on
+small centrifugal and axial-flow compressors for application to closed Brayton-cycle
+space electric power generation systems. The program is directed primarily toward
+establishing the performance level that can be achieved by these machines, and toward
+determining the effect of eynolds number on their performance. In the case of the
+centrifugal compressors, the effect of tip clearance and diffuser vane setting angle on
+flow range and performance is also being investigated.
+     A s part of this program, a study was conducted on a 6-inch (15.2-cm) diameter
+radial-bladed centrifugal compressor. This compressor was designed for a two-shaft,
+  8-kilowatt, Brayton-cycle space power system. The overall performance of t h i s com-
+pressor was reported in ref               peak efficiency of 78 percent, at design speed,
+was attained. The effect of                 er on the performance of this cornpressor
+was reported in reference 2           ressive degradation in performance resulted from
+               eynolds number. This degra tion in performance is compared to the
+  predicted Performance based on the commonly used 0.2 power relation of loss with
+  Reynolds number. The effect of changing the diffuser vane setting angle on the flow
+  range and performance of the 6-inch (15.2-cm) centrifugal compressor w a s reported
+  in reference 3. For the range of diffuser vane setting angles tested, the flow rate at
+  which the peak efficiency occurred varied from 100 to 60 percent of design flow without
+  any significant change in efficiency level.
+-      More recently studies have been conducted on a 4.25-inch (10.8-cm) diameter
+  sweptback-bladed centrifugal compressor designed f o r a single-shaft, Brayton-cycle
+  system having a nominal electrical power output of 6 kilowatts. The compressor design
+  and fabrication was accomplished under contract by the AiResearch
+                hoenix, Arizona (ref. 4). The overall performance of the compressor,
+  using argon gas, was obtained at Lewis and is reported herein. The report presents
+  the overall performance for six speeds from 50 to 100 percent of design speed, for
+  weight flows from maximum flow to compressor surge. For all tests, the compressor
+  inlet conditions were s e t at nominal design values d total pressure and temperature,
+  20 psia (13.8 N/cm2 abs) and 540' R (300 K).
+
+
+
+
+     The compressor was designed for a nominal 6-kilowatt9 single-shaft, Brayton-
+cycle space electrical power system. The working fluid specified f o r the system was a
+mixture of helium-xenon (HeXe) gas having a molecular weight of 8 3 . 8 . Argon gas was
+used f o r this test program instead of the design gas mixture of helium-xenon because it
+had the same specific-heat ratio and was more readily available. The compressor de-
+sign is presented in reference 5. A summary of the compressor design point values for
+the reference design power level and the specified working fluid a r e given in table I.
+
+                         TABLE I.   - COMPRESSOR DESIGN PAFtAMETERS
+                            - fluid. HeXe mixture with molecular weight of 83.8.1
+                     rworkinrr
+                     -
+                    Inlet total pressure, P1, psia; N/cm 2 abs    13.5; 9.31
+                    Inlet total temperature, T ~ OR;
+                                                  , K               540; 300
+                    Weight flow rate, W, lb/sec; kg/sec         0.756; 1.66%
+                    Compressor total -pressure ratio, P6/P               1.9
+                    Compressor total-temperature ratio, T ~ / T ~       1.37
+                    Compressor efficiency, q1-6                         0.80
+                    Impeller total-pressure ratio, p3/P1                2.03
+                    Impeller efficiency, q1 -3                         0.895
+                    Rotative speed, RPM, rpm                          36 000
+                    Impeller tip speed, Ut3, ft/sec; m/sec          667; 203
+                    Specific speed, Ns                                  0.11
+
+
+ 2
+The compressor design values for argon gas and equivalent values based on standard inlet
+pressure and temperature are presented in table I1 for the test fluid.
+      The compressor impeller has 15 blades that are curved backward at the exit 30'
+from the radial. The impeller inlet blade tip diameter is 2.60 inches (6.60 cm) and the
+hub diameter is 1.44 inches (3.66 cm). The impeller exit diameter is 4.25 inches
+(10.8 cm) and the exit blade height is 0.205 inch (0. 521 cm). Design velocity diagrams
+for the impeller inlet and outlet are shown in figure 1for argon as the working fluid.                                                                +
+
+
+
+
+      From the impeller exit to the diffuser vane inlet, there is a vaneless diffuser section
+about 0.085 inch (0.216 cm) long in the radial direction. There are 17 vanes in the vaned
+diffuser section. These diffuser vanes are a constant height af 0.213 inch (0.541 cm)
+and are an integral part of the scroll assembly. The diffuser design velocity diagrams
+a r e shown in figure 2.
+
+
+
+
+                                                                                                                                          56.7"
+
+                                                                                                     V,   = 267 (81.3)
+                                                                                                                                         V, = 225 (68.6)
+          u = 593 (181)                                                 U = 487 (148)                                    U = 341 (104)
+            Shroud                                                             Mean                                         Hub
+                                                              Impeller inlet (station 2)
+
+
+
+
+                                          L
+                                          r          = 329 (100)
+                                                              uV- - ,
+
+                                                                                  U = 967
+                                                                                                 = 638 (194)
+
+                                                                                            (29I)zj
+                                                                        Impeller exit mean (station 3)
+
+           Figure 1. - Impeller design velocity diagrams for argon gas. (All dimensions in ftlsec (mlsec) unless otherwise indicated.)
+
+
+
+
+                                                                                                                                                      3
+            TABLE 11. - COMPRESSOR DESIGN PARAMETERS
+                                   [Working fluid, argon]
+
+
+    Inlet total pressure, P1, psia; N/cm 2 abs                                  20.25; 13.96
+                                 0
+    Inlet total temperature, T1, R; K                                                540; 300
+    Weight flow rate, W, lb/sec; kg/sec                                         0. 785; 0.356
+    Equivalent weight flow, W                                                   0. 581; 0.263
+                                                                                          a
+    Compressor total-pressure ratio, P6/P1                                                  1.9
+    Compressor total-temperature ratio, T ~ / T ~                                       al.37
+    Compressor efficiency, q1-6                                                         ‘0.80
+    Impeller total-pressure ratio, P3/P1                                                a2. 03
+    Impeller efficiency, ql-3                                                          aO. 895
+    Rotative speed, RPM,                                                                52 200
+    Equivalent speed RPM                                                                51 176
+    Impeller tip speed Ut3, ft/sec; m/sec                                            968; 295
+    Equivalent impeller tip speed, Ut3/          fi,
+                                             ft/sec; m/sec                           949; 289
+    Compressor work factor, fcw                                                          0.658
+    Specific speed, Ns                                                                    0.11
+    Reynolds number, Re                                                               3. &lo6
+
+
+
+
+                     70.7‘
+
+
+
+
+                                    Diffuser inlet (station 4)
+
+
+
+
+                               Vu = 249 (75.9)
+
+                   Diffuser exit (station 5)
+               Figure 2. - Diffuser design velocity diagrams for argon gas.
+                (All dimensions in Rlsec (mlsec) unless otherwise indicated.)
+
+
+
+
+4
+      he impellel. and scroll used in this investigation were made of stainless steel and
+are shown in figure 3. The impeller was cantilever-mounted on a shaft supported by b o
+angular contact bearings.    he bearings were lubricated and cooled by air -oil mist.
+prevent oil leakage, a carbon face seal was located outboard of the bearing on the im
+end of the shaft. A labyrinth-type seal was used on the other end of the shaft.
+(cold) impeller clearance between the shroud and the blade tip at the impeller discharge
+was set at 0.008 inch (0,020 cm). he compressor was fully enclosed in insulation
+during testing, as shown in figure 4, to minimize the heat transfer out of the system
+between the inlet and outlet measuring stations.
+
+
+
+
+     A diagram of the open-loop-type compressor test facility used for this investigation
+is shown in figure 5. This facility was also utilized for the investigations reported in
+references B to 4. All tests were conducted using high-purity argon gas (contaminants
+less than 50 ppm by volume) that was supplied by high-pressure tube trailers.
+inlet gas temperature was maintained constant by an automatically controlled 2 5-kilowatt
+electric heater. Inlet pressure was controlled by a remotely operated pressure control
+valve, and gas flow and exit pressure by a remotely operated globe valve installed down-
+stream of the research compressor. The argon gas was discharged into a lab0
+exhaust system. A single-stage axial-flow air turbine drove the compressor.
+desired drive turbine speed was automatically maintained by a remotely controlled
+throttle valve that regulated the airflow to the drive turbine.
+
+
+
+
+       cutaway view of the compressor with the locations of instrument measurement and
+calculation stations is shown in figure 6. vera11 compressor performance was com -
+puted using the pressures and temperatures at the inlet (station 1) and exit (station 6).
+  cross -sectional view of the instrumentation at stations and 6 is shown in figure 6.
+             the instrumentation consisted of three wall-static-pressure taps q u a l l y
+spaced around the circumference and three combination total-pressure - total-
+temperature rakes.
+                                                                        C-69-3758
+    Figure 3. - Compressor vaned diffuser - scroll assembly and impeller.
+
+
+
+
+               Figure 4. - Compressor fully enclosed in insulation.
+
+
+
+
+6
+            High-pressure argon supply system
+
+
+
+
+                         ,-Isolation shutoff valves   7,
+
+
+
+
+Pressure control valv
+
+
+                                                                                      High-pressure
+                                                                                      air supply7
+                                                                                                I
+
+
+
+
+                                        Compressor package
+
+
+                                                                                        CD-9755-01
+
+                              Figure 5. - Flow diagram of compressor test facility.
+    o Total pressure
+      Static pressure
+    a Total temperature
+
+
+
+
+                                                 I                   I
+
+                                                                                                                                              I
+                                                                                                                                            (1        3
+
+
+
+
+                                                                                                 Bearing
+                                                                                                 housing
+
+
+
+
+                          I
+                          I
+           2(5.08)-+4
+                          I
+
+
+
+
+                                                                                                                                             1
+                                                                                                                                            (3C 23)
+
+
+
+
+                                                                                                                                                  r
+                                            (
+                                            ..,,,,,,-- @
+                                                 "'////////',            .....              .....
+                                                                                                                                         CD-108 4-01
+
+          Figure 6. -Compressor cross section, showing instrument locations at stations 1 and 6. (All dimensions are in inches (cm). 1
+
+
+
+8
+                         Figure 7. - Combination total-pressure and total-temperature rake.
+
+
+
+
+       ne of the combination rakes used for this investigation is shown in figure 7. The
+         essure heads on the rakes were radially located at the centers of three equal
+annular areas. At station 2, static-pressure taps were located in the shroud over the
+tip of the rotor leading edge. Five wall-static-pressure taps were equally spaced from
+station 4 to station 5 in the shroud along the midchannel af the vaned diffuser. At the
+compressor exit, station 6, the flow conditions were measured with four wall-static-
+pressure taps equally spaced around the pipe circumference and four combination total-
+pressure - total-temperature rakes. The exit rakes were the same design as the inlet
+             mbination rakes. The total-pressure heads were made of 0.040-inch
+        -em) outside-diameter stainless-steel tube with 0.0065 inch (0.017 cm) wall thick-
+                  -static-pressure taps were 0.030 inch (0.076 cm) in diameter.
+                and total pressures were measured with strain-gage-type pressure trans-
+               emperatures were measured using spike -type copper -constantan thermo -
+                  was determined from a thin-plate orifice installed according to AS
+                 e compressor g a s supply line. Compressor speed was measured with the
+          magnetic pickup in conjunction with a gear mounted on the compressor shaft.
+                 e measurements were recorded by an automatic digital data acquisition
+                 ecorded data were processed through a high-speed digital computer to
+                        performance
+
+                                                                                              9
+    Compressor test data were taken over a range of weight flows from maximum flow
+to compressor surge, for 50, 60, 70, 80, 90, and 100 percent of design equivalent speed.
+For all tests, the compressor inlet conditions were set and held at nominal design
+values of total pressure and temperature, 20 psia (13.8 N/cm 2 abs) and 540'
+
+
+
+
+     The following results were obtained from a 4.25-inch (10.8-cm) sweptback-bladed
+centrifugal compressor using argon gas as the working fluid
+     The compressor overall total-pressure ratio as a function of equivalent weight flow
+at six speeds is shown in figure 8. At the impeller design equivalent tip speed of
+
+                                                  Equivalent impeller
+                                                        tip speed,
+                                                         Ut314,
+                                                    ftlsec (mlsec)
+                                               0      949 (289)
+                                               A      854 (260)
+                                               0      759 (231)
+                                               V      664 (202)
+                                               D      569 (173)
+                                               0      475 (145)
+                                               Q Design
+                                               d See fig. 12 for static-
+                                                   pressure distribution
+
+
+
+
+                            .I      .2       .3        .4       .5      .6         .7
+                                 Equivalent weight flow (argon), Wa/16, lblsec
+
+                                       L
+                                      .1                  .2                    .3
+                                     Equivalent weight flow (argon), W 4 / 6 , kglsec
+                             Figure 8. - Overall performance of 4.25-inch (IO. 8-cm) diameter
+                               centrifugal compressor.
+
+
+10
+.5
+
+                                                                          Equivalent impeller
+.4
+                                                                                 tip speed,
+                                                                                 Uts/%
+                                                                             ftlsec (mlsec)
+.3
+                                                                       0        949 (289)
+                                                                       A        854 (260)
+                                                                       0        759 (231)
+.2
+                                                                       V        664 (202)
+                                                                       D        569 (173)
+                                                                       0        475 (145)
+.1                                                                       Design
+
+0
+.1         .2        .3       .4        .5      .6         .7
+         Equivalent weight flow (argon), W-fFi6, lblsec
+
+
+               .1                  .2                   .3
+              Equivalent weight flow (argon), W 4 1 6 , kglsec
+     Figure 9. - Ratio of compressor total-temperature rise to inlet
+      total temperature as function of/equivalent weight flow at six
+       speeds.
+
+
+
+
+                                                                           Equivalent impeller
+                                                                                 tip speed,
+                                                                                  Ut31-6
+                                                                             ft/sec (mlsec)
+                                                                       0       949 (289)
+                                                                       A       854 (260)
+                                                                       0       759 (231)
+                                                                       V       664 (202)
+                                                                       D       569 (173)
+                                                                               475 (145)
+
+
+
+
+                -
+                                                                         Design
+
+
+
+
+               .1                   .2                  .3
+              Equivalent weight flow (argon), W-/6/6, lbfsec
+     Figure 10. - Efficiency as function of equivalent weight flow.
+
+
+
+
+                                                                                                 1
+                                                        Equivalent impeller
+                                                            tip speed,
+                                                            Ut314
+                                                          ftlsec (mlsec)
+                                                  0        949    (289)
+                                                  A        854    (260)
+                                                  0        759    (231)
+                                                  V        664    (202)
+                                                   D       569    (173)
+                                                           475    (145)
+                                                       Design
+
+
+
+
+                                  Equivalent weight flow (argon), W%/6,    lblsec
+
+
+                                       .I                  .2                  .3
+                                      Equivalent weight flow (argon), W-&I/~, kglsec
+                              Figure 11. -Compressor work factor as function of equivalent
+                               weight flow.
+
+
+949 feet per second (289 m/sec) and design equivalent weight flow of 0.581 pound per
+second (0.263 kg/sec), the compressor produced an overall total-pressure ratio of
+1.92, which is slightly above the design value of 1.90.
+     The ratio of compressor total-temperature rise to inlet total temperature as a
+function of equivalent weight flow is shown in figure 9. For each constant-speed line the
+total-temperature-rise ratio increases slightly with decreasing flow, which is charac-
+teristic of the sweptback-bladed impeller design. At design weight flow and design speed
+the total-temperature-rise ratio was 0.37, as compared to the design value of 0.365.
+     The adiabatic efficiency as a function of equivalent weight flow is shown in figure 10.
+  t design conditions the compressor attained an adiabatic efficiency of 0.795, which is
+in good agreement with the predicted design efficiency of 0.80. At design speed a peak
+efficiency of 0.819 was attained as the flow was reduced to about 0.508 pound per second
+(0.230 kg/sec) or 8'9.5 percent of design weight flow. At 50 percent of the design speed
+             iency of 0.83 was attained at a total-pressure ratio of 1 . 2 and an equivalent
+                 . 2 2 pound per second (0.099 kg/sec).
+       he compressor work factor, plotted as a function of equivalent weight flow for the
+six speeds, is shown in figure . The work factor for design speed and weight flow is
+                                                   Equivalent weight
+                                                         flow,
+                                                         WJe/S,
+                                                     lblsec (kglsec)
+                                             0        0.443 (0.201)
+                                                       .508 (.BO)
+                                             0         .589 ( .267) (near
+                                                         design weight flow)
+                                             D         .673 ( .305)
+                                            ---Design
+
+
+
+
+                     Measur
+
+
+
+
+                                Figure 12. - Static-pressure distribution through com-
+                                  pressor at design speed for four flow rates.
+
+
+
+
+                red to the design value of 0.658, thus indicating that the energy input to
+the gas was slightly higher than design.
+     The static-pressure distribution through the compressor is shown in figure
+These static pressures were measured at four different equivalent weight flows at design
+equivalent speed. The corresponding operating points for each static -pressure -
+distribution curve are shown on figure 8 as the tailed points.      he pressure transducer
+sensing the static pressure at diffuser station 4C failed during testing, so no pressures
+are shown at this location on figure 12.
+     The measured static -pressure rise a c r o s s the impeller and vaneless diffuser
+(fig. 12, stations 2 to 4) was lower than the predicted design value.     his low pressure
+rise in the impeller indicates that the absolute flow velocity Peaving the impeller is
+greater than design.     his may b e attributed in part to more.boundary-
+than anticipated in the design.    his blockage effectwas also noted in the ana%ySiSQf the
+data in reference I. ince the energy addition to the gas was only slightly higher than
+design f o r design flow (fig. l a ) , the tangential velocity leaving the impeller and that
+entering the diffuser vanes is essentially the same as design,           ith the absolute flow
+velocity being higher than design and the tangential velocity being essentially the same
+as design, the flow angle as measured from the radial direction must b e lower than
+design. Therefore, the incidence angle at which the diffuser vanes are operating must
+be lower than design and operating closer to flow choking than assumed i n the design.
+     At the maximum flow rate of 0.673 pound per secone (0.305 kg/sec), the high
+throughflow velocity caused the diffuser performance to drop sharply. At this high flow
+rate the rapid drop in static pressure near the diffuser vane inlet shows that locally
+high velocities exist within the diffuser passage. This may be attributed to the diffuser
+vanes operating at much lower than design incidence angle. This trend in static pressure
+near the diffuser inlet also exists at near design weight flow (0.589 lb/sec, 0.268 kg/sec),
+further supporting the fact that the diffuser vanes are operating at lower than design
+incidence and closer to flow choking.
+     The peak compressor efficiency was attained at a weight flow rate of 0.508 pound
+per second (0.230 kg/sec), which corresponds to 87. 5 percent of design flow. This fact,
+along with the indication that at design flow the diffuser vanes are operating at lower than
+design incidence, indicates that improved performance at design flow may be achieved
+by decreasing the diffuser vane setting angle and thus increasing the incidence angle.
+
+
+
+
+       4.25-inch (IO.8-cm) diameter centrifugal compressor designed for a nominal
+6 -kilowatt, single -shaft Brayton-cycle space power system was tested using a
+            peed, design flow rate, and design inlet conditions, the overall to
+             .92 and the overall adiabatic efficiency was 0.795. These values are in good
+agreement with the design values of .90and 0.80. At design speed an overall peak
+adiabatic efficiency of 0.819 was attained at 87. 5 percent of design equivalent weight
+flow. Because of the indication that the vaned diffuser was operating at a lowe
+design incidence angle at design flow, and because peak efficiency occurred at
+than design flow, an improvement in performance a t design weight flow may be obtained
+by decreasing the diffuser vane setting angle as measured from the radial direction.
+
+Lewis Research Center,
+   National Aeronautics and Space Administration,
+
+              120-27.
+c       specific heat at constant pressure of argon, 0,I25 tu/(lb)(oR); 524 J/(kg)(
+P
+        diameter, f,$ m
+        compressor work factor,
+
+
+                                     2
+        windage factor, gJc ATw/Ut3
+                            P
+                                                2
+        gravitational acceleration, 32. 7 ft/sec ; 9.80
+                                                                   2
+
+        isentropic specific work, (f t)(lb)/lb ; (M) (m)/kg
+        mechanical equ              eat, 778.16 (ft)(lb)/Btu; I. 00 (m)(N)/J
+        specific speed,                         3/4
+NS
+        total (stagnation) pressure, psia; M/cmz abs
+                                     2
+P       static pressure, psia; N/cm abs
+        volume flow, f t3/sec; m 3/sec
+        gas constant (argon), 38.683 (ft)(lb)/(lb)(OR); 208. 13 (m)(N)/(kg)(K)
+    e    eynolds number, pIUt3
+        impeller rotational speed, rpm
+                                          0
+        total (stagnation) temperature,
+                                                                    0
+        gas temperature r i s e associated with vector diagrams,       R;
+
+ATW
+        gas temperature r i s e associated with windage, OR;
+
+u             ler wheel speed, ft/sec; m/sec
+               te gas velocity, ft/sec; m/sec
+        weight (mass) flow rate, lb/sec; kg/sec
+
+Y       ratio of specific heat at constant pressure to specific heat at constant volume
+
+
+s       ratio of compressor inlet tota pressure to NA         standard sea -level pressure
+
+
+        adiabatic temperature rise efficiency, TI[(
+                     pressor inlet total te    erature to NASA standard sea-level temper-
+
+        dynamic viscosity, lb/(see)(ft); (N)(sec)/m 2
+P
+                                                                                             I5
+P            density, lb/ft3; kg/m3
+    ub script s:
+is           isentropic
+m            meridional component
+t            tip
+u            tangential component
+1            station in inlet pipe upstream of compressor inlet flange (fig. 6)
+2            station at impeller inlet (fig. 6)
+3            station at impeller outlet (figm6)
+4            station at diffuser vane inlet (fig. 6)
+5            station at diffuser vane outlet (fig. 6)
+6            station in exit pipe downstream of compressor scroll exit flange (fig, 6)
+Superscript:
+             relative to impeller
+
+
+
+
+16
+                                                 eigel, Carl; and
+                                  in Argon of a 6-Inch adial -Bladed C entrifugall Compressor.
+
+
+                                                            eigel, Carl: Effect of Reynolds
+                                     rmance of a 6 -Inch Radial Bladed Centrifugal Compressor.
+
+
+                                          r. ; and Tysl, Edward
+                         dial-Bladed Centrifugal Compressor with Vari
+
+
+                      abrication of the Brayton Cycle   erformance Compressor
+     Research Package. Rept. APS - 5269- , &Research Mfg. Co. (NASA CR-'52533),
+
+
+
+
+NASA-Langley, 1970 - 1   E-5582
+

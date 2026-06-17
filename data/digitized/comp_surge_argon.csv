@@ -1,0 +1,24 @@
+# Compressor surge line, argon rig. NASA TM X-2129 (1970) Figure 8 dashed line.
+# Source: user MANUAL WebPlotDigitizer reads (data/manual_digitize/), 2026-06-16 -
+#   geometric marker-center digitization, axis-calibrated to the figure gridlines.
+#   Supersedes the earlier Claude pixel reads (had a systematic flow-axis scale error);
+#   regenerate via scripts/ingest_manual_digitize.py. Design dots used as axis sanity checks.
+# We_lbps (equiv flow, lb/s), PR at surge
+We_lbps,PR
+0.12601,1.23366
+0.13948,1.27096
+0.14552,1.28402
+0.15992,1.32319
+0.18733,1.39314
+0.20916,1.44817
+0.23145,1.50506
+0.25236,1.55822
+0.26908,1.60205
+0.29416,1.66548
+0.31413,1.71584
+0.33597,1.77087
+0.36105,1.83429
+0.37916,1.87999
+0.39728,1.92570
+0.41632,1.97419
+0.43165,2.01337

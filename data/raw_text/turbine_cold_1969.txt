@@ -1,0 +1,1298 @@
+NASA TECHNICAL NOTE                                             NASA TN D-5090
+
+
+o
+~
+o
+V'\
+    I
+C
+:z
+......
+<C
+V'"
+<C
+::z:
+                                  c        5  fILE
+                                           copy
+
+
+
+COLD PERFORMANCE EVALUATION OF
+4.97-INCH RADIAL-INFLOW TURBINE
+DESIGNED FOR SINGLE-SHAFT BRAYTON
+CYCLE SPACE-POWER SYSTEM
+
+
+by William J. Nusbaum and Milton G. Kofskey
+Lewis Research Center
+Clevelan~ Ohio
+
+
+
+NATIONAL AERONAUTICS AND SPACE ADMINISTRATION   •   WASHINGTON, D. C.   •   MARCH 1969
+                                                                                                                NASA     TN   D-5090
+
+
+
+
+COLD   PERFORMANCE                       EVALUATION                         OF       4.97-INCH            RADIAL-INFLOW
+
+
+         TURBINE                DESIGNED               FOR            SINGLE-SHAFT                        BRAYTON
+
+
+                                CYCLE            SPACE-POWER                          SYSTEM
+
+
+
+                 By     William            J.    Nusbaum               and       Milton         G. Kofskey
+
+                                         Lewis         Research                Center
+                                                  Cleveland,                 Ohio
+
+
+
+
+               NATIONAL           AERONAUTICS                  AND SPACE ADMINISTRATION
+
+         For    sale   by the    Clearinghouse        for   Federal     Scientific     and    Technical    Information
+                                Springfield,     Virginia     2215]     -    CFSTI    price    $3.00
+r.
+
+
+
+
+                                                                            ABSTRACT
+
+
+              Tests          were       conducted       in argon    over a range    of turbine   inlet pressures                             from      2.95 to
+     16.40      psia         (2.03       to I1.31      N/cm      abs) corresponding       to a Reynolds    number                            range      from
+     34 950 to 175                800    at equivalent         design      speed        and   pressure        ratio.        Results        are    presented
+     to show          the      effect     of this     change     in Reynolds            number        on turbine        performance.               Results
+
+     are      also         presented        in terms      of equivalen[            specific      work,      mass       flow,     torque,         and   effi-
+     ciency          for     operation       at the     design     Reynolds            number        of 76 200        and   at speeds        ranging
+     from       0 to 110          percent      of equivalent            design        speed   with     inlet-total-         to exit-static-pressure
+     ratios      of 1.33          to 2.01.
+
+
+
+
+                                                                                 tl
+                                      INTRODUCTION
+
+      The Brayton space-power technology program being conducted at the NASA Lewis
+ Research Center has included the aerodynamic study of the associated turbine compo-
+ nents. Initial studies involved both radial and axial flow units that were sized to match
+ the requirements of an exploratory two-shaft la-kilowatt (electrical) nominal power
+ system. The results of the studies (refs. 1 to 4) indicated that satisfactory efficiencies
+ can be obtained from the small units involved, particularly in the case of the radial
+inflow turbine.
+      More recently , attention has been focused on a single-shaft Brayton power system
+designed for a power range from 2 to 10 kilowatts (electrical). The selected combina-
+tion of rotative speed (36 000 rpm) , working fluid (krypton molecular weight), pressure
+level , etc. , were such that the resultant turbine speCific speed of 76 (0.59) was in the
+range considered favorable for high efficiency. However the unit was somewhat smaller
+than that utilized in the previous program , the rotor diameter being 4.97 inches (12.62
+cm). The turbine uses a helium-xenon gas mixture as the working fluid. This mixture ,
+which has the same molecular weight as krypton , was used instead of krypton because
+the helium in the mixture provides better heat-transfer characteristics (ref. 5) .
+      Because of the significance of turbine efficiency as affecting the performance of the
+complete Brayton Power system, it was considered important to experimentally deter-
+mine the aerodynamic performance of this small radial inflow turbine. Therefore, a
+research model of the turbine was constructed as part of a complete package procure-
+ment and delivered to the Laboratory for evaluation.
+      A description of mechanical and aerodynamic design of the turbine is made in
+reference 6. The turbine package used air-oil-mist lubricated ball bearings to simplify
+the aerodynamic study , instead of gas bearings , which would be used in the actual space-
+power system. The investigation of the turbine was made both with and without an exit
+diffuser. All tests were made with argon as the working fluid at an inlet temperature
+of 610 0 R (339 K). Performance was first determined at an inlet pressure of 7. a psia
+(4.8 N/cm 2) which corresponds to design Reynolds number at equivalent design speed
+and pressure ratio. The effect of Reynolds number on performance was then determined
+by operating the turbine over a range of inlet pressures from about 2.95 to 16.40 psia
+(2. 03 to 11. 31 N/cm 2 abs) with corresponding Reynolds number from 34 950 to 175 800.
+At each inlet pressure, data were obtained over a range of blade-jet speed ratios by
+varying speed and/or pressure ratio.
+      This report presents turbine design information and performance of the turbine with
+and without the exit diffuser. Test results are presented in terms of equivalent speci-
+fic work , torque , mass flow , and efficiency. Included are the results of a radial survey
+of rotor -exit flow angle , total temperature , and total pressure at design-point of opera-
+tion.
+
+2
+             COLD PERFORMANCE EVALUATION OF 4.97-INCH RADIAL-INFLOW TURBINE
+
+                DESIGNED FOR SINGLE-SHAFT BRAYTON CYCLE SPACE-POWER SYSTEM
+
+                                           by William J. Nusbaum and Milton                                              (3. Kofskey
+
+                                                                      Lewis Research Center
+
+
+                                                                                     SUMMARY
+
+
+        A 4.97-inch                (12.62-cm)                  radial-inflow                turbine        designed            for     a 6-kilowatt             single-shaft
+Brayton          cycle        space-power                   system            was      investigated             experimentally°                      Performance
+results         are     described                for     operation            over      a range          of turbine-inlet                 pressures             from         2.95     to
+16.40        psia      (2.03       to 11.31              N/cm        2 abs)         corresponding               to a Reynolds                 number           range         from
+34 950 to 1'15 800 at equivalent                                     design         speed      and pressure               ratio        and     with     argon          as the
+working          fluid.          Tests         at design             Reynolds           number           (76 200)        were          made      at speeds             ranging
+from       0 to 110 percent                    of equivalent                  design        speed       and     pressure             ratios      from         1.33         to 2.01.
+        Equivalent               specific          work         of 15.22            Btu per         pound       (35° 43 J/g)            was      obtained            at approx-
+imately         design           Reynolds              number          (76 200)         and      at equivalent                design         speed      and     inlet-total-
+to rotor-exit-static-pressure                                    ratio.         The      work         output       of the       turbine        was      2.7      percent
+greater         than       the    design           value        of 14.82            Btu per         pound       (34.50         J/g).          Equivalent          design
+mass       flow of 0. 486 pound                          per     second         (0.220        kg/sec)          was      obtained          at equivalent                design
+point     of operation.
+        The       static         and     total         efficiencies            at design-point                 operation             (based      on turbine-inlet
+and rotor-exit                conditions)                were        0.8'/2      and        0. 913,      respectively.                  These         values         are     both
+about      0.02        greater          than       the     respective               design       values.           Static        and total           efficiencies             based
+on diffuser            exit      conditions               were        0o 888 and            0. 894.        Use        of a diffuser            resulted          in a 0. 015
+increase            in static          efficiency              and     a 0.02         decrease           in total       efficiency             from      those        based         on
+rotor-exit            conditions.                 Comparison                  of these        results          with     the     design         values         indicates         a
+poor      performance                  of the          diffuser.           However,             the      overall        performance                  level     of the        turbine
+was     still     better         than      design.
+        Both        static       and     total         efficiencies             (with       and without            diffuser)           increased             by about
+0. 035 (at equivalent                     design           speed          and pressure                ratio)     as the        Reynolds           number          increased
+from      34 950 to 17 5 800.
+                                                                                 SYMBOLS
+
+                                      2             2
+A     flow      area,          in.        ; cm
+
+g     dimensional                constant,               32. 174 ft/sec2;               9. 807 m/sec          2
+
+H     isentropic              specific           work           (based      on total     pressure          ratio),     ft-lb/lb;            J/g
+
+Ah    specific          work,             Btu/lb;         J/g
+
+N     turbine         speed,              rpm
+
+Ns    specific           speed,            NQ1/2/H3/4,                   rpm(ft)     3/4/secl/2;           (rad) (m) 3/2(kg)            3/4/(sea)         3/2(j)    3/4
+
+
+P     pressure,               psia;         N/cm         2 abs
+
+Q     volume          flow       (based             on exit        conditions),          ft3/sec;       m3/sec
+
+R     gas      constant,              (ft-lb)/(lb)(°R);                  (N-m)/(kg)(K)
+
+Re    Reynolds            number,                w/_r       t
+
+r     radius,           ft;     m
+
+T     absolute           temperature,                     OR; K
+
+U     blade        velocity,              ft/sec;         m/sec
+
+V     absolute           gas     velocity,               ft/sec;         m/sec
+
+vj    ideal        jet speed              corresponding                  to total-      to static-pressure              ratio       across          turbine,
+         ft/sec;              m/sec
+
+W     relative          gas      velocity,               ft/sec;         m/sec
+
+W     weight         flow,           lb/sec;            kg/sec
+
+O/    absolute            gas        flow       angle       measured             from    axial      direction,        deg
+
+      ratio        of specific               heats
+
+6     ratio        of inlet          total       pressure           to U.S.          standard       sea-level         pressure,             p'/p*
+
+£     function           of     _ used              in relating           parameters            to those      using     air     inlet       conditions         at
+
+            U.S.        standard             sea-level             conditions,          --7--0"
+                                                                                            740 "___)_/(_'-1)
+                                                                                                 "
+
+77    turbine         efficiency
+
+_/S   static        efficiency               (based        on inlet-total-              to exit-static-pressure                    ratio)
+
+      total        efficiency              (based        on inlet-total-              to exit-total-pressure                  ratio)
+Ut
+         0cr      squared         ratio      of critical            velocity      at turbine         inlet   to critical   velocity   at U. S.
+                       standard           sea-level             temperature,            (Vcr/V_r)2
+
+         #       gas     viscosity,           lb/(ft)(sec);               kg/(m)(sec)
+
+         _,       blade-jet         speed         ratio         (based     on rotor-inlet         tip speed),        Ut/V j
+
+         7       torque,          in.-lb;         N-m
+
+         Sub script      s:
+
+         cr      condition          corresponding                   to Mach       number       of unity
+
+         eq       equivalent
+
+         id      ideal
+
+         u       tangential          component
+
+         t       tip
+
+         1       station        at turbine            inlet       (fig.    3)
+         2       station        at stator          exit
+
+         3       station        at rotor          exit
+
+         4       station        at diffuser              exit
+
+         Superscripts:
+
+         '       absolute         total      state
+
+                 U.S.         standard        sea-level             conditions          (temperature         equal    to 518.67   ° R (288.15    K),
+                       pressure           equal       to 14o 70 psia            (10.13     N/cm2))
+
+
+
+
+_-   7
+                                                                    TURBINE DESIGN REQUIREMENTS
+
+
+            As mentioned                     in the             INTRODUCTION,                               the       4.97-inch          (12.62-cm)      tip   diameter          radial-
+inflow       turbine            was        designed                 for      6.0       kilowatt             net       electrical         output   with   xenon-helium
+mixture           as the working                           fluid.          The       design-point                     values       for   the turbine     are    as follows:
+
+
+Inlet     total      temperature,                           T_,      °R;        K .......................                                                                 2060;      1144
+                                                   !
+Inlet     total      pressure,                  Pl'          psia;         N/cm         2 abs            ....................                                              25;     17.24
+Mass        flow,         w,     lb/sec;                kg/sec               .......................                                                            0.7484;           0.3395
+Turbine           rotative               speed,            N,       rpm          ...........................                                                                      36 000
+Total-       to total-pressure                              ratio
+                           I
+                                     I
+   Overall,            p'l/P4              ...................................                                                                                                     1. 749
+   Rotor          exit,        p'l/p._         ..................................                                                                                                  1. 740
+Total-       to static-pressure                                 ratio
+
+   Overall,            Pl/P4               ...................................                                                                                                     1. 763
+   Rotor          exit,  Pl/P3   ..................................                                                                                                                1.800
+Blade-jet           speed ratio,      v ...............................                                                                                                            0. 690
+Total       to total           efficiency
+
+   Overall,            Vt, 1 to 4                  .................................                                                                                               0. 884
+  Rotor exit,   _?t, 1 to 3                                ................................                                                                                        0. 897
+Total to static efficiency
+
+   Overall,               77s, 1 to 4              .................................                                                                                               0. 875
+   Rotor          exit, Vs, 1 to 3 ................................                                                                                                                0. 850
+Specific          work,  Ah, Btu/lb;       J/g ........................                                                                                            21.80;          50.75
+Reynolds            number,                Re = w/pr                    .............................                                                                             76 200
+Specific     speed,     N 3 = NQ172/(FO3/4rpm(ft3/4)/secl/2;                                                                       (rad)(m3/2)(kg3/4_/
+  "sec" ) 3/2,j,t ) 3/4 ...................................                                                                                                                 76;     0.59
+
+The      following             air       equivalent                  (U. S. standard                        sea       level)    design      values     were    computed:
+
+
+Mass       flow,          EwO_cr/_                , lb/sec;                 kg/sec              ...................                                             0. 4860;         0. 2204
+Specific          work,         Ah/0cr.                 Btu/lb;      J/g         .....................                                                             14.82;          34.50
+Torque,           r_/6,         in.-lb;                N-m ..........................                                                                               21.64;          2.44
+
+Rotative   speed,      N/0_cr                              , rpm            ...........................                                                                           29 687
+Total-   to total-pressure                                  ratio
+
+   Overa11,            (p'i/p_)           e_       ................................                                                                                                1.658
+   Rotor exit,    (pl/P3)eq                                ...............................                                                                                         1.645
+Total-  to static-pressure                                    ratio
+
+   Overall,            (Pl/P4)ea                   ................................                                                                                                1.669
+   Rotor          exit,   (Pl/P3)eq                        ...............................                                                                                         1.695
+Blade-jet           speed     ratio,                   v       ..............................                                                                                      0. 690
+                                                                                                                                                                                           5
+The equivalent pressure ratios were calculated from equivalent specific work in air with
+the assumption of no changein efficiency whenxenon-helium mixture of air is used as
+the working fluid. Rotor-inlet tip blade speedwas used for the calculation of blade- jet
+speedratio.
+
+
+                                                       TURBINE DESIGN AND DESCRIPTION
+
+                                                                           Velocity Diagrams
+
+
+          The      design         turbine        rotor          dimensions,              namely,             tip diameter,               tip width,            exducer
+hub-      to tip-diameter                    ratio,        and     exducer             tip diameter,               were        obtained         from        calculations
+involving           turbine         efficiency             and     correlations               based          on the       contractor's             and other            radial
+turbine         data.         With      these          major       rotor          dimensions              and design            conditions          of pressure,
+temperature,                 mass       flow,           and      speed,       velocity           diagrams            were        calculated            to meet         the
+design          work      requirement.                    Figure           1 shows         the      design         velocity       diagrams             for      conditions
+just      inside         the blade           row.         The      figure         shows       the      rotor        relative       inlet        angles        that    result          in
+minimum              rotor         incidence            losses.            The     diagrams             show        subsonic           flow     throughout             the
+turbine.            The       figure         also       shows       that     the       turbine         was     designed           with        approximately               zero
+exit      whirl.          Further            description            of the         velocity          diagrams             and    turbine         design         can be
+found        in reference               6.
+
+
+
+
+                                                                                 Stator Blades
+
+
+          In the        design        of the          stator,       the blade            shape         and     the number           of blades            were         optimized
+for       minimum            friction         and       mixing           losses        by use        of boundary-layer                    techniques.
+          The      design          resulted           in 13 stator            blades          equally          spaced.           The      chord        length        of the
+ stator         blades       was       1. 800 inches               (4. 572 cm}.
+
+
+
+
+                                                                                  Rotor Blades
+
+
+          In the         design       of the          rotor,       the     blade        shape       and the         number          of blades            were        optimized
+ for      low losses.               Splitter           vanes       are     used        over      the     initial      two-thirds              of the        rotor.        The
+ resultant           decrease           in loading               is required             at the hub to prevent                     low-blade-surface                      veloc-
+ ities.          The      final     design          resulted         in the rotor                having        11 blades          and      11 splitter           vanes.
+           The      blade         surface        velocity          distributions                 at design          operation           are     shown         in figure          2.
+ These          were       calculated            at Lewis           with         the    method          described             in reference             7.      These         veloc-
+
+
+   6
+          mQa
+          ._=
+
+
+                             u.,
+
+
+
+
+                                                                   c_
+
+
+
+
+                                                                   _         t",d
+
+
+
+
+                                                                  _                 ,o,.
+                                        t.                  :>_
+
+
+
+
+                                                 c:;
+
+                                                 N
+
+
+
+
+                                                                                                     o
+
+
+
+
+                                                                  _                             .B_
+
+
+
+                                                                  :_        _       m
+                                                                                    _
+                                   c_
+                                    u
+•
+    J,_
+                c::l
+                 g
+                                                                  r                        _
+                   c_
+
+
+
+
+                        r"
+
+
+
+
+                                             d                                                 ta.
+                                              w
+
+
+
+
+                                                       -J
+
+
+                                                                        u
+
+
+
+
+                                             _J
+
+
+
+
+                                                                                                         '7
+                           +E
+                           100
+
+
+                            oA-',
+                            0
+                               +, , ,
+                                               V
+                                         4001---T_"'_ /
+                                                         J_-J
+                                                                       /
+                                                                           /
+
+
+
+
+                                                                           {a)Tip.
+
+                                         800F
+                           zooF_
+
+
+                     "_    100                  if---+;"2                      ../"
+                             oL_            oF
+                                             .....i'"                          I                 ,                 ,
+                      m
+                                                          (bl 50-Percent           streamline.
+                                         800
+                                                [----              S uction surface
+
+
+
+
+                           +f
+                                                /
+
+
+
+
+                                                |-----Midchannel
+                                                I .....            Pressuresurface
+
+                           100
+
+
+
+                             0
+                                                    .....
+                                                        r-_-I -" i                                            •
+                                            0             .8         1.6     2.4       3.2
+                                                    Distancealongmeridional
+                                                                          streamline,
+                                                                                    in.
+
+                                                I             I                t                 I             I
+                                               0            2        4        6        8
+                                                    Distancealongmeridional
+                                                                          streamline,
+                                                                                    cm
+
+                                                                           (c)Hub.
+
+                                               Figure2. -Calculated   rotor-blade
+                                                                               midchannel
+                                                and bladesurfacevelocity  distributions
+                                                                                     for
+                                                design-point operation,
+
+
+
+
+                                 Station 2
+                                 static pressu re-.,
+
+
+
+
+            j                    Station],                _           "_\\L               __I_
+           /                     static pressu re --/         -_                "\-._]_t:_                  P--q       I_     I
+
+
+
+
+            I                                                                                                                             oad
+Station d (exit diffuser                    S_,                                      1 Loil                        drain _            spring
+section), static pres-                      straight section), _f Stator J    H _--_                                     "_            "    -
+sure, total pressure,                       __                    ......     _ L/_                                                \
+lotal temperature and                       (hub and tipltotal _.          /     F_                                                   \
+flowangle                                   pressure, total      V             /-
+                                           temperature, and                   /__                                                     ___
+
+
+                                           flow angle                      •            _            ....              - _k._
+
+                                                                                                                                            C D-10251
+
+                                    Figure 3. - Turbine Instrumentation                  stations.
+ity distributions were satisfactory since there was no large diffusion on either the suction
+or pressure surfaces. The figure shows that the tip was the most heavily loaded section.
+The discontinuity in velocities at the exit of the rotor section containing the splitter vanes
+results from the inability of the calculational method to adjust for flow patterns in this
+region. In actual operation, however, the sharp discontinuity in velocities does not exist.
+
+
+
+                                                Turbine Assembly
+
+    A cross-sectional view of the turbine assembly is shown in figure 3. The station
+numbers are also indicated on this figure.
+    The rotor exducer at the exit had a tip diameter of 3.460 inches (8.788 cm) and a
+hub diameter of 1.822 inches (4.628 cm). This results in a hub- to tip-radius ratio of
+0.526. The average tip clearance (radial and axial) was 0.010 inch (0.025 cm). A
+photograph of the rotor and scroll-stator assembly is shown in figure 4.
+
+
+
+
+                                                                                                                        C-67-3883
+
+             (al Rotor and bearing housing.                                               (bl Scroll-stator assembly.
+
+                                          Figure 4. - Rotor and scroll-stator assembly.
+
+
+                                                                                                                                    9
+         The     diffuser        had      an annular                  inlet      area           of 6.989                square           inches        (45. 090 cm 2) and                  an
+annular          exit   area      of 18.334                  square         inches             (118. 284 cm2).                           The      diffuser       was       designed
+to diffuse         at a rate        consistent                 with         a 5.7 ° half-angle                           conical           diffuser.
+
+
+
+
+                                APPARATUS, INSTRUMENTATION, AND PROCEDURE
+
+                                                                                   Apparatus
+
+
+         The      apparatus         consisted                  of the turbine,                     described                  in the         preceding           section,          an
+airbrake          dynamometer               to absorb                  and      measure                 the     power              output          of the      turbine,          and     an
+inlet      and    exhaust        piping      system                with flow                  controls.                  The      arrangement                  of the       apparatus
+is shown          schematically             in figure                  5.       Pressurized                    argon             was        used      as the      driving          fluid
+for     the turbine.             The      argon              was      piped       to the turbine                         through            an electric           heater,          a filter,
+a weight-flow               measuring          station                consisting                 of a calibrated                         flat-plate          orifice,           and a
+remotely           controlled           pressure-regulating                               valve.              The          gas,          after     passing        through          the
+turbine,          was     exhausted         through                a system                   of piping             and         a remotely             operated            valve       into
+the     laboratory           low-pressure                     exhaust           system.                 With            a fixed           inlet     pressure,             the     remotely
+operated          valve        in the     exhaust              line     was        used           to obtain               the     desired             pressure           ratio     across
+the turbine.
+         The      airbrake        dynamometer,                         which         was           cradle           mounted                on air       bearings           for     torque
+measurement,                   absorbed       the             power           output          of the        turbine               and,       at the      same           time,      controlled
+
+
+
+                                                                                     .          Argon from high-
+
+
+                                                                                         "-     pressure      supply system
+
+                                                               IF I Electric
+                                                               II_ ] heater                    Flat-plate           Pressure-,
+                                                               I} ,I                              -..-              control valve
+
+
+
+                                                                               Gas filter                                 pressure      ill
+                                                                                                                          exhaust sys- L]
+                                                                                                                    i     tern andcon-]
+
+
+                                                                                                                _          trol valves
+                                                        r-   Air from                                                    :H 'Ivalves        [_
+                                                       /     high-pressure
+                                                   /         supply system         Airbrake
+                                                  I                                dynamometer
+
+
+
+
+                                                                                                                                  CD-g274-O1
+
+
+
+                                                              Figure 5. - Schematic of experimental                     equipment.
+
+
+
+
+ I0
+                        Figure 6. - In stall ation of turbin e in turbin e-co mponent test fac ility.
+
+
+
+
+the speed. The force on the torque arm was measured with a commercial strain-gage
+load cell. The rotational speed was measured with an electronic counter in conjunction
+with a magnetic pickup and a shaft-mounted gear. The turbine test facility is shown in
+figure 6.
+
+
+
+                                            Instrumentation
+
+     The instrumentation stations are shown in figure 3. Turbine performance was
+determined by measurements taken at stations 1 and 3 while overall performance was
+determined by measurements taken at stations 1 and 4. The following instrumentation
+was located at the turbine inlet (station 1): four static-pressure taps and a total-
+temperature rake containing three thermocouples. At station 3, downstream of rotor
+exit and in the annular exit section, the instrumentation consisted of eight static-
+pressure taps (four each at the inner and outer walls) and a self -alining probe for flow
+angle, total-temperature, and total-pressure measurements. In the calculation of
+pressure ratio across the turbine, pressure at station 3 was determined from the average
+of the static pressures at the inner and outer walls. At station 4, the diffuser exit, the
+instrumentation consisted of four static-pressure taps on the outer wall and a self-
+alining probe for flow angle, total-temperature, and total-pressure measurements. Two
+
+
+                                                                                                        11
+interstage pressure taps were installed at station 2 (stator exit) thereby making it
+possible to determine the variation of static pressure through the turbine.
+     The values of the absolute pressures at the various stations were measured by
+electrical transducers. The data were recorded by integrating digital equipment.
+
+
+                                                                                    Procedure
+
+         Three         series          of tests         were       made.              The      first        series        of tests            was     made          at design
+Reynolds           number             with      a straight             annular           section           at the        rotor        exit     for     determination                of
+turbine          performance.                    The        second           series       of tests           at design            Reynolds             number           was       made
+with      the     annular          diffuser           for     determination                    of overall             (flange         to flange)             performance.
+The      third        series          of tests        was      made          over       a range            of inlet         pressures               to determine              the
+effect      of Reynolds                 number           on turbine                as well        as overall              performance.
+         Performance                   data      at design           Reynolds               number             were       taken          at nominal            inlet     total
+conditions             of 610 ° R (339 K) and                          7.0     psia       (4.8       N/cm        2 abs).             These          values       of temperature
+
+and      pressure              correspond             to a Reynolds                   number             of about           75 500 at design                   operation.            Data
+were       obtained            over         a range          of equivalent               total-        to static-pressure                        ratios        from       1.33      to
+2.01      and      a speed            range      from          0 to 110 percent                      of equivalent                design.             For     the      Reynolds
+number           tests,         the     range         of inlet         pressures               was       from        2.95        to 16.40            psia     (2.03      to 11.31
+N/cm       2 abs).             Data      were         obtained          over          a range          of equivalent                 total-      to static-pressure
+ratios      from          1.41        to 1.95         at equivalent                 design         speed.
+         Friction            torque          of the      bearings             and      seals         was       obtained           by measuring                  the     amount       of
+torque          required          to rotate            the     shaft         and      rotor       over       the      range          of speeds              covered       in the
+investigation.                   In measuring                 the friction              torque,            windage            losses          were        minimized           by
+evacuating             the      air     from      the        turbine          to a pressure                 of about             50 micrometers                     of mercury
+(6. 667x10            -4 N/cm          2 abs).           A friction             torque          value        of approximately                        0.79      inch-pound
+(0.09      N-m)           was     obtained            at equivalent                 design         speed.             This       value        corresponds                to 6.7
+percent           of the        turbine         torque         obtained             at equivalent               design-point                  operation.               Friction
+torque          was       added        to shaft        torque          when         turbine          efficiency             was       determined.
+          The     turbine             was     rated         on the      basis          of both         total       and      static        efficiency.          The total
+                                                                                                                                                                        and
+pressures              were        calculated               from       weight          flow,       static          pressure,             total       temperature,
+flow      angle        from       the       following           equation:
+
+
+
+
+                                                             +           + ?                                                         j
+In the      calculation                of turbine-inlet                 total         pressure,             the flow             angle        was     assumed            to be zero.
+
+
+
+ 12
+                                                            RESULTS AND DISCUSSION
+
+
+       Performance                results           are    first        presented            for     operation              at design          Reynolds             number
+and based         on conditions               at both           the     rotor      and      diffuser           exits.         A second               section        presents
+the   internal         flow     characteristics                      at design           Reynolds         number             as determined                  from       the
+measured           static-pressure                   variation             through         the      turbine       and the            rotor         exit    radial      survey
+of flow       angle,      total     temperature,                      and total          pressure.              A third            section          shows      the effect
+of a change            in Reynolds            number             on the         performance               of the turbine                   with      and     without         the
+diffuser.         All data,         with       the        exception             of the     radial        surveys,             are         shown       in terms         of air
+equivalent         values.          Blade-jet              speed         ratio     in every            case       is based               on turbine-inlet-total
+and   rotor       exit-static            conditions.
+
+
+
+
+                                            Performance                     at Design Reynolds Number
+
+
+       The       equivalent         specific              work        output       Ah/_cr              is shown              in figure             7 as a function             of
+equivalent      pressure     ratio (p'l/P3)eq_      for lines of constant                                           speed.   The curves    show
+trends     similar    to those of other      radial    turbines that have                                           been investigated   for a similar
+space-power             application.                 For        the    range       covered            in the      investigation,                    any     increase          in
+
+
+                                                           _0 --            Percent of equivalent
+                                                                               design speed
+
+                                              I--          18          []            110
+
+                                              I                        s
+                                              o "_         16 -        _             50 _/'i,_                              r-..
+                                     ,:_ 36i--_
+
+
+
+                                    e-
+                                    _     Z8 _       _     12
+
+
+
+
+                                                    _       s
+
+
+                                            12--
+                                                                            I        I                 value
+                                                                                                 iDesignI               I           I         J                                              v
+                                                                                                                                                                                         4
+                                                                 4      1.5        1.6        1.7        1.8        1.9            2.0       2.1
+                                                                 Equivalent inlet-total-to       exit-static-pressure ratio, (P'II p3)eq
+
+                                                                 Figure7. - Variation of specific work with pressure ratio and
+                                                                   speed.
+
+
+
+
+                                                                                                                                                                                    13
+  pressure             ratio       results              in an increase                         in specific                 work        at all           speeds.                   Thus,        it is shown
+  that     the     turbine            has     not       reached                     the point            of limiting               loading.                   A value             of 15.22            Btu per
+  pound         (35.43         J/g)         was      obtained                      at equivalent               design             speed           and         pressure               ratio.         This           value
+  is 2.7         percent          greater            than         the              design        value         of 14.82               Btu per             pound             (34.50        J/g).
+
+           Mass        flow        characteristics                            are       shown            in figure            8.       In this             figure            mass         flow         ew _yr_ccr/5
+ is plotted          as a function   of pressure    ratio                                              (p_/P3)e            q for each of the six speeds.     The
+ resulting          curves   are typical   of subsonic                                               turbines              {n that there is an increase  in mass
+ flow      with     an increase                   in pressure                         ratio        at all       speeds.                At equivalent                         design           speed          and
+
+
+
+
+                                                                  • 60       --
+
+
+                                              .25 _
+
+
+
+
+                                              .24        _o
+
+                                                         a2      • 52        --
+
+
+
+                                                                 .48
+                                                                                                                                                      design speed
+                                                          u_                                                                                   []          II0
+                                              .ZO --      E      .44                                                                           0           leo
+                                                                                                                                               0             90
+                                                                                                                                                       equivalent
+                                                                                                                                                [:>         70
+                                        g                .-      .40         --(                                                              <I            50
+                                                                                                                                              'q            30
+                                                                                                                                              •       Design point
+                                                                 .36i.                  1            1          1             I           I               I             I
+                                              • 16 --                  1.4            1.5          1.6         1.7          1.8         1.9             2.0           2.1
+
+                                                                         Equivalent         inlet-total-to     exit-static-pressure           ratio,     (p'l/p3leq
+
+                                                                       Figure 8. - Variation             of mass flow with pressure               ratio and speed.
+
+
+
+
+pressure           ratio,         the       mass         flow          was            0. 485 pound                   per     second               (0.220            kg/sec),              which         is
+nearly         identical          to the          design           value              of 0. 4860              pound          per       second                 (0.2204             kg/sec).
+         The      torque           re/5           is presented                        in figure              9 as a function                          of speed              and     pressure             ratio.
+The      values        of torque             were              obtained               from          faired           curves           because                 the     data         were        taken         at
+constant          blade        speeds             and         not at constant                       pressure               ratio.             The         torque             at equivalent
+design         speed        and       pressure                 ratio          was           22.20        inch-pounds                   (2.51            N-m).                This      value        is about
+2.6      percent        larger           than        the        design               value         of 21.64            inch-pounds                       (2.44          N-m)          and      about
+56 percent             of that         obtained                at zero               speed          and       design          pressure                  ratio.              The      curves            are
+typical        of those           for radial               inflow                 turbines           in that          they        deviate              appreciably                   from         straight
+lines.         As discussed                  in reference                           8, this         deviation              is attributed                      to increased                    losses         when
+operating          at off-design                    conditions.                       In figure               10 torque               is expressed                      in the         form        of a
+parameter               _r_        v and            is plotted                     as a function                of blade-jet                      speed          ratio.             The       non]inearity
+between          torque         and         speed        as noted                    in figure               9 is also            apparent               in this            figure.
+
+14
+                                              48
+
+                  5, Z       --                     f
+                                                                                            Equivalent inlet-
+                  4,8        --                                                           total-toexit-static-
+                                                                                               pressure         ratio,
+                                              40
+                                                                                                  (_l/P3leq
+                  4,4        --
+
+
+                                                                                                  _l. gO
+       E
+       i                                      36                                                   -1.80
+      z           4.0        --,_
+                                                                                                      ,695
+                                    .o"
+                                              32
+                  3.6        --_
+
+
+
+                  3.2               °         28
+       E                            E
+      F                             ao
+
+      o--
+                  2.8        --'5
+
+
+
+                  2.4--
+
+
+                                                                               Design point-
+                  2.0        --
+
+
+
+
+                  1.6        --
+
+
+                                              12
+                                                             t            !           I               1
+                                                   0        20            40         60               80            100        120
+                                                              Percent      of equivalent        design speed
+
+                                                   Figure g. - Variation        of torque with speed and pressure
+                                                     ratio.
+
+
+
+
+            1.4
+
+
+
+            1.2
+
+
+
+            1.0
+a.)
+-,$
+E
+
+
+                        __                                                                        J
+            .8
+
+E
+
+            .6                            I             I         I             1          1                I             I          I
+                                     .2                .3        .4            .5         .6               .7            .8         .9
+                                                              Blade-jet    speed ratio, u
+
+                         Figure 10. - Variation              of torque parameter with blade-jet                      speed ratio.
+
+
+
+
+                                                                                                                                         15
+                                                                .9
+
+
+
+
+                                                    er_
+
+                                                                                                           D,
+
+
+
+                                                                                              <3
+
+                                               .2
+
+
+
+                                               •_              .5 --
+
+
+                                                                                _q
+                                                           .4
+
+
+
+                                                           .3                             1            J           l           I           l            i
+                                                                                                    (a) Static efficiency.
+                                                          1.0        --
+
+
+
+
+                                                           .g
+
+
+
+                                                          .B
+                                                                                                                                   Percent of
+                                                                 --                            <:1<3                               equivalent
+                                              ._          •?                                                                     design speed
+                                                                                          <_<_<_                          []          llO
+
+                                              ._          .6     --                   <_                                -<>-          100
+                                                                                                                           0            90
+                                                                                                                           D            70
+                                                          .5     --                                                       <3            50
+
+
+
+                                                          .4                          1            I              I       • I besignlPointJ                        I
+                                                                          _.z        .3        .4               .5        .5          .7           .8          .9
+                                                                                              Blade-jet         speed ratio, u
+
+                                                                                                   (b) Total efficiency.
+
+                                                                Figure 11. - Variation of efficiency             (based on rotor-exit        conditions)    with
+                                                                  blade-jet speed ratio.
+
+
+
+
+                    Figure       11 shows           the          performance                  of the            turbine        from           inlet        to rotor        exit     expressed            in
+            terms        of static      and total               efficiencies.                 Efficiency                 is plotted              as a function                  of blade-jet
+            speed     ratio     for the      six values                    of speed           covered                 in the       investigation.                      Values       of static
+            efficiency        of 0. 872      (fig.              ll(a))      and total             efficiency               of 0.913             (fig.       ll(b))       were       obtained        at
+            equivalent        design-point                 operation.                     These        values           are      both         about         0.02       higher       than    the
+            respective         design      values.
+                    The     overall      performance                       of the         turbine           (including              the       diffuser)            is presented            in figure
+            12 in terms          of static         and           total      efficiencies.                   At design               operation,               the       static      efficiency           of
+:   :   :   0. 888 (fig.        12(a_)) and the                  total      efficiency              of 0. 894 (fig.                   12(b))          are    both       about       0.01       higher
+            than    their     design      values.
+
+            I6
+                                              .9
+
+
+                                              .8                                                                                                []
+                                                                                                                                                      []
+                                                                                         <1
+                                             .7
+                                     #
+                                             .6                              <Z
+
+
+
+                                             .5                        ,q
+
+                                                                   #
+                                             .4
+
+
+                                             .3                I             I            l         1            t             I            I          I
+                                                                                         (a) Static efficiency.
+                                             .9
+
+
+
+                                             .8
+
+                                                                                         ,<1
+                                     ,-_     .7
+                                                                                   <3
+                                                                                                                          Percentof
+                                                                            ,_                                            equivalent
+                                             .6                                                                          design speed
+                                                                                                                      []      110
+                                                                       _I                                            -0-      IO0
+                                                                                                                      <>       90
+
+
+                                             .4           X                                                           °        7O
+                                                                                                                               50
+                                                                                                                               3O
+                                                                                                                         Design point
+
+                                             .3               I              t            I         I           I              I _ I                  1
+                                                          .2                .3           .4       .5       .6             .7           .8            .9
+                                                                                        Blade-jet speedratio, u
+
+                                                                                         (b) Total efficiency.
+
+                                                    Figure 12. - Variation of efficiency (basedon diffuser exit conditions)
+                                                     with blade-jet speedratio.
+
+
+
+
+        Performance             results             for   design-point                         operation            and    at design                 Reynolds            number        are
+given     in table       I along       with         the      design              values.           Comparison                      of experimental                   efficiencies
+with     and   without         the   diffuser             (table            I) shows             a loss        in total            efficiency              with    the    diffuser
+of about       0.02      and    an increase                  in static              efficiency             of about            0. 015.
+        Diffuser        performance                  is commonly                        expressed              in terms             of a pressure                   recovery
+parameter          which       is the ratio               of static-pressure                            rise         through          the       diffuser           to the    diffuser-
+inlet-impact            pressure.                 Diffuser             efficiency               as used         herein             will be defined                  as the     ratio
+of this     parameter           to the            same       parameter                    for     isentropic              incompressible                      diffusion         with
+the     same    area      ratio.           The       efficiency                  of the        diffuser         as calculated                   from         the     experimental
+data     was    0.47,      which           is much           lower               than     the     design         value         of 0.71.               Even         though      the
+
+
+                                                                                                                                                                                             17
+                                                                    TABLEI.-PERFORMANCE                                    VALUES
+
+
+                                              Performance                  parameters                                  Design                      Experimental
+
+                                                                                                                                  0.897                        O. 913
+                                    Total      efficiency,               _t,     1 to 3
+                                                                                                                                  0.850                        O. 872
+                                    Static         efficiency,           %,       1 to 3
+                                                                                                                                  0.884                        O. 894
+                                    Overall          total       efficiency,            _t,     1 to 4
+                                                                                                                                  0. 875                       O. 888
+                                    Overall          static       efficiency,             %,       1 to 4
+
+                                    Equivalent               specific          work,      Ah/_cr,                    14.82;       34.50            15.22;      35.43
+
+                                       Btu/lb;          J/g
+
+                                    Equivalent               mass       flow,      ew _cr/6                    0.4860;         0. 2204             0. 485;     0. 220
+
+                                       lb/sec;          kg/sec
+                                    Equivalent               torque,       rE/5,         in.-lb;                      21.64;        2.44            22.20;      2.51
+                                       N-m
+
+
+
+
+performance                of the           diffuser              was          poor,          the    overall           performance                  level       of the        turbine          was
+still     better       than     design.
+
+
+
+
+                                                                  Internal               Flow Characteristics
+
+
+         A description                 of the           internal                flow          characteristics                  is based            on measured                 stator-exit
+static       pressures              and       a rotor-exit                       radial            survey       of flow           angle,       total         temperature,                   and
+total      pressure.
+          At equivalent               design             speed            and at design                     pressure              ratio,      the      ratio        of stator-exit
+static       pressure          to inlet               total         pressure                  was     0.763          compared              with the           design        value           of 0.783.
+This       indicates          an overexpansion                                 of flow          across         the       stator       and      reduced              reaction          across
+the      rotor.        However,                    it is apparent                      from         the     results           already         presented              that      the     perform-
+ance       of the turbine               at equivalent                          design           speed        and      pressure             ratio      was       effected             very     little
+by the       slight        deviation                from          the      design             velocity         diagrams.
+          The      results          of a radial                  survey            of turbine               exit      total       pressure,             total       temperature,                    and
+flow      angle       obtained              at design-point                        conditions                are      shown          in figure          13.         The     variation             of
+exit     total     pressure             with           radius            ratio          is presented                 in figure             13(a).           There       was      less        than
+1 percent           deviation             from           the        design             value        across         the        passage         with      the       smallest            values
+being       recorded           in the hub                    region.
+          Rotor       exit     flow          angle           is shown              in figure              13(b) as a function                       of radius           ratio.          (Positive
+angles          indicate       a flow               velocity             with          a component                 in the         direction          of rotation.              ) Also
+shown         in the       figure            are      the        design           values            at three          radial         positions.               Comparison                of the
+experimental                 data      with           the design                  values            shows       there          was        underturning                 of the flow            over
+
+
+
+ 18
+                                                      o _         574                                    '-Design value
+                                                                                                             sign val                                     .
+                                                      7=
+                                                           _      570                                          ...........
+                                                                                                   (at Exit total pressure.
+                                                                      30--
+                                                                                          0       Experimentaldata
+                                                                                          •       Designpoint
+
+
+
+                                                      N
+                                                      _               lO
+
+
+
+                                                      ×                    o                                                     •
+
+
+                                                                  lo                          I             t                    I            [
+                                                                                                        (b) Exit flow angle.
+
+
+                                                      "                          I
+                                                      N,a             °g          ....                           "-'r---    --                      --
+
+
+
+
+                                                      _ "_                     I 1 Inner wall                                                Outer wall
+                                                      o               .811                    I ___1_                            I            I           I
+                                                                           .5             .6              .7                .8               .9          1.0
+                                                                                                        Radius ratio, rlr t
+
+                                                                                                  (c) Local total efficiency.
+
+                                                                               Figure 13. - Variation of rotor-exit total pres-
+                                                                                 sure, flow angle, and local total efficiency
+                                                                                with radius ratio of design-point operation.
+
+
+
+
+the     entire        blade      height,       this       result                 being             especially                          pronounced                in the      tip     region.         Even
+though         the     flow    was      underturned                    at the                 rotor            exit,                 the     specific          work       obtained         was     2.7
+percent          greater         than      design         as mentioned                              in the                 section                Performance                at Design           Reynolds
+Number.               It is thus        indicated              that            the        rotor-inlet                       tangential                   momentum              was      greater          than
+design.
+         In order          to obtain         more         quantitative                             information,                             calculations              were         made        to deter-
+mine       the       magnitude          of the      inlet        tangential                         momentum.                                 The        mass-averaged                  exit     tangen-
+tial    momentum               was      determined                from                   calculations                            involving               the    rotor-exit            survey       data
+and     exit     static       pressures.              With            this               mass-averaged                                     exit    tangential            momentum               value,
+the     rotor-inlet            tangential           momentum                             was        calculated                         to satisf_              measured             specific       work.
+The      results          of these       calculations                      showed                  that         the         rotor-inlet                   tangential           momentum              was
+approximately                  10.5     percent           larger                 than             the     design                     value.
+         The       very       pronounced            radial            variation                         in rotor                     exit     flow       angle      with      the     large       deviation
+from       the       design     values        (fig.        13(b))                suggests                  a nonuniform                            work         distribution            over      the
+blade      height.            Accordingly,                calculations                             were          made                  to determine                the     values         of total
+
+
+                                                                                                                                                                                                                19
+ efficiency at eachof the radial positions where data were obtained. These values of
+local total efficiency were calculated on the basis of the changein tangential momentum
+through the rotor andthe measured values of total pressure at the rotor exit. Figure
+ 13(c) showsvalues of local total efficiency as a function of radius ratio. The efficiencies
+in the region of the inner wall are about 0.05 greater than design and about 0.07 greater
+than those near the outer wall. This variation in efficiency over the blade height is in
+goodagreement with that obtained from measured rotor exit total temperature and may
+be attributed to secondary flows and/or a blade tip region, which is more heavily loaded
+than the hub region. It is apparent that specific work in excess of the design value was
+obtained over the greater part of the blade height.
+
+
+                                          Performance                    Over Range of Reynolds Number
+
+         Performance                  results       indicated                a small            effect          of Reynolds                  number            on mass          flow        rate.
+An increase             in Reynolds              number             from           34 950 to 175 800 resulted                                      in an increase                in
+equivalent            mass       flow      of 1.4       percent              at equivalent                  design              speed         and        pressure        ratio.
+Static-pressure                  measurements                    indicated               the     stator-pressure                         ratio        to be independent                      of
+Reynolds            number.             It is inferred               that        the      increase               in mass            flow          with     an increase               in
+Reynolds            number         was      due to decreased                        viscous               losses              in the     stator          and    rotor,         the        ratio
+between         the     losses          in the      stator         and rotor               remaining                    the     same.
+         The       variation          of efficiency              without            Reynolds               number                at equivalent                 design     speed             and
+pressure            ratio      is presented             in figure                14.       Curves               are         shown       for       static       and    total      effi-
+ciencies           based       on conditions                at both          the        rotor        and        diffuser            exits.          This       figure     is the
+result       of cross           plots     and,       accordingly,                       does     not show                   any actual            data      points.           All
+curves         show         similar       trends,           with         an increase                 in efficiency                  of about             0. 035 for       the         increase
+in Reynolds             number           covered            by this          investigation.                       Based           on conditions                 at the        rotor
+exit,      total      efficiency          increased             from          about            0. 890 to 0.925                    with        a corresponding                   increase
+in static          efficiency           from     approximately                          0. 850 to 0. 885.
+
+
+
+                                                     L0--
+                                                                ------       Before diffusion (Stations               I to 3)
+                                                                --           Overall (Stations l to 4)
+
+
+
+                                                            __ Total-_\.._
+
+                                                              Star ic __.<.-'-                             Design value
+
+                                                                         i         l_i           I    i          il                          !.
+                                                      •820                         40           60         80         100              200x103
+                                                                                    Reynolds number, Re
+
+                                                       Figure 14. - Effectof Reynolds number on turbine efficiency
+                                                        at equivalentdesign speed and pressure ratio.
+
+
+
+
+2O
+                                                                     SUMMARY OF RESULTS
+
+
+         An experimental                    investigation                 of a 4.97-inch                  (12.62-cm)             tip diameter                 radial-inflow
+turbine          is presented.                  This     turbine           was         designed          for     a single-shaft               Brayton           cycle       space-
+power         system          with     a helium-xenon                     gas      mixture           as the         working         fluid      and     a net      power            level
+of 6.0 kilowatts                   (electrical).               Performance                     characteristics                using        cold      argon       were
+obtained            at an inlet          pressure             of 7.0        psia        (4.8      N/cm         2 abs)      corresponding                to design
+Reynolds             number.            Additional              tests       were         made        to include            a range         of inlet          pressures
+from       2.95       to 16.40           psia        (2.03      to 11.31           N/cm         2 abs),         corresponding                 to a Reynolds                number
+range         from        34 950 to 175 800 at equivalent                                   design         speed        and    pressure             ratio.        Data       were
+obtained           both      with     and       without         an exit          diffuser.            The       pertinent          results          of the      investigation
+are      as follows:
+          1. Equivalent               specific          work         of 15.22            Btu per          pound         (35.43      J/g)       was     obtained            near
+design        Reynolds             number            (76 200) and                at equivalent              design         speed        and    inlet-total-              to rotor-
+exit-static-pressure                        ratio.           This       value       is 2.7         percent          greater        than       the     design        value         of
+14.82         Btu     per     pound         (34.50        J/g).          Equivalent               design        mass       flow        of 0. 486 pound              per
+second           (0. 2200       kg/sec)          was         obtained            at equivalent              design         speed       and     pressure           ratio.
+         2.      Static      and total          efficiencies              at design-point                   operation            and     based        on turbine-inlet
+and      rotor-exit           conditions              were          0. 872 and           0. 913,         respectively.                 These         efficiencies            are
+approximately                 0.02        greater            than     the respective                 design         values.
+         3. Calculations                  based         on turbine-inlet                    and     diffuser-exit              conditions             indicated           static
+
+and      total      efficiencies            of 0.888            and      0. 894,         respectively.                  Thus,          pressure          changes           in the
+diffuser          reflected          an increase                of about           0. 015 in static                efficiency           and       a decrease             of about
+0.02       in total         efficiency          from         their       respective               values,         when        based        on rotor-exit             conditions.
+These         results         indicate          a diffuser              efficiency             of 0.47         which       is much           lower      than      the      design
+target        of 0.71.             Even      though           the     performance                 of the        diffuser         was     poor,         the overall           per-
+formance             level      of the turbine                 was       still     better         than      design.
+         4. Both          static       and total             efficiencies              increased            about       0. 035 at equivalent                    design        speed
+and      pressure            ratio     as the          Reynolds            number              increased           from       34 950 to 175 800.
+
+
+Lewis         Research             Center,
+         National           Aeronautics                and     Space        Administration,
+                    Cleveland,            Ohio,        December                  31,     1968,
+                             120-27-03-56-22.
+
+
+
+
+                                                                                                                                                                                       21
+                                                                         REFERENCES
+
+
+1.   Kofskey,         Milton       G.,      and Holeski,                 Donald      E. :         Cold       Performance                     Evaluation              of a 6.02-
+       Inch      Radial      Inflow       Turbine           Designed          for    a 10-Kilowatt                  Shaft       Output           Brayton             Cycle
+       Space       Power       Generation                System.           NASA TN              D-2987,           1965.
+
+2.   Holeski,        Donald        E. ; and            Futral,       Samuel         M.,         Jr.     :   Experimental                     Performance                of a
+       5-Inch       Single-Stage            Axial-Flow               Turbine         Designed               for   a Brayton                 Cycle        Space        Power
+       System.            NASA       TM X-1666,                  1968.
+
+3. Tysl,         Edward        R. ; Bail,              Calvin      L. ; Weigel,             Carl;           and   Heidelberg,                   Laurence             J. :
+       Overall        Performance                 In Argon          of a 6-Inch           Radial-Bladed                   Centrifugal                   Compressor.
+       NASA        TMX-1622,               1968.
+
+4. Kofskey,           Milton       G. ; and            Nusbaum,            William        J. :         Aerodynamic                  Evaluation                of Two-
+       Stage      Axial-Flow             Turbine            Designed        for     Brayton-Cycle                   Space          Power            System.
+       NASA        TN D-4382,              1968.
+
+5. Vanco,          Michael        R. : Analytical                   Comparison              of Relative             Heat-Transfer                       Coefficients
+       arid Pressure              Drops          of Inert        Gases      and     Their         Binary          Mixtures.                  NASA TN D-2677,
+       1965.
+
+6. Anon:          Design       and       Fabrication              of the     Brayton            Cycle        High    Performance                        Turbine
+       Research           Package.               Rept.      APS-5281-R,              AiResearch                   Mfg        Co.            of Arizona,              (NASA
+       CR-72478),            1968.
+
+7.   Katsanis,        Theodore:                  Use     of Arbitray          Quasi-Orthogonals                       for       Calculating                   Flow
+       Distribution          in the       Meridional               Plane     of a Turbomachine.                           NASA              TN D-2546,                1964.
+
+8.   Futral,       Samuel         M.,      Jr.     ; and         Wasserbauer,              Charles            A. :      Off-Design                  Performance
+      Prediction           with      Experimental                 Verification            for         a Radial-Inflow                Turbine.                 NASA      TN
+       D-2621,        1965.
+
+
+
+
+22                                                                                                                          NASA-Langley,        1989    --     _     E-4715
+

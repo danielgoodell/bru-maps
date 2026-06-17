@@ -1,0 +1,1376 @@
+N A S A TECHNICAL
+             MEMORANDUM
+                                                                   NASA
+                                                                   "
+                                                                   c,I        -
+                                                                        TM X-2350
+
+
+
+
+c
+
+
+
+                                                                   w E'
+                                                                   'DO
+
+
+
+
+TURBINEAND COMPRESSOR PERFORMANCE
+OF A BRAYTONROTATING UNIT DURING
+HOT CLOSED-LOOP OPERATION
+
+by Robwt Y. Wong,Hugh               A . Klussen,
+ulzd Robert C. Evuns
+
+
+
+
+NATIONALAERONAUTICSANDSPACEADMINISTRATION          WASHINGTON,D.   C.    SEPTEMBER 1971
+                                                                                          / 1
+                                                                                          i;.
+.. .                                                                                                            -
+                                                                                                                        TECH LIBRARY KAFB, NM
+
+                                                                                                                        ~~~~~~~~~~~~~~~~~
+                                                                                                                                    OL5LBb4
+       1. ReportNo.                                                                                            3. Recipient'sCatalogNo.
+          NASA TM X -23 50
+       4. Title and Subtitle                                                                                   5. Report Date
+          TURBINE AND COMPRESSOR PERFORMANCE OF A BRAYTON                                                          September 1971
+                                                                                                              6. Performing Organization Code
+          ROTATING UNIT DURING HOT CLOSED-LOOP OPERATION
+                                                         ____                                 ""   ~-
+       7. Author(s)                                                                                            8. Performing Organization Report       No.
+
+          Robert Y. Wong, Hugh A. Klassen, and Robert C. Evans                                                    E-6343
+   ~-                     ~~                                    ~                                        ~
+                                                                                                              10. WorkUnit    No.
+       9. Performing Organization Name and Address                                                                120-27
+          Lewis Research Center                                                                               11. ContractorGrantNo.
+          National Aeronautics and Space Administration
+          Cleveland,Ohio  44135                                                                               13. Type of Report    andPeriod Covered
+   12. SponsoringAgencyNameand           Address                                                                  Technical Memorandum
+          National Aeronautics and Space Administration                                                       14. SponsoringAgency     Code
+          Washington, D. C. 20546
+                                             ~~                     ~   ""        -   .   ~
+
+
+
+
+   15. Supplementary Notes
+
+
+
+
+   16. Abstract
+         Efficiency estimates of t h e turbine and compressor components of a Brayton rotating unit (BRU)
+         were made for operation at design temperature, approximately design equivalent speeds, and
+         a range of operating pressure levels. These estimates were made from performance maps
+         obtained fr.om individual component research packages of the BRU turbomachinery. These
+         maps were obtained at nominal design Reynolds number and rotor axial clearances that were
+         smaller than that used in the BRU turbomachinery. Corrections, based on experimental data
+         obtained from the packages for axial clearance, Reynolds number, and seal leakage flow were
+         applied to these maps. Estimated efficiencies were checked by making a power balance on
+         the BRU rotor.
+
+
+
+
+       7. Key Words (Suggested by Author(s))                                      18. DistributionStatement
+          Brayton rotating unit                                                           Unclassified - unlimited
+          Turbine and compressor performance
+          Power generation
+          Power balance        _____
+   19. Security Classif. (of this
+                              report)                    20. Security Classif. (of this page)                  21. No. of Pages           22. Price'
+                      Unclassified                                                                                      28                     $3.00
+
+                               F o r sale by the National Technical InformationService, Springfield, Virginia 22151
+       TURBINE AND COMPRESSOR PERFORMANCE OF A BRAYTON ROTATING
+                     UNIT DURING HOT CLOSED-LOOP OPERATION
+             by Robert Y. Wong, Hugh A. Klassen, and Robert C. Evans
+                                Lewis Research Center
+
+                                      SUMMARY
+
+     The Brayton rotating unit (BRU) was operated as part of a closed loop to simulate
+operation in a Brayton space power system. An estimate of turbine and compressor
+efficiency was made for operation at approximately design equivalent speed, design
+inlet temperature, and a range of operating pressure levels. These estimates were
+obtained from performance maps obtained from individual component research packages
+of the BRU turbomachinery. These maps were obtained at nominal design Reynolds
+number and rotor axial clearances that were smaller than that used in the BRU turbo-
+machinery. Corrections, based on experimental data obtained from these packages for
+axial clearance, Reynolds number, and seal leakage flow, were applied to these maps.
+Estimated efficiencies were checked by making a power balance on the BRU rotor. At
+design Reynolds number, estimated total efficiencies were 0.860 for the turbine and
+0.745 for the compressor. The efficiencies obtained from the turbine and compressor
+research packages at design equivalent conditions were 0.894 for the turbine and 0.800
+for the compressor. The lower efficiency values obtained for    the BRU are attributed
+to greater axial clearances used in the BRU, seal leakage flows, and off-design opera-
+tion caused by facility piping pressure losses that werelower than design values for the
+space power system.
+
+
+
+                                    INTRODUCTION
+
+    As part of the NASA Lewis Research Center Brayton cycle space electric power
+generation program, a single-shaft turbine-compressor-alternator package (designated
+the Brayton Rotating Unit or BRU) was designed and manufactured under contract for the
+space power system project summarized in reference 1. The BRU, which is the rotating
+component of a Brayton power system was designed to operate on self-acting gas bearings
+      and on a mixture of helium and xenon with a molecular weigfit of 83.8. Design and
+      descriptive information on the BRU is given in reference 2.
+             One of the primary goals in the design of the BRU was the attainment of high effi-
+      ciency in the turbomachinery components. In order to determine if this goal was sue-
+      cessfully achieved, component research packages of the turbine, compressor, and
+     alternator were manufactured and delivered. Reference        3, which presents the results
+     of the experimental investigation of the turbine research package (TRP) shows that the
+     total-to-total efficiency design goal of 88.4 percent was exceeded by about one efficiency
+     point at design point operation with design clearances. The compressor research pack-
+     age (CRP) investigation (ref. 4) showed that, at design flow and speed, the design goal
+     in efficiency of 80 percent was achieved with design clearances. The peak efficiency for
+     the compressor was 82 percent.
+            Turbomachinery performance as components of the BRU was determined over a
+     range of operating pressure and temperature, while the BRU was operating hot as part
+     of a closed loop to simulate operation in a Brayton electric power generating system.
+     The closed loop is described in reference 5. Instrumentation was provided to measure
+    the turbomachinery performance at the inlet and outlet flanges. The speed of the BRU
+    was maintained between 36 000 and 37 000 rpm (approximately design equivalent speed
+    with design inlet temperature) by an electronic speed controller (described in ref. 6). A
+     summary of other BRU testing is given in reference 1.
+            Since BRU rotative speed was almost constant, turbomachinery inlet temperatures,
+    and loop pressure level were the operating variables. In a given closed loop, the tur-
+    bine and compressor operating point is largely determined by inlet temperatures.
+    Reynolds number had only a secondary effect.
+           This report presents BRU turbine and compressor component performance in terms
+    of weight flow, speed, and pressure ratio. Efficiency measurements        were subject to
+    e r r o r s caused by external heat losses and heat transfer within the BRU. BRU turbo-
+    machinery efficiency was estimated from performance maps obtained from individual
+    research packages of the turbomachinery components. These maps were obtained           with
+    argon gas at nominal design Reynolds number but with rotor axial clearances smaller
+    than those used in the BRU. Corrections based on experimental data obtained from
+    these packages, for axial clearance, Reynolds number, and seal leakage flow were
+    applied to these maps. The efficiencies thus obtained were checked by performing a
+    power balance on the BRU rotor.
+
+
+
+                            BRU AND TEST FACILITY DESCRIPTION
+
+     A schematic drawing of the experimental test facility is shown in figure 1. The BRU
+is shown installed between the heater and the gas cooler. The system as shown consti-
+2
+                                          Heater
+
+
+
+                                                                 7,
+
+
+
+
+Labyrinth
+                                                                            .,
+              4,   \-Venturiflowmeter
+
+
+
+
+                                        Gas cooler
+
+
+                           Figure 1. - Experimental test setup.
+
+
+
+
+                                 ,-Journal b e a r i n g h ,                          n   A
+
+
+
+
+                                                               turbine seal holderJ
+CD-10518-15
+
+
+                                Figure 2. - Schematic of CEU.
+    h t e s a closed loop electric power generating system with no recuperation. The design
+    working fluid is a mixture of helium and xenon with a molecular weight of 83.8.
+           A schematic drawing of the BRU showing the salient features is presented in fig-
+    u r e 2. There are two journal bearings and a double acting thrust bearing, which are
+    all self-lubricated with system working fluid. The compressor and turbine rotors     are
+    mounted on the ends of a common shaft with the alternator rotor between them. Ade-
+    quate gas bearing ambient pressure is maintained by bleeding 1 . 2 percent of compressor
+    flow into the bearing and alternator cavity. This   flow returns to the system as leakage
+    flow through the labyrinth seals. Design and descriptive information on the BRU and
+    the test facility may be found in references 2 , 5 , and 6.
+         For the 6-kilowatt power output level, the design point conditions for the turbine
+    and the compressor operating in a mixture of helium and xenon with a molecular weight
+    of 83.8 and rotative speed of 36 000 rpm are as follows.
+
+
+
+                                                                Turbine
+                                                                 Compressor
+                                                                -~
+                      Inlet total temperature, OK               1144      300
+                      Inlet total pressure, N/cm 2              17.24     9.31
+                      Total pressure ratio (flange to flange)   1.749     1.9
+                      Outlet total pressure; N/cm 2             9.85      17.69
+                      Weight flow, kg/sec                       0.339     0.343
+
+
+
+
+        Aerodynamic design information on the turbine may be found in references 2, 3,
+    and 7 and on the compressor in references 2, 4, and 8.
+
+
+
+                                         INSTRUMENTATION
+
+     Instrumentation was provided to measure total and static pressures, and total tem-
+peratures at the inlet and outlet flanges of the turbine and compressor, compressor
+weight flow, and the total seal leakage flow required to maintain sufficient ambient
+pressure for gas bearing operation and alternator heat transfer.
+     The instrumentation stations for the turbine and compressor are shown in figure 3.
+The centerline for each station was located approximately 5 to 10 centimeters beyond
+the inlet and outlet flanges. The instrumentation   at each station consisted of two static
+pressure taps and one combination total pressure and total temperature rake. The
+rake consisted of two total pressure probes and three thermocouple probes. Strain
+gage transducers were used to measure pressures, Bare-spike chromel-alumel ther-
+
+
+4
+                                                                                         CD-11029-15
+                          Figure 3. - Turbine and compressor instrumentation Stations.
+
+
+mocouples made from 0.031-centimeter-diameter wire were used to measure temper-
+atures.
+      The compressor weight flow was measured with a calibrated Venturi flowmeter
+located upstream from the compressor inlet. Total seal leakage       flow was measured
+with a calibrated rotameter (fig. 1). Measurements made of system flow rate, turbine
+and compressor total pressure ratio, rotative speed, and compressor inlet temperature
+a r e considered to be the most reliable. All pipes were insulated. The insulation re-
+duces temperature measurement errors due to conduction and radiation effects by min-
+imizing the temperature difference between the gas and the pipe.
+      In order to obtain accurate turbine inlet temperature measurements, trace heaters
+were installed on the turbine inlet pipe to further minimize this temperature difference.
+      The compressor discharge measurements are considered reliable becauseof the
+low temperature level (415 K). Since trace heaters were not used on the turbine dis-
+charge line and the temperature level is high (911 K), this measurement is considered
+the least reliable.
+      All data were recorded by a high-speed automatic data recorder and processed
+through a digital computer.
+                                          PROCEDURE
+
+         The electronic speed controller maintained the rotative speed between 36 000 and
+    37 000 rpm. Turbine inlet temperature and facility pressure level were varied over       a
+    wide range. A description of the test program is given in reference 9. The working
+    fluid for t h e data presented in this report was the design mixture of helium and xenon
+    with a molecular weight of 8 3 . 8 . The TRP and CRP were operated on argon. The
+    weight flow data in this report have been corrected to the values corresponding to the
+    design helium-xenon mixture with a molecular weight of 8 3 . 8 . The correction was made
+    as follows :
+
+
+
+                       he -xe
+
+ (Symbols are defined in appendix A. )
+       In order to ensure adequate axial clearance during hot operation, the turbine and
+ compressor were operated with axial tip clearances that were greater than those used
+ in the research packages. The estimated BRU turbine tip axial clearance during hot
+ operation was 54. ~ x I O -centimeter
+                             ~          o r about 6 percent of inlet blade height. The clear-
+ ance used in the TRP was 2 . 6 percent of inlet blade height. The estimated BRU com-
+ pressor tip clearance during hot operation was 39. lX10m3 centimeter or about 7 . 5 per-
+ cent of exit blade height. The clearance used in the CRP      was 3 . 9 percent of exit blade
+ height. The basis for these estimates is given in appendix B.
+       The bearings were operated hydrodynamically except during startup and shutdown.
+During hydrodynamic operation, it was necessary to pressurize t h e bearing cavity to
+provide adequate ambient pressure for gas bearing operation. This          was done by bleeding
+ 1 . 2 percent of the compressor discharge flow into the bearing cavity. The bleed flow
+was restricted by the clearance of the two labyrinth seals that separate the bearing
+cavities from the compressor and turbine (fig. 2).
+       As discussed in the section INSTRUMENTATION, the outlet .temperature measure-
+ment at the turbine is considered to be unreliable. Thus the turbine efficiency measure-
+ments are unreliable. An estimate of the efficiency of the turbine and compressor com-
+ponents of the BRU may be obtained from performance maps obtained from the individual
+component research packages. This assumes that the research packages are geometri-
+cally similar to the BRU turbomachinery. Thus, at a given equivalent speed and pressure
+ratio, differences in weight flow between the BRU turbomachinery and the respective
+research package may be traced back to the effects of area variations due to manufactur-
+ing tolerances, of differences in operating temperature level, of differences in axial
+
+
+6
+                                                                                                             J
+            I     '"
+                       1. 70        1. 74       1. 78       1.82     1.86     1.90     L 94      2.20
+                                                                                                  1.98
+                                                        Total pressure ratio, Pin/Pout
+                          Figure 4. - Variation of turbine research package flow with total pres-
+                            sure ratio.NormalReynoldsnumber,       79 003.
+
+
+
+
+                          1
+
+
+                         0
+
+
+                         9
+
+
+                         8
+
+
+                         7
+
+
+
+
+                       1. 5 I               I                                     I                         I
+.65   .60   .55          .50                                                   . 70           . 75         .80
+                             Helium-xenon corrected weight flow, %/Pin,               (kglsec)(fi/Nlcm2)
+                                Figure 5. - Variation of compressor research package flow with total
+                                  pressure ratio.NominalReynoldsnumber,251       COR
+ clearances used in buildup, of seal leakage flow, and of Reynolds number effects. The
+ losses in efficiency due to these effects were experimentally determined with the re-
+ search packages and summed up to obtain an estimateof efficiency of the BRU turbo-
+ machinery. The efficiencies thus obtained were checked     by performing a power balance
+ on the BRU rotor.
+      The research package performance maps used are presented in figures 4 and 5.
+ These maps are based on unpublished data of the authors of reference 3 and on reference
+4, respectively. Figure 4 presents turbine research package corrected weight flow
+data as a function of flange total pressure ratio for 90, 100, and 110 percent of design
+equivalent speed. These data were obtained with design axial clearance and were inter-
+polated to obtain curves at speed increments of 1 percent of design speed. For the
+range of pressure ratios and speeds shown, total efficiency is between 0.89 and 0.90.
+Figure 5 presents compressor research package corrected weight flow data as a function
+of flange to flange total pressure ratio for 90 and 100 percent of design speed. These
+data were obtained with design axial clearance and were interpolated to obtain curves in
+increments of 1 percent of design speed from 90 to 100 percent of design equivalent
+speed. The curves shown from 101 to 105 percent were obtained by extrapolation. The
+interpolation and extrapolation were performed by assuming that the efficiency curves
+are straight lines and that the weight flow varies linearly with speed along lines of con-
+stant efficiency.
+
+
+
+                             RESULTS AND DISCUSSION
+
+     Turbomachinery performance was experimentally obtained while the BRU was oper-
+ated in a closed loop with a speed controller to simulate operation in a Brayton power
+generating system. The temperature and pressure level of the loop was varied in order
+to vary Reynolds number, pressure ratio, weight flow, and equivalent speed of the tur-
+bomachinery. An accurate measure of turbomachinery efficiency could not be made
+because of internal heat transfer and external heat losses. An estimate of turbine and
+compressor efficiency was obtained from performance maps obtained from component
+research packages of the turbomachinery. These maps were obtained at nominal design
+Reynolds number but at rotor axial clearances that were smaller than those used in the
+BRU turbomachinery. Corrections based on experimental data obtained from these
+packages for axial clearance, Reynolds number, and seal leakage flow were applied to
+the efficiencies obtained from these maps. The efficiency obtained   was checked by per-
+forming a power balance on the BRU rotor as described in appendix B .
+
+
+
+
+8
+                                  Turbine Performance
+
+     BRU turbine corrected weight flow at various Reynolds numbers with corresponding
+conditions of speed (in percent of design equivalent) and total pressure ratioare tabu-
+lated in table I. The data shown represent the ranges of turbine weight flow, speed,
+and total pressure ratio that were covered in BRU Testing. Shown also in table I are
+the corrected weight flows for the turbine researchpackage (TRP) at the same condi-
+tions of speed and pressure ratio (fig. 4). The next column shows the ratio of corrected
+weight flows for the BRU and TRP. The TRP data shown are for nominal design Reyn-
+olds number operation but at an axial clearance of 2.6 percent of rotor inlet blade height
+The significance of axial clearance will be discussed subsequently. The table shows
+that a range of corrected speed from 100.9 to 119.8 percent of design corrected speed,
+a range in total pressure ratio from 1.74 to 1.91, and a range in Reynolds number from
+46 700  to 179 000 was covered during BRU testing. Comparison ofBRU turbine data in
+the range of Reynolds number from 70 000 to 80 000 (the design value is 77 300) indi-
+cates that the BRU turbine weight flow is about 0.7 percent higher than the TRP weight
+flow.
+     A study of t h e factors that could lead to a difference in weight flow between the BRU
+turbine and t h e TRP indicates that the difference in turbine inlet temperatureof 778 K,
+the difference in operating axial clearance (between the turbine rotor and its shroud),
+seal leakage flows entering the main turbine flow between the rotor and stator, and
+manufacturing tolerances are major factors.
+     The BRU turbine nozzle throat area at room temperature was 0.2 percent larger
+than the TRP throat area. Consequently, t h e BRU turbine should have a higher equiva-
+lent weight flow than the TRP (ref. 10). Thermal expansion of throat areas caused by
+hot operation of the BRU should cause the BRU turbine weight flow to be still higher.
+The difference in metal temperature between the BRU and TRP is estimated to be 750 K.
+The combined effects of stator throat area variations between the BRU turbine and the
+TRP should cause the BRU turbine equivalent weight flows to exceed TRP flows by 2.8
+percent (appendix B).
+     Increasing the TRP turbine rotor inletaxial clearance (between the rotor and
+shroud) decreases equivalent weight flow (ref. 11). The operating axial clearance of
+the BRU turbine was estimated to be 6 percent of rotor inlet blade height.       The TRP
+data in tableI were obtained with 2.6 percent axial clearance and nominal design Reyn-
+olds number. According to reference 11, increasing axial clearance from 2.6 to 6 per-
+cent, decreases equivalent weight flow by approximately 0.6 percent.
+     The effect of seal leakage flow entering turbine flow between the nozzle and rotor
+is difficult to evaluate. Cursory tests with the turbine research package of this effect
+indicate very minor effects on efficiency and weight flow. Test on axial flow turbines
+
+
+                                                                                           9
+CL
+0
+
+
+
+
+                                                     T A B L E I . - BRU TURBINE AND TURBINE RESEARCH PACKAGE DATA
+
+
+     .eynolds    'urbine total   'ercent turbine   3RU t u r b i n e c o r r e c t e d   'RP corrected weight flow   'orrected weight   :RP total efficiency at   Sfficiency correction due tc
+     lumber        pressure      design speed          weight flow,                        at design Reynolds          flow ratio         12 percent axial        Reynolds number cllnnge
+                     ratio                                    Wfi/P                             number,                                      clearance
+                                                                                                 Wfl/P
+
+     46 700         1.813            101.3                    0.6826                             0.6836                  0.999                  0.861                       -0.011
+     59 800         1.829            101.3                     ,6885                              ,6875                  1.002                   ,860                        - ,005
+     72 400         1.840            101.5                     ,6929                              ,6900                  1.004                                                 0
+     79 100         1.843            106.8                     ,6944                              ,6900                  1.006                                                 ,002
+     85 300         1.852            101.9                       ,6964                            ,6920                  1.006                                                 ,003
+     97 900         1.855            102.1                       ,6913                             ,6920                 1.008                                                 ,007
+
+     110 000         1.854           101.9                       ,6993                             ,6924                 1.010                     .860                        ,009
+     123 000         1.856           102.2                       .I003                             ,6920                 1.012                     ,860                        ,011
+     133 000         1.859           102.5                       ,7027                             ,6920                 1. 016                    ,860                        ,012
+     146 000         1.909           102.9                       ,7150                             ,7023                 1. 018                    ,859                        ,013
+      78 500         1.831           101.4                       ,6929                             ,6875                 1.008                  ""_                         """
+
+
+
+
+      85 300         1.803           106.0                       ,6748                             ,6709                 1.006                  ""_                          """
+
+
+
+
+      94 600         1.782           111.9                       ,6529                            (a)                     (a)                   ""_                         """
+
+
+
+
+     106 000         1.762           118.9                       ,6223                            (a)                     (a)                   ""_                          """
+
+
+
+
+     132 000         1. 843          102.5                       ,7018                             ,6885                  1.019                 ""_                          """
+
+
+
+
+     146 000         1.815           107. 6                       6812                             ,6704                  1.016                  "_
+     161 000         1.783           112.9                       ,6547                            (a)                     (a)                    ""_                         """
+
+
+
+
+     179 000         1.765           119.8                        6223                            (a1                     (a )                   ""_                         """
+
+
+
+
+      75 200         1.741            100.9                        6694                            ,6650                  1.007                  ""_                         """
+
+
+
+
+      75 800         1.768            100.9                       .6717                            ,6723                  1.008                  ""_                         """
+
+
+
+
+      71 ooa         1.804            101.2                       ,6871                            ,6812                  1.008                  ""_                         """
+
+
+
+
+      18 l o a       1.853            101.6                       ,6973                             6924                  1. 007                                             """
+
+
+
+
+      80 000         1.901            101.7                       .I072                            ,7027                  1.006                  ""_                         """
+
+
+
+
+     'Not applicable.
+with a choked flow nozzle and velocity compounded rotors indicates effects as large as
+1 point in efficiency for each percent in bleed flow. Seal leakage flow tests with the
+compressor research package indicate a 1/2-point loss in efficiency and a l-percent
+decrease in compressor weight flow for a 1 percent seal leakage flow.
+      Summing up these difference results in the prediction that theBRU turbine should
+operate with a weight flow that is 2 . 2 percent higher than the TRPat design Reynolds
+number. The data in table I show that the BRU turbine weight flow is only 0.7 percent
+highe: than the TRP. Thus there is a 1.5 percent difference that seemingly cannot be
+accounted for. Part of this difference must be caused by the turbine seal leakage flows.
+The remainder could be caused by the axial clearance being larger than the 6 percent
+estimated earlier. If the weight flow discrepancy is attributed entirely to axial clear-
+ance effects, a 12-percent clearance would be required to reconcile BRU and TRP
+weight flows. Turbine efficiencies corresponding to 12 percent axial clearance and de-
+sign Reynolds number are tabulated in table I for use in thepower balance that will be
+subsequently performed on the BRU rotor.
+       The variation of BRU turbine corrected weight flow with Reynolds number can be
+seen in the change in weight flow ratio in table I. At a Reynolds number of 46 700 the
+weight flow ratio is 0.999 and increases to 1.018 at the Reynolds number of 146 000.
+Thus, there is a 1.9-percent change in weight flow for a change of Reynolds number of
+about 100 000. This rate of change in weight flow with Reynolds number is about twice
+that which was observed for the TRP (ref. 3). This difference, however,          is well within
+the experimental accuracy of t h e two tests. The change in efficiency with changes in
+Reynolds number as found for the TRP in reference 3 are tabulated in table         I with design
+Reynolds number as the reference point. These data represent the corrections that
+must be made to the TRP efficiencies to allow for the effect       of Reynolds number.
+These data show that a negative correction in efficiency of 1.1 points at the lowest BRU
+turbine Reynolds number and a positive 1.3-point correction in efficiency at the highest
+Reynolds number are required.
+      The computed efficiencies for the BRU turbine are shown in table HI. These values
+a r e approximately 5 efficiency points lower than measured efficiencies.      Some of this
+discrepancy is due to internal heat loss, but most of the difference is apparently due to
+external heat loss through the insulation ande r r o r s i n the outlet temperature measure-
+ments due to radiation and conduction effects. These errors could not be computed
+with a reasonable degree of accuracy.
+
+
+
+                                 Compressor Performance
+
+    BRU Compressor corrected weight flow at various Reynolds numbers with corre-
+sponding speed (in percent of design equivalent speed) and total pressure ratioare tab-
+
+                                                                                             11
+                                                   TABLE ll. - BRU COMPRESSOR AND COMPRESSORRESEARCH PACKAGE DATA
+
+
+Reynolds Con1llressor total   Percent compressor    BRU compressor corrected   Compressor research package Corrected weight CRP total efficiency a t Efficiency corrrclion duc 1(
+ number   pressure ratio         design speed             weight flow,           corrected weight flow at     flow ratio      7 . 5 percent n.\inl    Reynolds nunlbcr rllnnjic
+                                                            wfi/P                    desi@i Rey~iolds                              clearalice
+                                                                                         number,
+                                                                                         wf i / P
+ 165 000        1.865               101.1                                                 0.6890 0.6449            0.936                                         -0.012 0.140
+ 212 000        1.879               101.4                     ,6552                        ,6890                    ,951                 ,745                     -. 007
+ 257 000        1.888               101.8                     ,6615                        ,6895                    ,959                 . I47                    -. 003
+ 280 000        1.896               102.1                     . 6660                       ,6900                    . 065                ,746                       0
+ 302 000        1.899               102.2                       6694                       ,6905                    ,969                 . I48                      ,001
+
+ 343 000        1.904               102.3                     . 6709                        ,6910                    ,911                 . I47                     ,005
+ 393 000        1.909               102.5                     . 6148                        ,6920                    ,975                 ,750                      ,001
+ 435 000        1 908               102.6                     . 6168                        ,6929                    ,971                 ,749                      ,009
+ 471 000        1.910               102.9                      ,6807                        ,6969                    ,977                 ,757                      ,011
+ 532 000        1.9G0               105.2                      ,6998                        ,1145                    ,980                 .I53                      ,014
+
+ 296 000         1.062               104.8                     ,6826                        ,1031                    ,970               ""_                      """
+
+
+
+
+ 289 000         1.934               103.6                     . 6163                       ,6918                    ,969               ""_                      """
+
+
+
+
+ 283 000         1.907               102.7                     ,6684                        ,6949                    ,961               ""_                      """
+
+
+
+
+ 270 000         1.864               100.6                     ,6547                        ,6812                    ,961               ""_                      """
+
+
+
+
+                                                                                                                     ,965               "".
+ 258 000         1.824                98. I                    ,6414                        .6650                                                                """
+
+
+
+
+                                                                                                                     .958                "".
+ 251 000         1.789                91.3                     .I3311                       ,6586                                                                """
+
+
+
+
+ 483 000         1.941               104.2                     ,6910                        ,1052                    ,980                ""_                     """
+
+
+
+
+ 467 000         1.905               102.7                     . E792                       ,6949                    ,911                .""                      """
+
+
+
+
+                                                                                                                     ,969                .""
+ 455 000         1.871               101.2                       6674                       ,6890                                                                 """
+
+
+
+
+ 442 000         1.844               100.0                     ,6586                        ,6792                    ,970                ""_                      """
+
+
+
+
+  434 000        1.823                99.1                     ,6513                        . 6138                   ,966                .""                      """
+
+
+
+
+  424 000        1.801                98.0                     ,6449                         6665                    ,968                ""_                      """
+
+
+
+
+  278 000        1.835               101.7                     .6611                        ,6866                    ,963                "".                      __""
+  283 000        1.853               101.2                     ,6660                        ,6959                    ,951                ""_                      """
+
+
+
+
+                                                                                                                     ,962                .""
+  289 000        1.826               100.8                      6728                        ,6993                                                                 """
+
+
+
+
+  295 000        1.798               100.4                     ,6748                        ,7027                    ,960                ""_                      """
+                                                                     TABLE III. - POWER BALANCE 'ON BRU ROTOR
+
+IEstimated BRU BRU turbine              BRU compressor measured      Estimated BRU compressor BRU compressor BRU alternator Alternator BRU compressor BRU n l t e r n n t o ~
+1 turbine total     ideal power,         efficiency corrected for         total efficiency,     ideal power,  outputpower, ' efficiency  input power,  input power.
+    efficiency,         kW                internal heat transfer                                     kW                                       kW kW         kW
+                                                                                  qC
+        'It
+
+       0.850          12.239                                                                                   4.314      0.1283.5490.736               5.926                  0.9023.935
+        ,855          16.023                       . I45                                                                       4.999         ,916 ,738 7.615
+                                                                                                                                          5.620                                      5.457
+        ,860          19.649                       .I49                               ,744                                     6.430         .921
+                                                                                                                                          6.872         9.737                        6.936
+                      21.610            ,862       ,750                                                        7.594      ,746 7.142                   10.180                  .929 7.688
+                      23.460            ,863       ,751                               .I49                     8.209           7.167         ,931                                    8.343           10.960
+        ,867          26.995                       ,755                                                                        9.027      9.490   ,752                               9.680           12.620   ,932
+        ,869                                       .I49        30.717                 ,757                                    10.550      10.773                                   11.319            14.231   ,932
+        ,871          34.114                       ,751                                                       11.992      ,75811.750         ,924                                   12.648           15.820
+                      36.999             ,872      .I55                               ,758                    12.985          12.960         ,926      17.131                       13.704
+        ,872          41.903                       ,761                               .I61                                    15.120     14.394        18.767                  ,913 16.560
+
+Computed alternator Computed bearing             BRU turbine power                            on Turbine Reynolds Power balance                         Power
+                                                                                                                                           Compressor Power        balance,
+                                                                                                                                                               balance,         percent of
+                                                                                                                                                                           percent
+  windage loss,       friction loss,                  output,               BRU r o t o r ,                         of ideal turbine   power Reynolds
+                                                                                                                                               number    i d e a l c o m p r e s s o r power
+       kW                   kW                          kW                     kW                                                             number
+
+          0.36                     0.34                    10.403              -0.157                  46 700                 -1.28                600                   -3.64       164
+              .40                                          13.708               - . 104                59 800                 -. 65                600                   -1.85      211
+              .44                   i                      16.908
+                                                           18.639
+                                                                                -. 045
+                                                                                -. 029
+                                                                                                       72 400
+                                                                                                       79 100
+                                                                                                                              -. 23
+                                                                                                                              -. 13
+                                                                                                                                               256 800                    -. 65
+                                                                                                                                                                          -. 38     280        500
+              .46
+              .47                                          20.258                                      85     300      ,145     .62                                       1.91      302        200
+                                                           23.148    .51        -. 008                 97 900                 - . 03           343 000                    -. 08
+                                                           26.699    .55          ,259                110 300                   .84            393 000                    2.41
+                                                           29.730     .59         ,332                122 600                   .97            435 000                    2.77
+                                                           32.289    .61          ,504                132 600                 1.36             470 000                    3.88
+              .64                   v                      36.548                 ,241                145 600                   .58                                       1.68      531        900
+1
+  ulated in table II. The data shown represent the ranges of compressor Reynolds number,
+  corrected weight flow, speed, and total pressure ratio that were covered in testing the
+  BRU. Shown also are the corrected weight flow for the compressor research package
+  (CRP) at equivalent conditions of speed and pressure ratio. These data were obtained
+ at a nominal constant Reynolds number of 251 000 (approximately design) and with an
+ axial clearance of 4 percent of impeller exit blade height. The significance     of axial
+ clearance will be discussed subsequently.
+        Table II shows a range of compressor speed from 97.3 to 105.2 percent of design
+ equivalent speed, a range of total pressure ratio from 1.789 to 1.969 and a range of
+ Reynolds number from 165 000 to 532 000 was covered during BRU testing. Compari-
+ son ofBRU compressor weight flow data with compressor research package data in the
+ range of Reynolds number from 250 000 to 300 000 shows that BRU compressor weight
+ flow is about 3.5 percent lower than the CRP weight flow. A study of the factors that
+ could lead to a difference in weight flow between the BRU compressor and the CRP in-
+ dicated that the operating axial clearance between the impeller exit and shroud, the seal
+ leakage flows entering the compressor flow between the impeller and diffuser, and the
+ manufacturing tolerances are major factors.
+       The inlet area of the BRU compressor vaned diffuser at room temperature was
+ 0.8 percent larger than the CRP. CRP tests indicated that increasing diffuser throat
+ area increases t h e corrected weight flow and thus the BRU should exceed the CRP flow
+ by 0.6 percent. A s discussed earlier, seal leakage flow, which was assumed to be
+ 0 . 6 percent of compressor flow, should reduce BRU compressor flow by 0.6 percent.
+ Thus these two effects counterbalance each other.
+       CRP tests at various axial clearances between impeller exit and shroud show that
+weight flow decreases as clearance is increased. The estimated operating axial clear-
+ance of the BRU compressor was 7.5 percent of impeller exit blade height a s compared
+with 4 percent for the CRP. This difference in clearance should result in the      BRU com-
+pressor weight flow being about 3.5 percent lower than the CRP at design Reynolds
+number.
+       Summing up the effects of seal leakage, manufacturing tolerances and increased
+axial clearances, it would be expected that BRU compressor flow would be about 3 . 5
+percent lower than the CRP at design Reynolds number. Table I1 shows that, in fact,
+the BRU compressor flow was approximately 3.5 percent lower than the CRP.            Com-
+pressor efficiencies at design Reynolds number and with an axial clearance of 7 . 5 per-
+cent a r e tabulated in table I1 for the first 10 operating points shown for subsequent use
+in the power balance that will be made on the BRU rotor. These efficiencies have also
+been reduced by 0.3 efficiency point to account for the effects of a compressor seal
+leakage flow of 0.6 percent.
+       The effect of Reynolds number on BRU compressor weight flow can be seen in the
+
+14
+variation of the weight flow ratio in table II. At a Reynolds number of 165 000, the
+weight flow ratio is 0.936 and increases to 0.980 at a Reynolds number of 532 000. The
+change in efficiency with changes i n Reynolds number as found for the CRP are tabulated
+in table I1 with design Reynolds number as the reference point. These data show a neg-
+ative correction in efficiency of 1.2 points at the lowest Reynolds number and increases
+to a positive correction of 1.4 points at the highest Reynolds number. Since no Reynolds
+number data were obtained for values above 280 000 the corrections for higher Reynolds
+numbers were obtained by extrapolation (as discussed in appendix B).
+     The computed efficiencies for the BRU compressor are shown in table III. These
+values are approximately 1.5 efficiency points higher than the measured efficiencies
+obtained by temperature and pressure measurements. Because of the relatively low
+temperature level and piping insulation, the temperature measurements are reliable
+and the external heat loss from the compressor     is small. Since instrumentation and
+operating conditions are similar to those of the CRP tests, the measurement accuracy
+is comparable to that obtained in the CRP tests. Internal heat transfer   is a possible
+source of error in the measured efficiency. When this heat transfer is taken into
+account, good agreement is obtained between measured and computed efficiency. The
+comparison is shown in table III. The average difference between the computed efficien-
+cies and the measured efficiencies corrected for heat transfer is 0.5 efficiency point.
+The method of correcting for internal heat transfer is given in appendix B.
+     The close agreement between efficiencies computed by two different methods is an
+indication that the compressor efficiency has been established within close limits. An-
+other factor that tends to establish confidence in the computed efficiency at design Reyn-
+olds number is the fact that the sum of the corrections to the original performance
+maps is small. The total correction for clearance and bleed flow is only 1.5 percent.
+A large error in these estimates would produce a relatively small error in compressor
+efficiency.
+
+
+
+                              Power Balance o n BRU Rotor
+
+     Tabulated in table 111 a r e turbine and compressor efficiencies from table I and 11,
+respectively. These efficiencies were obtained for test runs with turbine inlet temper-
+atures close to the designvalue of 1144 K and compressor inlet temperatures close to
+the design value of 300 K. These efficiencies have been corrected for Reynolds number
+changes as discussed earlier. The turbine efficiencies listed are for an axial clearance
+of 12 percent rotor inlet blade height, and the compressor efficiencies listed are for an
+axial clearance of 7.5 percent of impeller outlet blade height. Shown also in table III a r e
+ideal power for the BRU turbine and compressor, measured alternator output, alter-
+
+
+                                                                                          15
+     nator efficiency (from alternator research package), computed alternator windage, and
+     computed gas bearing friction losses. A detailed discussion of the power balance cal-
+     culations is given in appendix B.
+          The column headed "Power Balance on the BRU Rotor" was obtained by summing
+     compressor and alternator input power, computed alternator windage and computed gas
+     bearing friction losses, and subtracting this sum from the turbine output power. The
+     power balance on the BRU rotor has a negative value of 0.157 kilowatt at the lowest
+     Reynolds number and increases to values of about 0.3 kilowatt at the higher Reynolds
+     numbers. The negative value             of computed net shaft power means that there is a deficit
+     in computed turbine output power; positive values indicate a surplus in computed turbine
+     output power.
+          One possible explanation for the change from negative to positive could be that the
+     change in turbomachinery efficiency over the range in Reynolds number tested is not as
+     great as indicated by the research package tests. One factor that would tend to reduce
+    the effect of Reynolds number on turbine and compressor efficiency is the internal heat
+    flow within the package. Heat flows from the turbine toward the compressor.                 The com-
+    pressor rotor is used as a heat sink. The amount of heat flow increases with Reynolds
+    number. The heat that is transferred causes a slight loss in turbine and compressor
+    efficiency. As Reynolds number increases, the loss in turbine             output power and the in-
+     crease in required compressor input power due to heat transfer both increase. Another
+    explanation is that leakage flows could cause greater losses at high Reynolds number
+    where boundary layers are relatively thin and have less effect where they are relatively
+    thick at low Reynolds number. Thus leakage flows might make              the variation in efficiency
+    with Reynolds number in the BRU less than that found for the research packages.
+         The other possibility is experimental accuracy in determining the variation of effi-
+    ciency with Reynolds number. The power balance is very close to zero near the design
+    values of turbine and compressor Reynolds number.               The maximum correction for
+    Reynolds number is about 1 efficiency point for both turbine and compressor. These
+    corrections are apparently too high, and lower values will improve the power balance.
+         In table III, the power balance discrepancies are given in t e r m s of percent of ideal
+    turbine power. The average absolute value             is 0.67 percent. T h i s check indicates that
+    there is no g r o s s e r r o r i n the computed BRU turbine efficiency. At design Reynolds
+    number, the turbine computed efficiency is 0.860 and the compressor efficiency is 0.745.
+         The total efficiency values from research packagetests at BRU equivalent design
+    conditions are 89.4 percent for the turbine and 80 percent for the compressor. The
+    reduction in BRU turbomachinery efficiency from that reported for the research package
+    is due to increased axial clearance, effects of seal leakage flows, and the fact that the
+    compressor was operating at off-design conditions. The off-design operation resulted
+    from pressure losses in the test loop being lower than the design values for the space
+
+
+    16
+
+
+\
+power system. A s a result of the lower pressure losses, the turbine and compressor
+operated at higher than design equivalent weight flows. Increasing the BRU compressor
+equivalent flow moves the compressor operating point toward open throttle (see fig. 5).
+This in turn reduces the efficiency by 4 points. On the other hand, increasing the BRU
+turbine equivalent flow does not change the turbine efficiency because the efficiency
+characteristic is very f l a t in this region of operation.
+
+
+                                SUMMARY OF RESULTS
+
+     Turbomachinery performance of the BRU was investigated while it was operating as
+part of a closed loop to simulate operation in a Brayton space power system. An esti-
+mate was made of the turbine and compressor efficiency over a range of operating pres-
+sure at approximately design equivalent speed and design inlet temperature. These
+estimates were made from performance maps obtained from individual research pack-
+ages of each turbomachinery component. These maps         were obtained at nominally design
+Reynolds number and with rotor axial clearances that were different from that used in
+the BRU. Corrections based on experimental data from the research packages for the
+differences in the axial clearance, Reynolds number, and seal leakage were applied to
+these maps. These efficiencies were checked       by performing a power balance on the
+BRU rotor. The results of this investigation may be summarized as follows:
+     1. At design Reynolds number the turbine efficiency was indicated to be 0.860 com-
+pared with 0.894 for the turbine research package at equivalent design conditions.
+     2. At design Reynolds number t h e compressor efficiency was indicated to be 0.745
+compared with 0.800 for the compressor research package at equivalent design condi-
+tions.
+     3 . These efficiencies a r e lower than the values indicated by the component research
+package tests at BRU design equivalent conditions. These differences were attributed
+to effects causedby operation at axial clearances that were larger than used in there-
+search package, seal leakage flows, and off-design operation. The off-design operation
+resulted from test facility pressure losses being lower than design values for the space
+power system. The lower pressure losses moves the compressor operating          point to a
+lower value of efficiency.
+
+Lewis Research Center,
+   National Aeronautics and Space Administration,
+       Cleveland, Ohio, June 7, 1971,
+            120-27.
+
+
+
+                                                                                         17
+                                                      APPENDIX A
+
+                                                        SYMBOLS
+
+                     specific heat at constant pressure, J/(kg)(K)
+            cP
+            D        tip diameter, m
+
+            g        gravitational constant
+            Ah       specific work, J/g
+            M       molecular weight
+            P       total pressure, N/cm 2
+            q       rate of heat transfer, J/sec
+            Re      Reynolds number, W/pr
+            r       tip radius, m
+            T       total temperature, K
+         U          tip speed, m/sec
+            V.      ideal jet speed corresponding to total-to-static pressure ratio across turbine,
+                J
+                      m/sec
+        W           weight flow, kg/sec
+
+         rl         total efficiency (based on inlet-total-to-exit-total-pressure ratio)
+         P          gas viscosity, kg/(m)(sec)
+         V          blade-jet speed ratio, U/V.
+                                              J
+        P           gas density, kg/m 3
+        Subscripts:
+    inletin
+        id          ideal
+        out         outlet
+        t           turbine
+        C           compressor
+
+
+
+
+        18
+
+
+L
+                                     APPENDIX B
+
+                                   POWER BALANCE
+
+                                 Turbine Calculations
+
+        Predicted weight flow. - At room temperature, the nozzle throat area of the BRU
+turbine was 0 . 6 percent greater than the TRP. At design temperature, thermal expan-
+sion produces an additional increase in the BRU nozzle throat area. Both nozzles a r e
+constructed of Inconel 713 with a linear expansion coefficient of 14. 9X10-6 per K. A
+difference in metal temperature between the BRU and TRP of about 750 K is indicated
+by available data. This temperature difference produces a linear expansion of 1 . 1 2 per-
+cent and an area increase of 2 . 2 percent. Tests in which the turbine nozzle area was
+varied by changing setting angles indicate that there is approximately a one for one re-
+lationship between percent changes in nozzle throat a r e a and percent changes in equiva-
+lent weight flow.
+        The operating axial clearance of the BRU turbine was computed to be 6 percent of
+rotor inlet blade height. This figure was based on measured axial clearance during
+assembly, thrust bearing film thickness during operation, and the contractor's estimate
+of relative thermal expansion caused by heating from room temperature to operating
+temperature. The TRP was tested at design clearance of 2 . 6 percent. The effect of
+clearance on weight flow is reported in reference 11. According to figure 8 of reference
+ 11, the increase in clearance from 2 . 6 percent should decrease weight flow by about
+0 . 6 percent.
+        The combined effects of area variations due to manufacturing tolerances, thermal
+expansion and rotor axial clearance should cause the BRU turbine equivalent weight flow
+to exceed TRPflow by 2 . 2 percent.
+        Turbine power. - The measured BRU turbine equivalent weight flows were com-
+pared with those of the TRP at the same total pressure ratios and corrected speeds.
+The TRP performance map shown in figure 4 was used for the comparison. This map
+was obtained at design Reynolds number with a rotor tip clearance of 2 . 6 percent of
+rotor outlet blade height. The map    was drawn from unpublished TRP data. The BRU
+turbine weight flow was about 0 . 7 percent greater than TRP flow at design Reynolds
+number, compared with 2 . 2 percent greater as computed above. Thus,       a 1 . 5 percent
+discrepancy exists. According to figure    8 of reference 11, the actual hot operating
+clearance would have to be about 12 percent instead of 6 percent to reduce BRU turbine
+equivalent weight flow to only 0.7 percent larger than the TRP. An efficiency that cor-
+responds to an axial clearance of 12 percent was used in the turbine power calculations.
+        Unpublished TRP data were used toobtain the plot of efficiency as a function of
+
+                                                                                        19
+               -
+               m
+               c                                                 I
+               O
+               I-                                                I
+                                                                 I    t
+                    . 9.".                                           .70                                            .80
+                                                           Blade-jet speed ratio, v
+                       Figure 6. -Variation of tllrbine research package total efficiency with blade-jet   speed ratio.
+
+
+
+blade-jet speed ratio shown in figure 6. These data were obtained at design clearance
+of 2 . 6 percent and design Reynolds number. Efficiencies obtained from figure          6 and
+listed in table I were reduced by 3 . 3 efficiency points to account for operation at 12 per-
+cent axial clearance. The correction      of 3 . 3 efficiency points was obtained from figure 7
+of reference 11.
+        Reynolds number corrections, which varied between a negative 1 . 1 efficiency
+point and a positive 1 . 3 efficiency point, were obtained from figure 1 4 of reference 2
+and tabulated in table I. Estimated BRU turbine total efficiency, corrected for Reynolds
+number and operation at an axial clearance of 12 percent are tabulated in table HI. The
+ideal specific work,
+
+
+
+                                       '%d      = 'pTin        1 (<) 1
+                                                                     - pout
+                                                                                  (Y- Wr
+
+
+
+
+was obtained from the measured total pressure ratio and turbine inlet temperature.
+Turbine output power was obtained from the ideal specific work, the measured weight
+flow, and the estimated turbine efficiency from the following equation and tabulated in
+table m. Power = W t Ahid+.
+
+
+
+                                          Compressor Calculations
+
+      Weight flow. - At room temperature, the diffuser throat area of the BRU was
+0.8 percent greater than the CRP. Unpublished CRP tests indicate that an increase of
+1 percent in throat area increases the flow by about 0.75 percent. Therefore, an
+0.8-percent area increase is equivalent to a 0.6 percent increase in weight flow. No
+allowance for thermal expansion of the stator is required, since the BRU compressor
+and the CRP were operated at approximately the same inlet temperature.
+      Total seal leakage flow into the BRU was 1 . 2 percent. &Ifof this flow was
+
+20
+assumed to enter the compressor. Unpublished CRP data indicate a 1-percent decrease
+in weight flow for a 1-percent bleed flow. The assumed bleed flow of 0 . 6 percent would
+be equivalent to a weight flow reduction of 0 . 6 percent.
+      The operating axial clearance of the BRU compressor was computed from the
+measured axial clearance during assembly, thrust film thickness during operation, and
+the contractor's estimates of relative thermal expansion caused by heating from room
+temperature to operating temperature.
+      The CRP was tested at various clearance values at design Reynolds number to
+determine the effect of clearance on corrected weight flow and efficiency. These data
+have not been published. The    data used to determine the effect of clearance on corrected
+weight flow is shown in figure 7. Corrected weight flow is plotted against change in
+
+
+
+
+                                                                                        \
+                                                                                            \
+                       26
+                            2          4         6            8          10          12         14
+                                                                                                          I
+                                                                                                         16
+                                           Rotor exit tip clearance, percent of blade height
+                            Figure 7. - Estimated variation of compressor research package corrected weight
+                              flow with axial clearance.Total pressure ratio, L 9; nominal Reynolds num-
+                              ber. 251 000.
+
+
+
+
+axial clearance at a pressure ratio of 1.9. Although the data are scattered, the slope
+of the data band indicates a 1-percent decrease in compressor weight flow for each
+1-percent increase in &a1 clearance. The increase in axial clearance from 4 to 7.5
+percent would result in a 3.5 percent decrease in equivalent weight flow.
+       The combined effects of area variations due to manufacturing tolerances, seal
+leakage flow, and impeller clearance should cause the BRU compressor equivalent
+weight flow to be about 3.5 percent lower than the CRP flow.
+       Compressor power. - The actual BRU Compressor equivalent weight flows were
+compared with those of the CRP at the same total pressure ratiosand equivalent speeds.
+Figure 5 was obtained by interpolation and extrapolation of the 90 and 100 percent speed
+lines of the data presented in reference 4. These data were obtained at design Reynolds
+
+
+                                                                                                              21
+number and an axial clearance of 4 percent of impeller exit blade height. The BRU
+compressor weight flows at design Reynolds number were about 3.5 percent lower than
+corresponding points shown in figure 5. Since t h e weight flow predicted above for 7 . 5 -
+percent clearance is 3.5 percent lower than CRP flow, an efficiency loss associated with
+an axial clearance to 7.5 percent will be used.
+      The efficiency correction curve for axial clearance effects is shown in figure 8 for
+a pressure ratio of 1.9. Figurq 8 is a c r o s s plot of curves of efficiency as a function
+
+
+
+
+                     -4
+                          2             4          6
+                                                    I          8
+                                                                I          10          12
+                                                                                                  I
+                                                                                                 14          16
+                                             Rotor exit tip clearance, percent of blade height
+                              Figure 8. - Variation of compressor research package total efficiency with axial
+                               clearance.Total pressureratio, 1.90; n o q i n a l Reynoldsnumber, 251 000.
+
+
+
+
+of equivalent weight flow and pressure ratio as function of equivalent weight flow for
+various clearances. The efficiency correction for     a change from 4 to 7 . 5 percent clear-
+ance is 1 . 2 efficiency points. The efficiencies shown in figure 5 were corrected for
+1 . 2 efficiency point loss to account for increased axial clearance in the BRU and 0.3
+efficiency point for seal leakage effects and tabulated in table II.
+        Reynolds number corrections were obtained from unpublished CRP data. For
+these corrections, Reynolds number is defined as
+
+
+
+
+This form of Reynolds number was used in the original data. Figure      9 is a cross plot
+of curves of efficiency as function of percent design equivalent weight flow for various
+
+
+22
+                                                                                                           Reynolds
+                                                                                                            number,
+
+
+
+
+                              3
+                                                                                                           Pinuobi"
+                    2.0                                                                                    5.0~105
+
+
+
+
+                    LO                          -                      -                                   3. 5
+
+
+
+
+               m
+               c0
+                m
+                  o                                                                                        3. 0
+               S
+               U
+               c
+               ._
+                c
+                B                                                                                          2. 5
+               U
+               c
+               ._
+                m
+                U
+              ,.    -1
+               ;5
+
+
+
+
+                    -2        -
+                          I
+
+
+
+
+                    -3
+                                                                     1W                                           105
+                                                        Corrected weight flow, percent
+                          Figure 9. -Variation of compressor research package efficiency with Reynolds number over
+                            range of corrected weight flow.
+
+
+
+
+values of Reynolds number. The Reynolds number data were obtained          at 96 percent
+design equivalent speeds while the BRU compressor operated at 101 to 105 percent. In
+order to use the Reynolds number data, the BRU compressor equivalent weight flows
+were converted to the corresponding flows at 96 percent design equivalent speed. This
+was done by entering figure 5 with the BRU compressor equivalent speed and pressure
+ratio, then following a constant efficiency line to 96 percent speed and reading the
+equivalent weight flow.
+       Using the method described the Reynolds number correction from a negative 1.2
+efficiency points to a positive 1.4 efficiency points are tabulated in table II. Estimated
+BRU compressor efficiency corrected for Reynolds number effects, seal leakage flow
+effects, and axial clearance effects are tabulated in table III.
+       The compressor input power was computed from the ideal specific work,
+
+
+
+
+                                                                                                                        23
+
+
+
+                                                                                                                             I1
+     compressor weight flow, and the estimated compressor efficiency by the following
+     equation:
+
+                                          Power = Wc,Ahidqc
+
+             In order to check the computed BRU compressor efficiencies, the measured
+     efficiencies were corrected for the calculated internal heat into the BRU compressor.
+     This heat flow into the impeller causes an error in the measured efficiency.          The
+     amount of e r r o r depends on the heat f l u x distribution in the impeller, which is unknown.
+     However, the effect of adding all of the heat flow at the impeller inlet or at the impeller
+     exit can be computed. The compressor efficiency is the ideal specific work divided by
+     t h e actual specific work Ahid/Ah. The compressor efficiency formula is
+
+
+
+
+    At any point of heat addition, the gas temperature would be increased by AT, where
+     AT = q/WC       If all the heat were added at the impeller inlet, the temperature rise
+                  P'
+     AT would not be detected by the thermocouples at the inlet flange. The true effective
+    inlet temperature would be Tin + AT and the measured ideal specific work, Ahid,
+    must be multiplied by a correction factor of (Tin + AT)/Tin. The measured tempera-
+    ture rise across the compressor would be too large by an amount AT. The actual
+    specific work, Ah, must be multiplied by a correction factor of [Tout - (Tin + ATU/
+    (Tout - Tin). If all the heat were added at the outlet, the measured Ahid would be
+    correct but the measured temperature rise would still be i n e r r o r , and Ah must be
+    multiplied by the factor [Tout - (Tin + AT)]/(Tout - Tin).
+          In t h e BRU, heat flowing into the rotor is transferred to the gas over the entire
+    surface of the rotor. Therefore, the true correction factor is in between these two
+    factors. The correction factor used was the average for heat added at the rotor inlet
+    and heat added at the rotor outlet. The measured efficiency is multiplied by the factor
+
+
+
+
+    24
+
+J
+                                   0.5
+
+
+
+
+      The temperature rise, AT, was computed from heat-transfer calculations in ref-
+erence 2. This reference presents the heat flow into the compressor impeller for de-
+sign conditions at power levels of 2.25,6.0,and  10.5 kilowatts.Compressoroperating                Q
+                                                                                                   4.
+conditions are also presented. From this information, weight flow, AT, and Reynolds
+number were computed for the three power levels. Reynolds number was then plotted
+against AT.
+
+
+
+                                      Bearing Losses
+
+       Thrust bearing. - Thrust bearing losses were obtained from curves computed by
+the contractor and presented in reference 2 . These curves showed power loss as a func-
+tion of clearance for 36 000 rpm and a gas viscosity of 3 . 5 2 ~ 1 0 -kilogram
+                                                                        ~        per meter
+per second. Thrust clearances during operation were approximately 1.         02X10-3 centi-
+meter for the compressor side of the thrust runner and 5 . 3 2 ~ 1 0 -centimeter
+                                                                         ~         for the
+turbine side. Power losses were     185 watts for the compressor side and 46 watts for
+the turbine side.
+       Journal-bearing. - Journal bearing losses were obtained from curves computed
+by the contractor and presented in reference 2. Film thickness      was obtained from
+curves of pad load as a function of film thickness for various bearing ambient pressures.
+Bearing losses were obtained from curves of loss as a function of film thickness for
+various ambient pressures. Total journal bearing loss was 110 watts for all test runs
+used in this report.
+       Windage losses. - Computed rotor windage losses were obtained
+      ~"                                                                       from    reference
+                                                                                            2.
+Losses for power levels of 2.25, 6.0, and 10.5 kilowatts    were 360, 470, and 650 watts,
+according to reference 2. Bearing ambient pressures were obtained for these three
+power levels and a curve of loss as a function of ambient pressure was drawn through
+these three points.
+
+
+
+                                     Alternator Power
+
+      The alternator efficiency was obtained from reference 1 2 , which presents curves
+
+
+                                                                                           25
+of efficiency as a function of power output for various power factors. The BRU alter-
+nator operated at a power factor of 0.95. Alternator output power was measured except
+for the portion required to operate the voltage regulator/excitor (VRE). VRE power
+consumption was determined by alternator research package tests and was approximately
+constant at 50 watts. Alternator shaft power was computed by adding 50 watts to the
+measured output power and dividing the sum by the alternator efficiency.
+
+
+
+
+26
+                                    REFERENCES
+
+1. Klann, John L. ; and Wintucky, William J. : Status of 2 to 15 kWe Brayton Power
+    System and Potential Gains From Component Improvements. NASATM X-67835,
+     1971.
+2. Davis, J . E. : Design and Fabrication of the Brayton Rotating Unit (BRU). NASA
+    CR-1870, 1971.
+3. Nusbaum, William J. ; and Kofskey, Milton G. : Cold Performance Evaluation of       ai
+                                                                                       z
+                                                                                       ,i
+                                                                                            -.1
+                                                                                            :=
+    4.97-InchRadial-Inflow  Turbine Designed forSingle-ShaftBraytonCycleSpace-         qy   %?
+
+    Power Systems. NASA TN D-5090, 1969.
+4. Weigel, Carl, Jr. ; Tysl, Edward, R. ; and Ball, Calvin L. : Overall Performance
+     in Argon of 4.25-Inch Sweptback-Bladed Centrifugal Compressor. NASATM
+     X-2129, 1970.
+5. Wong, Robert Y. ; Klassen, HughA. ; Evans, Robert C. ; and Winzig, Charles H. :
+    Preliminary Investigation of a Single-Shaft Brayton Rotating Unit Designed for a
+    2- to 10-Kilowatt Space Power Generation System. NASATM X-1869, 1969.
+6. Evans, Robert C. ; and Meyer, Sheldon J . : Electrical Performance of a 2- to 10-
+     Kilowatt Brayton Rotating Unit. NASATM X-2062, 1970.
+7. Anon. : Design and Fabrication of the Brayton Cycle High Performance Turbine
+    ResearchPackage.Rep.      APS-5281-R, AiResearch Mfg.Co.       (NASA CR-72478),
+    Feb. 14,1968.
+8. Anon. : Design and Fabrication of the Brayton Cycle High Performance Compressor
+     ResearchPackage.Rep.      APS-5269-R, AiResearch Mfg. Co. (NASA CR-72533),
+     Nov. 29, 1967.
+9. Wong, Robert Y. ; Klassen, Hugh A. ; Evans, Robert C. ; and Winzig, Charles H. :
+    Effect of Operating Parameters on Net Power Output of a 2- to 10-Kilowatt Bray-
+    ton Rotating Unit. NASA TN D-5815, 1970.
+10. Kofskey, Milton G. ; and Nusbaum, William J. : Effects of Specific Speed on the
+     Experimental Performance of a Radial-Inflow Turbine. NASA TN D-6182, 1971.
+11. Futral, Samuel M. ; and Nusbaum, William J. : Effect of Axial Running Clearance
+     on Performance of Two Brayton Cycle Radial Inflow Turbines. NASATM X-52552,
+     1969.
+12. Repas, David S. ; and Edkin, Richard A. : Performance Characteristics of a 14.3-
+     Kilovolt-Ampere Modified Lundell Alternator for 1200 Hertz Brayton-Cycle Space-
+     PowerSystem. NASA TN D-5405, 1969.
+NATIONAL AERONAUTICS AND SPACE ADMISTRATION
+            W A S H I N G T O N .D . C .     20546
+                          ____                                                               POSTAGE AND FEES PAID
+                                                                                          NATIONAL AERONAUTICS AND
+                OFFICIAL BUSINESS
+             PENALTY FOR PRIVATE USE 8300
+                                                             FIRST CLASS MAIL                SPACE ADMINISTRATION
+                                                                                                                                 USMAIL
+
+
+
+
+         01lB 0 1 C2 UL 03 7 1 0 9 1 0                                        720401
+         DEPT OF THE AIR FORCE
+         AP SYSTEHS COBHAND
+         AF WEAPONS LAB [WLOL)
+         ATTN: E LOU BDBHAN, C H I                                          .BRABY
+         KIBTLAND RFB N H 87117
+
+                                                                                - -.       . ~.   ~   .
+
+
+                                                                                                      POSTMASTER:   If Undeliverable (Section 158
+                                                                                                                    Posral Manual) D o Not Return
+
+
+
+
+                             "The aeroaautical and space activities of the United Stdtes shall be
+                          condzlcted.:so as t o ,contribute . . . to the expansion of human knowl-
+                          edge of phenomena in the atmosphere and space. The Adnzinistmtion
+                          shall provide for the widest prmticable and appropriate dissemination
+                          o]:!hfornlaiioon concerning its activities and the reszlts thereof."
+                           . .                 -NATIONAL.             A N D SPACE ACT OF 1958
+                                                             AERONAUTICS
+                          ::
+
+     NASA SCIENTIFIC AND TECHNICALPUBLICATIONS
+                                  ~   * .
+                                      .: I
+       TECHNICAL ,REPORTS: Scientific and                            TECHNICAL TRANSLATIONS: Information
+       technical information considered important,                   published in a foreign language considered
+       complete, and,a lasting*contribution
+                          .. .
+                                            to existing              to merit NASA distribution in English.
+       knowledge.          I.-
+                                                                     SPECIAL PUBLICATIONS: Information
+       TECHNICAL NOTES: Information less broad                       derived from or of value to NASA activities.
+       in scope but nevertheless of importance as a                  Publications include conference pr,oceedings,
+       contribution i o existing knowledge.                          monographs, data compilations, handbooks,
+                                                                     sourcebooks, and special bibliographies.
+       TECHNICAL MEMORANDUMS:
+                            5 -
+
+
+       Information receiving limited distribution                    TECHNOLOGY UTILIZATION
+       because of preliminary data, security classifica-             PUBLICATIONS: Information on technology
+       tion, or other reasons.                                       used by NASA that may be of particular
+                                                                     interest in commercial and other non-aerospace
+       CONTRACTOR REPORTS: Scientific and                            applications. Publications include Tech Briefs,
+       technical information generated under a NASA                  Technology Utilization Reports and
+       contract or grant and considered an important
+                                                                     Technology Surveys.
+       contribution to existing knowledge.
+
+                          Detailsonthe        availability of these publications may be obtained from:
+
+                        SCIENTIFIC AND TECHNICAL INFORMATION OFFICE
+
+        NATIONAL AERONAUTICS AND SPACE ADMINISTRATION
+                                                     Washington, D.C. PO546
+

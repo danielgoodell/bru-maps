@@ -1,0 +1,644 @@
+        NASA T E C H N I C A L                                    NASA TM X- 52826
+             MEMORANDUM
+
+
+
+
+        EXPERIMENTAL PERFORMANCE CHARACTERISTICS
+        OF THREE IDENTICAL BRAYTON ROTATING UNITS
+
+        Donald G. Beremand, David Namkoong, and Robert Y. Wong
+        Lewis Research Center
+        Cleveland, Ohio
+
+
+        TECHNICAL PAPER proposed for presentation at Fifth Intersociety
+  1'
+ .: j   Energy Conversion Engineering Conference sponsored by the
+I i     American Institute of Aeronautics and Astronautics
+        Las Vegas, Nevada, September 21-24, 1970
+    EXPERIMENTAL PERFORMANCE CHARACTERISTICS O F
+
+         THREE IDENTICAL BRAYTON ROTATING UNITS
+
+   Donald G, Beremand, David Narnkoong, and Robert Y, Wong
+
+                      Lewis Research Center
+                         Cleveland, Ohio
+
+
+
+
+         TECHNICAL PAPER proposed for presentation at
+
+   Fifth Intersociety Energy Conversion Engineering Conference
+sponsored by the American Institute of Aeronautics and Astronautics
+             Las Vegas, Nevada, September 21-24, 1970
+
+
+    NATIONAL AERONAUTICS AND SPACE ADMINISTRATION
+                  EXPERIMENTAL PERFORMANCE CHARACTERISTICS O F THREE IDENTICAL BRAYTON ROTATING UNITS
+
+                                             Donald G. Beremand, David Namkoong, and Robert Y. \Vong
+                                                               Lewis Research Center
+                                                    National Aeronautics and Space Administration
+                                                                  Cleveland, Ohio
+
+Abstract                                                                         jectives. It i s the purpose of this paper to present such mi cvalua-
+                                                                                 tion. Table I sumnlarizes the total operating time on these units a s
+     Extensive hot performance testing has now been completed on                 of Afag 18, 1970. However, only data through February 11 i s evalu-
+three identical Brayton Rotating (turboalternator-compressor) Units              ated in this paper.
+on gas bearings. Each unit (BRU) was tested in a different type of
+test installation. The first in a BRU performance test rig, the sec-             BRU Design
+ond a s part of a Brayton gas b o p test (BRU with engine heat ex-
+changers and ducting), and the third a s part of a full Brayton engine               On June 30, 1966, the NASA-Lewis Research Center contractctl
+test powered by an elcctric heat source.                                         with AiResearch Afanufacturing Company of Phoenix, Arizona for the
+                                                                                 design and manufacture of the Brayton Rotating Unit. Thc BRU dc-
+     At design conditions of 1 6 0 0 ~
+                                     F turbine inlet temperature and             sign requirements were ns follows:
+ROO F conlpressor inlet temperature,     BRU output power exceeds the
+design objectives in a l l cases. Gas bearing performance in a l l three             Alternator:
+units mas satisfactory and differences from unit to unit were minor.                   Power output                                 2.25 Lo 10.5 l.rW
+The thermal design was generally very good, particularly in the area                   Frequency                                    1200 cycles +l%
+of the journal bearings. However, alternator hot spots ran 15' to                      Voltage                                      three-phase, 120/208
+20° F higher than predicted. Added cooling which would be required                   Wortcing fluid                                 He-Xe [ M w = 83.8
+to run a t powers higher than design ((10.5 kW) i s readily obtainable by                                                              (krypton)]
+liquid cooling of the alternator end bells.                                          Shaft speed                                    36,000 rpni
+                                                                                     Turbine inlet temperature                      1 6 0 0 ~F
+       Overall BRU performance and operation has been very success-                  Compressor inlet temperature                   80O F
+ful.                                                                                 Operating life                                 5 years
+                                                                                     Turbine and compressor type                    radial flow
+Introduction                                                                         Bearing system                                 g a s bearings
+                                                                                       Start-stop                                   hydrostatic
+        The NASA-Lewis Research Center i s presently developing a                      Normal operation at rated speed              hydmd.wamic
+closed loop Brayton cycle engine (Refs. 1 and 2) for space applica-
+tions. This engine was designed to deliver from 2 to 10 kW of elec-              The initial design studies included basic design of the major compo-
+trical power continuously over a 5-year life with shutdown and re-               nents, overall package design, and the development in conjunction
+s t a r t capability. At the present time, ground tests of all major com-        with NASA-Lewis Research Center of a set of 1-efeTence design con-
+ponents, subsystems, and the complete engine have been o r a r e be-             ditions compatible with the overall Brayton engine
+ing conducted.
+                                                                                    These reference design conditions for the BRU contract a r e
+     The "heart" of this engine is the Eraybn Rotating Unit (BRU).               summarized briefly a s follows:
+It consists of a turbine, alternator, and compressor mounted on a
+single shaft, supported on gas lubricated bearings. Extensive testing                Alternator output, lW                                6. 0
+of the BRU has been conditcted and i s continuing. This test activity                Working fluid - Helium-Xenon
+started with individual component t e s t s of the turbine, compressor,                Molecular weight                                   83.8
+and alternator utilizing individual component research packages and                  Shaft speed, rpm                                     36,000
+dynamic tests of all the bearings in a BRU simulator (Refs. 3 to 5).                 System flow rate, lb/sec                             0.80
+It has included the hot testing of three identical BRU's in three differ-            Compressor pressure ratio                            1.9
+ent test installations.                                                              Compressor efficiency, 70                            80
+                                                                                     Turbine pressure ratio                               1.75
+    The f i r s t unit was tested in a test r i g for evaluation of the BRU          Turbine efficiency, %                                87
+only (Ref. 6). In this test the objective was to evaluate the operation              Turbine inlet temperature, O F                       1GOO
+and perfornlance of the BRU a s a component. These t e s t s were in-                Compressor inlet tempera-                            80
+tended to exercise the unit over i t s complete operating range, deter-                ture, O F
+mine any operational limitations, and evaluate the behavior of the                   Alternator electrical effi-                          92
+BRU during startup and shutdown. This unit h a s now been installed                    ciency, %
+and i s being tested in the Brayton engine, replacing the third unit
+discussed below.                                                                      The BRU design, generated to meet these requirements, i s
+                                                                                 shown schematically in Fig. 1. Figure 2 i s a photograph of the BRU.
+     The second unit was tested a s part of the Brayton engine gas               The radial inflow turbine with a 5-inch diameter wheel and the radial
+loop (Ref. 7). In this installation the BRU was installed with the               flow compressor with a 4$-inch diameter wheel a r c mounted a t thc
+flight-type Brayton Heat Exchanger Unit (BHXU), and with an elec-                opposite ends of the shaft.
+trically powered heat source. The objectives of this test activity
+were to evaluate the overall performance of the complete Brayton g a s                The alternator, located in the center of the unit, i s a four-pole
+loop and evaluate BRU and BHXU performance a s a part of the loop.               modified Lundell unit. The alternator rotor i s an integral part of the
+This test program i s still undenvay and includes an objective of com-           shaft. It i s a brazed composite of 4340 magnetic steel end scctions,
+pleting a 10,000-hour endurance test.                                            incorporating the pole pieces, and Inconel 718 nonniagnctic sepa-
+                                                                                 rating material between the pole pieces.
+     The third unit was tested a s part of a complete Brayton engine,
+which included a flight-type electrical control system, coolant sys-                  The shaft i s supported by pivoted three-pad gas journal I>carings
+tem, and a gas management system. The primary objectives of this                 located just outlmard of the alternator, and a gimbal-nlounted double-
+test (Ref. 8) were to demonstrate and evaluate the performance of the            acting stcp-sector gas thrust bearing at the compressor end of the
+complete engine over its operating range, to explore component in-               shaft
+teractions, and to investigate engine startup and shutdown techniques.
+                                                                                      Thc insic structural tiienll~erof the unit is the :iltcrnator hous-
+     Test data from the three units now allows a preliminarv c ~ ~ a l i i a -   ing. It invorlmrates liquid cooling passages to c a r r y :!way wastellcat.
+tion of the repeatability and consistency of performance of thc BRU              The tul.l)iiic and c o ~ n p r e s s o rscrolls mount to the main flanges : ~ t
+from unit to unit a s well a s a comparison with the initial d c s i p ~01)-     oplasitt. <,nilsof thc alternator housing. The journal ;,enl.ings :,l'c
+supported off the alternator end bells and the thrust bearing i s              features of the facility. In this system, jacking gas i s supplied to the
+mounted from the compressor-end flange of the alternator housing.              two journal bearings from one common supply line and individual
+To provide external sealing of the alternator housing a sheet metal            supply lines are provided for each side of the thrust bearing. Bear-
+pressure containment shell i s welded around the alternator housing.           ing cavity pressurization i s supplied by a bleed line directly from the
+Feedthroughs for power, cooling lines, bearing jacking gas, and in-            compressor discharge scroll. A gas injection line and a vent line
+strumentation are provided in this shell.                                      a r e provided in the compressor discharge lines; the former i s down-
+                                                                               stream of the primary flow valve, the latter upstream. Injection
+     In order to provide a maximum bearing ambient pressure, par-              starts a r e made open loop with the primary flow valve closed and the
+ticularly for the low power, low pressure conditions, the bearing              vent valve open.
+cavity i s connected to the compressor discharge thlvrugh a filtered
+1/2-inch bleed line. This also assures a positive outward flow of gas          Brayton Engine Test System
+past the labyrinth seals to the back faces of the compressor and tur-
+bine, preventing leakage of hot unfiltered gas into the main BRU                    Brayton engine tests are being performed in a vacuum environ-
+housing.                                                                       ment in the test installation shown in the simplified schematic in
+                                                                               Fig. 6. In this installation (Ref. 8) the BRU i s installed a s a part of
+     The most critical factor in obtaining a satisfactory overall pack-        a complete flight-type Brayton engine. The gas loop i s the same a s
+age design of the BRU was thermal management and temperature                   in the Brayton Gas Loop Tests except that the electric heat source i s
+control throughout the unit. Prime requirements of this thermal de-            a different design. The gas supply system including jacking gas sup-
+sign were to limit the alternator hot spot temperature, minimize               ply valves, injection valve and system vent and bleed valves are in-
+temperature levels and gradients in the bearings (to minimize ther-            cluded a s part of the flight-type Gas Management System. An Engine
+mal distortions which would destroy the load carrying capacity of the          Control System i s included which monitors and controls engine oper-
+bearings), and to minimize and accommodate differential thermal                ation, including startup and shutdown functions, inventory control,
+growth between the journal bearing shaft and shoes.                            and overspeed protection.
+
+     The thermal design attempted to meet these requirements                   Thermal Insulation
+through the use of heat dams, thermal shunts, thermal isolation
+mounts, and convection heat transfer shoes between the shaft and                    A major difference in the above installations i s that the Brayton
+appropriate stationary members.                                                Engine Test i s being run in vacuum conditions while the BRU Test
+                                                                               and Brayton Gas Loop Tests a r e conducted in normal atmosphere en-
+      Other significant design features include the use of fully con-          vironment. Thermal insulation on the exterior surface of the BRU
+forming pivots for the journal bearing shoes, which act a s the seal           turbine reflects the different environmental conditions of the installa-
+for the introduction of hydrostatic jacking gas through the pivot shown        tions. The turbine insulation system of the Brayton engine consists
+in Fig. 3; and the use of a flexure mounted gimbal to support the              of two Inconel shells, gold-plated for low emissivity, enclosing two
+thrust bearing and accommodate misalignments and runouts between               layers of extra low conductivity fibrous insulation. The layers are
+the thrust bearing rotor and stator. Startup and shutdown of the unit          separated by a stainless steel foil spacer. The shells are embossed
+a r e accomplished while the bearings a r e hydrostatically supported by       for stiffness. In addition, the inner shell i s ridged to minimize
+jacking gas externally supplied to the bearings at 100 to 150 psia.            thermal contact between the scroll and the insulation. The insulation
+For normal design speed operation, the jacking gas i s turned off and          of the Gas Loop BRU turbine consisted of a fibrous blanket, some-
+the bearings, both thrust and journals, operate completely hydro-              what higher in conductivity than in the engine installation, but
+dynamically.                                                                   6 inches in thickness. The BRU Test turbine insulation was similar
+                                                                               to that on the Gas Loop turbine.
+Description of Test Installations
+                                                                               Instrumentation
+      Hot tests of the complete BRU have been conducted in three dif-
+ferent installations. These installations are s b w n schematically in              Internal instrumentation of the BRU was identical in eachof the
+Figs. 4 to 6. Brayton flight-type components a r e shown in the figure         three test installations. Measurements of the shaft and bearing mo-
+a s those connected by double-lined ducting, whereas component                 tions were made by use of capacitance-type proximity probes.
+simulators a r e shown tD be connected by double-lined ducting,                Twenty-two probes were installed throughout each BRU. Internal
+whereas component simulators are shown to be connected by single               instrumentation also included thermocouples throughout each unit.
+lines.                                                                         Their purpose was to measure the b t spot temperatures and to as-
+                                                                               certain temperature distribution. In addition to internal instrumen-
+     In all installations the BRU was operated in the vertical position        tation, there were measurements external to the BRU of gas temper-
+with the turbine end up.                                                       atures and pressures in the turbine and compressor inlet and dis-
+                                                                               charge lines. The locations and types of these temperature probes
+BRU Test System                                                                and pressure taps varied with the installation due to the different na-
+                                                                               ture and test objectives of each installation.
+     BRU tests were performed in an atmosphere environment in the
+test installation shown in a simplified schematic diagram in Fig. 4.           Results and Discussion
+In this installation, the BRU was the only flight-type engine hardware
+under test. Reference 9 describes the facility components which                     At the time of this writing, testing of one unit in the BRU Test
+controlled the inlet conditions to the BRU. This system included a             System was completed, while Brayton Gas Loop Tests and Brayton
+single controlled jacking gas supply line for both journal bearings            Engine Tests a r e still underway. Data reduced and evaluated for
+and one for both sides of the thrust bearing. Provision was included           this paper covers test activities in each installation through Febru-
+for pressurization of the bearing cavity from the compressor dis-              ary 11. A summary of these tests including number of operating cy-
+charge scroll through a compressor bleed valve. A gas injection                cles, i s shown inTable 11. As can be seen, data were obtained in the
+valve was provided upstream of the heater for injection startup and            BRU Test at the design turbine inlet of 1600' F while operating on
+a vent valve was included to control system inventory.                         the helium-xenon working fluid. Brayton Gas Loop tests have been
+                                                                               conducted over a fairly complete range of temperatures and pres-
+Brayton Gas Loop Test System                                                   sures, including the 1600' F turbine inlet condition. However, this
+                                                                               testing to date has been limited to the use of krypton gas a s the work-
+    Brayton gas loop tests are being performed in an atmospheric               ing fluid. Brayton engine testing has been conducted on both krypton
+environment in the test installation shown in the simplified schematic         and helium-xenon and up to 1 6 0 0 ~F turbine inlet temperature. As
+in Fig. 5. In this installation the BRU i s installed with the flight-         mentioned previously, however, the data available for this paper
+type Brayton Heat Exchanger Unit (BHXU). The BHXU consists of a                does not include the 1600' F condition, though the lower turbine tem-
+recuperator, waste heat exchanger, and connecting ducting to the               peratures are included.
+BRU and i s constructed as a single unit. The BRU and BHXU, in
+conjunction with an electric (nonflight-type) heat source, forms the               In all three test installations initial checkout operations have
+complete Brayton Gas Loop. Reference 7 describes the remaining                 been conducted on krypton due to the high cost of the helium-xenon
+                                                                           2
+mixture. Since the molecular weight and critical thermodynamic                using krypton yield almost the same power outputs although again
+properties of krypton and the helium-xenon mixture a r e the same, no         somewhat below the BRU T e s t s a s would be expected with the differ-
+effect should be seen on turbine and compressor performance. How-             ence in turbine and compressor pressure ratios a s indicated in
+ever, the mixture should perform better in the complete engine, due           Fig. 10. Again in Fig. 10, con1pressor efficiencies a r e closely
+to the effect of i t s better heat transfer coefficient on heat exchanger     grouped for the Gas Loop T e s t s with krypton, and Engine t e s t s with
+performance.                                                                  krypton and helium-xenon. The BRU Test r e s u l t s (1400' F data i s
+                                                                              limited) again show lower compressor performance a s expected.
+Output Power and Aerodynamic Performance                                      Turbine efficiencies again show a wider spread than do the compres-
+                                                                              sor efficiencies. However, the differences seem more reasonable at
+       In comparing and evaluating the pel-formance of the BRU relative       1400' F turbine inlet than they did a t 1 6 0 0 ~F. The turbine efficien-
+to the design objectives i t i s uecessary to look prinlarily a t the BRU     c i e s for the Gas Loop and Engine t e s t s a r e fairly close, though this
+T e s t s and the Brayton Gas Loop T e s t s since the design turbine inlet   might be primarily coincidental. It i s of interest to note that the
+temperature data ( 1 ~ 0 F 0 )~a r e not included from the Brayton engine     highest indicated turbine efficiency i s obtained in the Engine test on
+tests. Figure 7 shows plots of g r o s s alternator power versus com-         helium-xenon which also shows the lowest power output (Fig. 9).
+pressor discharge pressure a t the design condition of 1600' F turbine        This might be explained, a t least partially, by thermal losses be-
+inlet and 80' F compressor inlet temperature.                                 tween turbine inlet and turbine exit thermocouple locations (again
+                                                                              remembering that these indicated efficiencies assume no thermal
+     III the BRU T e s t s both the helium-xenon and krypton points form      losses).
+essentially a single plot. This would be expected since the aero-
+dynamic turbine and compressor performance should be the same                 Bearing Performance
+with either working fluid. The data from the Brayton Gas Loop T e s t
+falls a b u t 700 watts below o r 2Lpsi to the right of the BRU Test data          In evaluating BRU performance i t i s essential to review the per-
+                                      2
+within the range of values covered. This i s due, a t least in part, to       formance of the Gas Bearings. In all three tests, indicated shaft
+the higher pressure drops in the Brayton Gas Loop which results in a          orbits and pad motions were small and not considered to be a prob-
+lower turbiue inlet pressure and relatively lower turbine pressure            lem. Perhaps m o r e important, though test time (Table I) is still
+ratio (see Fig. 8). In any case, the BRU performance a s indicated by         much l e s s than the 5-year life objective, no apparent changes have
+the g r o s s alternator power obtained in the BRU and Brayton Gas Loop       been observed in shaft orbits o r pad motions a s a function of time o r
+Tests substantially exceeds the reference design conditions estab-            number of start-stop cycles. Changes in orbits might indicate a shift
+lished early in the program. The 10; k~ power level, predicted by             of rotor balance, while changing pad motions could reflect a journal
+extrapolation of the Gas Loop Tests, would be obtained at a compres-          pivot wear problem.
+sor discharge p r e s s u r e of only 37l psia instead of 45 psia. O r one
+might expect to achieve 1 2 to 1 3 k& a t the 45 psia condition.                      Thrust Bearing. Critical to performance of the thrust bearings
+                                                                              is the question of applied loads. The thrust bearing loads come from
+      Since pressure ratios were found, a s predicted, to be essentially      kvo sourced when the unit i s operated with the shaft vertical. The
+constant over the range of compressor discharge pressures tested,             first, of course, i s the weight of the shaft of 21.8 pounds. The sec-.
+they have been tabulated r a t h e r than plotted in Fig. 8. The figure       ond source i s aerodynamic thrust loads from the turbine and com-
+compares turbine and compressor performance in the design range.              p r e s s o r wheels. These mere predicted during the design phase to be
+As indicated, the difference in turbine and compressor pressure               from 9 to 31 pounds net toward the turbine pad o v e r the 21. to 10; kW
+                                                                                                                                          2
+ratios in the BRU T e s t s a r e appreciably smaller than in the Gas Loop    power range.
+Tests; and the results from the Gas Loop Tests a r e quite close to the
+reference conditions. In comparing efficiencies, it i s found that both             The resultant predicted force on the thrust bearing i s shown in
+turbine and compressor efficiencies for the helium-xenon and krypton          Fig. 11 for comparison with actual loads. As can be seen the indi-
+plot on common curves from the BRU Test data again indicating no              cated actual loads from tests of all three units fall in the range of
+aerodynamic effects from the two different working fluids. Compres-           1 2 to 21 pounds toward the compressor. These actual loads were ob-
+s o r efficiencies shown in Fig. 8 were low in the BRU T e s t s compared     tained using a calibration curve for the thrust bearing obtained in
+to the reference design while the Brayton Gas Loop data was found to          testing the bearing simulator which gives load a s a function of hydro-
+correspond very well with the reference design. These results cor-            dynamic pressure minus cavity pressure. It i s obvious from Fig. 11
+respond well with unpublished t e s t data from the Compressor Re-            that the predicted aerodynamic thrust loads were not a s large a s an-
+search Package. It indicates that the compressor i s operating a t high       ticipated. In fact, the aerodynamic loads appear to be in the range of
+equivalent mass flows in the BRU Tests moving the operating pointto           zero to 10 pounds over the entire range of compressor discharge
+a lower efficiency condition. This indicates that the compressor i s          pressures. Also, within the accuracy of the data it would appear that
+operating nearer to open throttle conditions than design. This i s            all three units a r e quite similar and that the effects of different tur-
+caused by the lower pressure loss between the turbine and compres-            bine inlet temperatures and use of either krypton o r helium-xenon i s
+sor. The turbine efficiency data shows higher than the reference de-          negligible. Another method of evaluating the thrust loads yields val-
+sign performance in the BRU T e s t s and lower than reference design         ues about 5 pounds larger toward the compressor, but the trend of the
+performance in the Gas Loop Tests. Since the efficiency data in               data (slightly decreasing loads with increasing compressor discharge
+Fig. 8 assumes an adiabatic expansion, heat losses from the turbine           pressures) remains the same. In either case, the aerodynamic thrust
+would result in indicating higher than actual efficiency, thus the plot       load and i t s change with compressor discharge p r e s s u r e levels is
+of data from the BRU Test would seem reasonable especially since              much l e s s than predicted.
+constant heat losses would tend to indicate higher efficiencies a t the
+lower power levels. However, the turbine efficiency data plotted                    This variation from the predicted values is not surprising, since
+from Brayton Gas Loop T e s t s i s unexplainably low. So f a r , attempts    the prediction involves the differences in calculated forces on each
+to reconcile the turbine efficiency data from these t e s t s with cold gas   side of the turbine and compressor wheel. These individual forces
+turbine test data from the Turbine Research Package has been unsuc-           a r e quite large. Thus the predicted loads a r e the result of small dif-
+cessful. The high operating temperature of the turbine i s probably a         ferences in large numbers.
+significant contributing factor in this difficulty. Both temperature
+measurements and the control of heat losses i s very difficult and sub-            Thrust bearing film thicknesses on the loaded (compressor) side
+stantial differences may exist from one installation to the next.             were on the o r d e r of 0.0004 to 0.0005 inch for two of the units over
+                                                                              the range of conditions tested. Reliable film thickness data was not
+       A comparison of the performance of the BRU's in the three dif-         obtained in the Brayton Engine Test. Film thickness of this mode i s
+ferent installations i s shown in Figs. 9 and 10 for 1400' F turbine in-      appreciably l e s s than originally predicted value of 0.0006 inch mini-
+l e t and 80° F compressor inlet. Figure 9 shows Gross Alternator             mum. While this has not affected operation of the BRU, i t would in-
+Power a s a function of Compressor Discharge Pressure. In this case           dicate lower than predicted maximum load capability for the thrust
+the Brayton engine t e s t s were performed on both working fluids (Kr        bearings.
+and He-Xe). In the Brayton engine tests the helium-xenon perfor-
+mance falls inexplicably below that of the krypton, while in all BRU               Journal Bearings. Journal bearing pad loads from t e s t s of the
+testing no significant difference has been detected. At the same time         three units a r e listed in Table 111. These loads appear to be essenti-
+it can he seen that Brayton Gas Loop Tests and Brayton Engine T e s t s       ally constant with variations of compressor discharge pressure, tur-
+bine inlet temperature and use krypton o r helium-xenon Thus, only                                        These incidents, while not planned, show substantial overspeed
+the 'ange of pad loads for each unit a r e shown in Table III. These                                 margin above the 120 percent design goal and also demonstrate that a
+loads a r e obtained by taking 75 percent of the difference between the                              runaway condition (loss of load) does not result in catastrophic dam-
+hydrodynamic bearing pressure and the cavity pressure. This com-                                     age to the unit.
+putation mctliod (Ref. 9) i s based on experimcutal data using argon
+and the BRU bearing configuration tested in an e a r l i e r radial flow                             Problem Areas and Potential Improvements
+turbocompressor which was the forerunner of the BRU.
+                                                                                                          Testing in the three installations 'evealed several a r e a s that in-
+    Local measurements made using proximity probes to measure                                        dicated a need for correction. These problems, however, do not ap-
+flexure mount deflections and thus pad loads, indicated somewhat                                     pear to require any major design change. In addition, several minor
+higher values. These values a r e tlmught to be l e s s reliable, how-                               modifications a r e apparent which, if put into effect, can improve
+ever, due to potential thermal distortion e r r o r s .                                              performance.
+
+     Whether the indicated differences ace r e a l o r nterely reflect po-                                  Alternator Hot Spot. A recent study efforl performed by
+tential instrumentation inaccuracies i s difficult to say. However,                                  AiResearch under the BRU contract indicates that redesign of the
+based on jacking g a s p r e s s u r e s required to lift the bearings prior to                      stator to provide additional cooling and add copper to 'educe losses
+startup one would have anticipated higher pad loads in the BRU in-                                   could result in a BRU capable of about 25 kW g r o s s alternator output
+stalled in the Brayton engine than in the other hvo units. Again, the                                a t the desired 400' F hot spot temperature. This nlodification would
+variations a r e not significant and the results indicate that the journal                           require a completely new stator design with a l a r g e r liousing diame-
+bearing system design, including selection of the flexure mount                                      t e r . However, it i s estimated that the addition of liquid-cooled end
+spring rate, and the overall thermal design of the bearing mounts                                    bells and other minor modifications should be sufficient to bring the
+was very successful.                                                                                 present alternator stator hot spot temperature to about 400' F (5-yr
+                                                                                                     life) for g r o s s power outputs on the o r d e r of 1 4 to 1 5 ItW.
+     The thermal design of the bearing mounts w a s critical to the
+success of the BRU. Failure to adequately accomnlodate thermal                                               Pneumatic Hammer. In the BRU Tests, the journal bearings
+growth of the shaft could have overloaded the bearings and caused                                    developed a "pneumatic hammer" type of instability when the p r e s -
+failure. On the other hand, overcompensation could have unloaded                                     sure ratio - p r i o r to startup - between the bearing jacking g a s supply
+the bearing pads and resulted in hearing instabilities and failure.                                  and the cavity exceeded 10:l to 15:l (Ref. 6). This pressure ratio
+                                                                                                     existed when the compressor bleed valve (Fig. 4) w a s in the open
+Thermal Performance                                                                                  position, exhausting the cavity to the evacuated lines in the system.
+                                                                                                     With the compressor bleed valve closed, however, and the hydro-
+     As stated earlier, the most critical element in a successful de-                                static flow from the bearings vented only through the labyrinth seals,
+sign of the BRU was good thermal management. As f a r a s the bear-                                  the cavity pressure quickly built up to about 17 psia thus holding the
+ings a r e concerned this objective h a s apparently been met a s indi-                              p r e s s u r e ratio to l e s s than 10:l. While the other two units have not
+cated in the above bearing discussion. Another critical area of tem-                                 exhibited this phenomenon, future units will incorporate a check
+perature i s the alternator stator hot spot temperature. The initial                                 valve in the compressor bleed line to the cavity. During startup the
+design objective was to limit the hot spot temperature to 180' C                                     check valve will then serve the same function a s the compressor
+(356O F). While initial thermal analyses indicated this would be met,                                bleed valve did in the BRU Tests.
+i t was found upon rechecking the thermal design, after completion of
+detailed drawings, that the hot spot was predicted to be about 400' F                                        Thrust Bearing Oscillations. During BRU testing a t 'educed
+a t 10.5 kW and 0.85 power factor. This was considered adequate for                                  turbine inlet temperature it was observed that a s the p r e s s u r e in the
+the required 5-year life. The BRU's were fabricated without further                                  loop was increased the film thiclmess of the loailed side of the thrust
+modification.                                                                                        bearing (compressor) increased slightly. At a compressor outlet
+                                                                                                     p r e s s u r e of 30 psia a subsynchronous motion with a frequency of
+        Table IV presents a comparison of key package temperatures                                   about 1/6 rotative speed could be seen superimposed on the relative
+obtained in BRU Tests and a r e typical of the other two units (thermo-                              motion between the thrust runner and stator. It could also be seen
+couple numbers a r e included f o r reference to other BRU reports).                                 in the relative motion between the thrust stator and the f r a m e of the
+The conditions for which measured temperatures a r e presented a r e                                 BRU. The subsynchronous motion increased a s the compressor out-
+f o r 1 0 . 5 a n d 1 1 . 7 kW, b o t h a t 0 . 9 5 p o w e r f a c t o r . A t 1 0 . 5 k W , 0.95   l e t pressure was increased to 45 psia. At this p r e s s u r e and a turbine
+power factor, the three alternator hot spot temperatures a r e a l l                                 inlet temperature of 1 2 0 0 ~F the peak-to-peak subsynchronous motion
+about 400' F. Decreasing the power factor from 0.95 to the design                                    was about 0.00025 inch. With this oscillation, the minimum film
+value a t 0.85, all other factors remaining constant, r a i s e s the alter-                         t h i c h e s s was of the order of 0.00027 inch. Brayton Gas Loop testing
+nator hot spot temperatures about 1.5' F (according to results from                                  showed similar results at low turbine inlet temperatures and high
+the BRU Tests and substantiated by the Brayton Gas Loop Tests).                                      pressures. These oscillations were evidently not a problem for
+Thus, a t 10 kW (gross power) and 0.85 power factor, the alternator                                  these conditions. In addition, they occurred in a region well outside
+hot spot i s indicated to be 415' F . Unpublished statistical data for                               the normal operating range. It might be assumed that this oscilla-
+alternators with similar insulation and potting compounds show that                                  tion was connected with the reduced thrust loads and increased film
+a 5-year life may be expected for this temperature.                                                  thicknesses encountered under these conditions. However, these
+                                                                                                     changes were not large and bearing tests conducted by the contractor
+     The turbine end labyrinth seal i s indicating several hundred                                   in the BRU simulator, where load conditions were investigated from
+degrees above predicted values. No apparent adverse effects on                                       a full 30-pound load through the neutral load condition, showed no
+BRU performance can be found and it is not believed to be a problem.                                 such oscillations.
+It may result from lower than predicted labryinth seal leakaxe flow
+which would reduce the cooling effects on the seal.                                                          Another possible explanation is that the oscillations may be in-
+                                                                                                     troduced by pressure pulsations in the compressor o r turbine, o r a
+Overspeed Capability                                                                                 p r e s s u r e cross-linking between compressor and turbine. However,
+                                                                                                     no evidence to support such an explanation has been noted to date.
+      No specific tests were planned to determine the overspeed capa-
+bility of the BRU. However, two units were inadvertently run to                                           'l'url)i~lcand Con~l)ros.sorI'crforn~anc:~.Illnor modifications in
+speeds in excess of 50,000 rpm (design value is 36,000 'pm). Both                                    the ~ u r b i n eand coml,rt:ssor diffusers sl~ouldresult in o n e to hvo [mint
+instances resulted from sudden removal of the alternator load exter-                                 improvement in the efficiencies of these coniponents. Research
+nal to the unit. In both cases, the bearings contacted at speeds                                     package testing has shown that the coilipressor performance can be
+above 50,000 rpm and stopped rotation within a few seconds. Dam-                                     improved by an adjustment of 3' in diffuser vane angle setting.
+age to the units was limited to scored hearings and labryinth seal                                   While this h a s been h o w n for some time it was decided not to incor-
+rubs. The units involved were Unit 3 in the Engine tests (after                                      porate the change into the BRU until complete engine t e s t s verified
+668 hr) and a fourth unit which was being checked out in the Gas Loop                                the match point of the turbine and compressor. This h a s not been
+Test System. This fourth wnit was replaced a s a result of the inci-                                 done and it is planned to incorporate this change in fnture units.
+dent before any significant testing w a s performed.
+     Turbine component testing (Ref. 3) indicated room for improve-                    4. Nusbaum, W. J. and Kofslcy, M. G. , "Cold Performance Evalua-
+ment in design of the turbine exhaust diffuser. Preliminary testing                        tion of a 4.97-Inch Radial-Inflow Turbine Design for Single-Shaft
+of the Turbine Research Package with a modified diffuser design,                           Brayton Cycle Space Power Systems, " TN 0-5090, 1969, NASA,
+based on a linear variation in static pressure, instead of a linear                        Cleveland, Ohio.
+variation in aara, indicates improvements in overall turbine effi-
+ciency of about one point. If these results a r e verified this change                 5. Repas, D. S. and Edkin, R. A , , "Performance Characteristics
+would also be incorporated into future units.                                              of a 1 4 . 3 Kilovolt-Ampere Modified Lundell Alternator for 1200-
+                                                                                           Hertz Brayton-Cycle Space Power System, '' TN D-5405, 1969,
+Conclusions                                                                                NASA, Cleveland, Ohio.
+
+      Three Brayton Rotating Units have now been operated in three                     6. Wong, R. Y . , Klassen, H. A , , Evans, R. C . , and Winzig, C. H.,
+different test installations. While the differences in the test instal-                    "Preliminary Investigation of a Single-Shaft Brayton Rotating
+lations makes accurate comparisons difficult, it i s believed that, in                     Unit Designed for a 2- to 10-Kilowatt Space Power Generation
+general, the performance evaluations presented in this paper a r e                         System, " TM X-1869, 1969, NASA, Cleveland, Ohio.
+valid. The following conclusions have been drawn from this evalua-
+tion:                                                                                  7. Valerino, A. S., Macosko, R. P . , Asadourian, A . S . , Hecker,
+                                                                                           T. P . , and Kruchowy, R . , "Preliminary Performance of a
+    1. The overall BRU performance objectives have been exceeded                           Brayton-Cycle-Power-System Gas Loop Operating with Krypton
+based on measurements of g r o s s alternator output power.                                Over a Turbine Inlet Temperature Range of 1 2 0 0 ~to 1600° F , "
+                                                                                           TM X-52769, 1970, NASA, Cleveland, Ohio.
+    2. Compressor performance objectives have been met.
+                                                                                       8. Fenn, D. B . , Deyo, J. N., Miller, T . J . , and Vernon, R. W . ,
+     3. A good direct evaluation of turbine performance i s not possi-                                                                    -
+                                                                                           "Experimental Performance of a 2 1 5 Kilowatt Brayton Power
+ble b a s e d o n the data so far available. However, i t certainly follows                System in the Space Power Facility Using Krypton, " TM
+from conclusion 1 above that turbine performance a s a p a r t of the                      X-52750, 1970, NASA, Cleveland, Ohio.
+overall BRU has at least been ~ d e q u a t e .
+                                                                                       9. Klassen, H. A . , Winzig, C. H . , Evans, R. C . , and Wong, R. Y . ,
+     4. Bearing performance has been satisfactory. Aerodynamic                             "Mechanical Performance of a 2- to 10-Kilowatt Brayton Ro-
+thrust loads a r e lower than predicted. Journal pad loads a r e close                     tating Unit," Proposed NASA Technical Note, 1970, NASA,
+to predicted values indicating excellent thermal growth compensation.                      Cleveland, Ohio.
+
+
+
+
+                                                                                                                                 _
+    5. Alternator hot spot temperatures a r e higher than predicted                                                            TABLE I
+and some design adjustment (such a s liquid-cooled end bells) is r e -
+quired for power conditions exceeding 10; k~ gross.                                        Unit               Test             Operating, Maximum                  Gas
+                                                                                          number          installation           time,       inlet
+    6. Except for the alternator, no thermal design problems a r e                                                                hr      temperature,
+apparent.                                                                                                                                         OF
+
+
+
+
+                                                                                         11 11                             1 /                               1 1
+References                                                                       1                       BRU test                1012            1600            Kr,He-Xe
+                                                                                                         Engine t e s t                          1600             He-Xe
+1. Klann, J. L . , "Analysis and Selectionof Designconditions for a                                                              2424
+    Radioisotope Brayton-Cycle Space Powerplant, " TN D-4600,
+    1968, NASA, Cleveland, Ohio.
+
+2. Klann, J. L., "2 to 10 Kilowatt Solar o r Radioisotope Brayton
+                                                                                                2        Gas loop test     1      236      1     1600        1      Kr       I
+                                                                                                3        Engine t e s t           668            1450            Kr, He-Xe
+    Power System, " Intersociety Energy Conversion Engineering
+    Conference. Vol. 1, IEEE, 1968, pp. 407-415.                                             a ~ v a l u a t i i nof data from this t e s t w a s not completed for this
+                                                                                                paper.
+3. Wasserbauer, C. A. and Kofsky, M. G . , "Aerodynamic Perfor-
+    mance of a 4.59-Inch Modified Radial Infiow Turbine for a Single
+    Shaft B r a w n Cycle Space Power System, " TM X-1615, 1968,
+    NASA, Cleveland, Ohio.
+
+
+
+
+                                                                BRU 1                     BRU 2                         BRU 3
+
+                                                            BRU Tests                Brayton Gas Loop            Brayton Engine
+
+                                                         Kr          He-Xe              Kr          He-Xe         Kr           He-Xe
+
+                          Compressor discharge         '25-29           17-45          15-56        -----       25-44           25-45
+                           pressure, psia
+
+                          Compressor inlet             a70-80           GO-120         55-100       -----       42-95           70-90
+                           temperature, O F
+
+                          Turbine inlet temper-      a1200-1600    1200-1600         1140-1600      ----- 1200-1450         1200-150C
+                            ature, O F
+
+                         Number of operational            b8            C15              3          -----          5              5
+                         -
+                          cycles
+                          a ~ r e l i n ~ i n atesting
+                                                ry     conducted with larger than design turbine and compressor clearances
+                             i s not included.
+                          hIncludes preliminary testing mith argon.
+                          C ~ t ~ c l u deight
+                                          e s motor-start hot tests.
+                                                                                  6
+                          TABLE IT[. - JOURNAL BEARING PAD LOADS
+
+                          Reference design, lb
+
+                          BRU 1 (BRU T e s t ) , lb                       13.8-15
+
+                          BRU 2 (BRU G a s Loop), lb                   13.8 -14.2
+
+                          BRU 3 (Brayton Engine), lb                         12-13
+
+
+
+
+                           TABLE IV.       - KEY BRU TEMPERATURES, O F
+Thermo-             Location                    Predicted                              Measured
+ couple
+nu~llbe~                                   1 0 . 5 kW, 0 . 8 5 P F   1 0 . 5 I N , 0 . 9 5 P F 1 1 . 7 lcW, 0 . 9 5 P F
+
+ 1       Alternator end turn                        37 5                      402                       435
+           I. D. (turbine end)
+
+ 2       Alternator end turn                        37 5                      392                       42 9
+           I. D. (compressor end)
+
+ 5       Alternator slot a t I. D.                  40 0                      398                       436
+
+ 3       Alternator end turn                        300                       263                       283
+           0 . D. (turbine end)
+
+ 10      Alternator field                           1GO                       144                       150
+           winding
+
+ 31,32   Thrust bearing ginlllal                    420                       39 5                      40 2
+
+ 34        Labryinth s e a l                        550                       901                       882
+             (turbine end)
+
+ 11      Main alternator housing                    155                       149                       153
+          (turbine end)
+
+ 12      Main alternator housing                    155                       127                       132
+          (compressor end)
+
+ 23      Journal bearing pad                        38 5                      387                       397
+           (turbine end)
+
+ 25,26     Journal bearing c a r r i e r            ---                        315                      325
+             (turbine end)
+
+ 27        Journal bearing pad                      355                       339                       349
+             (compressor end)
+
+ 29,30     Journal bearing c a r r i e r            ---                       282                       288
+             (conlpressor end)
+TUR
+
+
+
+
+        Figure 1. - BRU schematic.
+
+
+
+
+      Figure 2. - Brayton rotating unit.
+                                         /   PRESSURIZED GAS
+
+
+
+
+BALL-AN D-SOCKET
+
+
+
+
+                   Figure 3. - Pivoted-pad gas bearing.
+                                               INJECTION
+
+
+
+
+BEARING JACKING
+
+
+                                           COMPRESSOR
+                                           BY -PASS VALVE
+
+            Figure 4. - BRU test system.
+GAS SUPPLY
+
+       Figure 5. - BRU in Brayton gas loop test system.
+                      I
+
+
+
+
+                          -
+
+                                                 Q
+Figure 6. - BRU in Brayton engine test system.
+14
+
+
+            0 GAS iOOF; Kr
+12            REF. DESIGN POINTS; He-Xe
+
+
+
+10
+
+
+
+8
+
+
+
+6
+
+
+
+4
+
+
+
+2
+     0      10       20       30       40                    50
+         COMPRESSOR DISCHARGE PRESSURE, P S l A
+     Figure 7. - BRU gross power output. Turbine inlet tem-
+       perature, 1600" F (1577" to 1609" F); compressor in let
+      temperature, 80" F (74" to 83" F).
+                   BRU TEST; He-Xe
+               0 BRU TEST; K r
+               0 GAS LOOP; K r
+                   REF. DESIGN POINTS
+              SOLID SYMBOLS DENOTE COMPRESSOR
+loor          OPEN SYMBOLS DENOTE TURBINE
+
+
+
+
+              10       20       30      40
+           COMPRESSOR DISCHARGE PRESSURE, PSlA
+       Figure 8. - Turbine and compressor performance com-
+         parison. Turbine i n l e t temperature, 1600" F (1577"
+        t o 1609" F); compressor i n l e t temperature, 80" F
+        (74" t o 83" F).
+          BRU TEST; Kr, He-Xe
+          ENGINE; K r
+          GAS LOOP; K r
+          ENGINE; He-Xe
+
+
+
+        OLATED CURVE    -
+
+
+2
+ 0      10    20     30     40     50
+  COMPRESSOR DISCHARGE PRESSURE, PSlA
+  Figure 9. - BRU gross output power com-
+    parison. Turbine inlet temperature,
+    1400" F (1393" to 1406" F); compressor
+   inlet temperature, 80" F (74" to 85" F).
+TURBINE COMPRESSOR
+   0               ENGINE; He-Xe
+   A        0      ENGINE; K r
+   V        C3     GAS LOOP; K r
+   0        a      BRU TEST; He-Xe
+
+
+
+
+COMPRESSOR DISCHARGE PRESSURE, PSlA
+ Figure 10. - Turbine and compressor effi-
+  ciency comparison.
+                          U BRU TEST; 1600" F, K r
+                          D BRU TEST; 1600" F, He-Xe
+    TURBINE               0 BRU TEST; 1200" F, He-Xe
+                          D GAS LOOP; 1400" F, K r
+     30
+                          0 ENGINE; 1400" F, K r
+                          A ENGINE; 1400" F, He-Xe
+     20
+m
+
+
+
+
+     30
+       0
+          0
+          10 20 30 40 50
+              COMPRESSOR DISCHARGE PRESSURE, PSlA
+
+COMPRESSOR
+                  Figure 11. - T h r u s t bearing loads.
+

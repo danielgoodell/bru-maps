@@ -1,0 +1,43 @@
+# Turbine TOTAL efficiency vs blade-jet speed ratio nu, argon rig.
+# NASA TN D-5090 (1969) Figure 11b (total-to-total). All speed lines collapse to one nu curve.
+# Source: user MANUAL WebPlotDigitizer reads (data/manual_digitize/), 2026-06-16 -
+#   geometric marker-center digitization, axis-calibrated to the figure gridlines.
+#   Supersedes the earlier Claude pixel reads (had a systematic flow-axis scale error);
+#   regenerate via scripts/ingest_manual_digitize.py. Design dots used as axis sanity checks.
+# speed_pct, nu, eta_tt
+speed_pct,nu,eta_tt
+30,0.18009,0.40311
+30,0.19296,0.41865
+30,0.20118,0.43264
+30,0.21249,0.44974
+30,0.22432,0.46736
+30,0.24076,0.49326
+50,0.30701,0.61451
+50,0.32915,0.64041
+50,0.34252,0.65907
+50,0.35848,0.67720
+50,0.38214,0.70984
+50,0.40637,0.72539
+70,0.43307,0.77772
+70,0.46502,0.80155
+70,0.48306,0.81554
+70,0.50780,0.83627
+70,0.53720,0.85285
+70,0.57022,0.86736
+90,0.55734,0.85699
+90,0.59958,0.89741
+90,0.62230,0.90104
+90,0.65379,0.91295
+90,0.69306,0.91347
+90,0.73338,0.91192
+100,0.62230,0.90155
+100,0.66516,0.91192
+100,0.69306,0.91347
+100,0.72562,0.91451
+100,0.74993,0.90881
+100,0.81929,0.87720
+110,0.68531,0.91295
+110,0.73543,0.91606
+110,0.75921,0.91451
+110,0.79489,0.90725
+110,0.84051,0.86788
