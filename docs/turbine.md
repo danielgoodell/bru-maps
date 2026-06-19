@@ -37,8 +37,16 @@ three fluids — only Reynolds differs (same conclusion as the compressor; §6 v
 
 ## 3. Map construction
 
-NPSS β-line map: `NcMap = speed%/100`, `WcMap = Wc/Wc_des` (Wc_des = 0.486 lb/s, Table-I constant),
-`betaMap` 0 = low PR … 1 = high PR. Two ideas:
+NPSS **turbine map** — a native `Subelement TurbinePRmap S_map { … }` block. Unlike a compressor, an
+NPSS turbine map is parameterized on corrected speed and **pressure ratio directly** — `WpMap` and
+`effMap` are the outputs, PR is an independent (confirmed against the NPSS docs and the T-MATS JT9D
+`HPT.map`, which use `NpMap`/`WpMap`, not the compressor's `NcMap`/`WcMap`). So the block holds two
+tables `TB_Wp(NpMap, PRmap)` and `TB_eff(NpMap, PRmap)` (leaf arrays `WpMap` and `effMap`), the
+design-scalar declarations `PRmapDes` and `NpMapDes`, and each table's own per-axis interp/extrap block
+declared inside it (`lagrange3` cubic in `NpMap`/`PRmap`, `linear` extrapolation, `extrapIsError = 0`),
+with `NpMap = speed%/100` (100 % = 1.0),
+`PRmap` = the total-to-static PR axis (1.45 … 2.00; total-to-total variant 1.42 … 1.95),
+and `WpMap = Wp/Wp_des` (Wp_des = 0.486 lb/s, Table-I constant). Two ideas:
 
 **Flow (Fig 8).** Each speed line is fit independently to a three-parameter swallowing law
 `Wc(PR) = W_ch·(1 − PR^−a)^b` — monotonic increasing, Wc(PR=1)=0, saturates toward W_ch. The free
@@ -48,8 +56,10 @@ fixed-curvature form. The free `b` removes that and drops residuals to the noise
 0.2–1.2×10⁻³ lb/s, ~0.1–0.2 %; 110 % line highest at the high-PR end). Fit per-line, not as a
 smooth-in-speed family — the lines differ enough in curvature that a global model reintroduces
 structured residuals; independent fits each reach the floor and stay ordered (the data don't cross).
-The map never extrapolates: each line uses its own measured PR range, off-design interpolates the
-6-line (30–110 %) grid.
+Because the NPSS map is rectangular (every speed line shares the common `PRmap` axis), PR nodes
+slightly outside a given line's measured span are filled by the swallowing-law fit — which, being
+monotone and saturating toward `W_ch`, extrapolates benignly; off-design interpolates the 6-line
+(30–110 %) grid.
 
 **Efficiency (Fig 11).** Radial-turbine efficiency collapses onto a single curve of η vs ν. The
 user digitized **both** the static (Fig 11a) and total (Fig 11b) curves per speed line; the build
@@ -100,6 +110,31 @@ efficiency on a stated basis, so exit temperature is right by construction.
 continuous at design — reproduces the Fig-14 anchors η_t 0.890 / 0.913 / 0.925 at Re
 34 950 / 76 200 / 175 800 exactly. (Static eff is less Re-sensitive: n ≈ 0.20 / 0.13.) Fig 14 is a
 faired cross-plot with no data points; anchors are text-stated. `scripts/build/turbine_corrections.py`.
+
+**Where the He-Xe operating point sits — the temperature effect (`RNI`).** `ReDes = 76 200` is the
+*argon cold-rig* design Re. The He-Xe turbine runs **hot** (design TIT 1600 °F ≈ 1144 K vs the rig's
+~300 K), and the two effects pull opposite ways:
+- **Temperature alone cuts Re ~2.5×.** He-Xe viscosity rises ~`(T/300)^0.7 ≈ 2.5×` from 300 K to 1144 K
+  (2.5×10⁻⁵ → 6.3×10⁻⁵ Pa·s), and `Re = W/(μ·r_t)`, so hot operation *lowers* Re for a given flow.
+- **Mass flow more than offsets it.** At ~10 kWe the loop runs at high pressure (≈44 psia discharge),
+  so physical flow is ~1.3 lb/s (the 1971 He-Xe turbine report, TM X-67998, gives ~1.0 lb/s at the
+  design PR 1.785, 1600 °F / 80 °F / 36 000 rpm; the 10 kWe point is higher) — several × the cold-rig
+  flow.
+
+Net: `Re ≈ 1.4–1.8×10⁵`, **`RNI ≈ 1.5–2.3` (≈ 2)** → `s_effRe ≈ 1.01`, i.e. η_t ≈ 0.922–0.925 vs the
+rig 0.913 — a small **favorable** ~+1 η-pt, the same story as the compressor (operating *above* the rig
+reference). So the hot temperature is a real, large Re-reducing effect in isolation, but the operating
+pressure/flow keeps the turbine above its rig Reynolds. (Estimate: `μ ∝ T^0.66–0.7`, `W ≈ 1.0–1.3 lb/s`,
+inlet T at the design 1600 °F; via `turbine_corrections.reynolds_turbine`.)
+
+As with the compressor, this is **embedded in the base maps** as an NPSS-native S_Re correction:
+`build_turbine_map.py` nests a `Subelement TurbineReynoldsEffects S_Re { … }` inside each map's `S_map`
+block (both `turbine_argon.map` and `turbine_argon_tt.map`), giving the direct multipliers `s_effRe` and
+`s_WpRe` vs `RNI = Re/ReDes` (ReDes = 76 200), applied by NPSS as `effBase = s_effDes·s_effRe·effMap` —
+a no-op at design Re. NPSS standardizes only that usage; the `RNI`-indexed table form is our chosen
+convention (internals are implementation-defined). The block comes from `generate_reynolds_maps.py`
+(`turbine_s_re_block()`), which also writes `turbine_reynolds_correction.csv` for inspection. `s_effRe` is anchored at η_ref = 0.913 (`= [1−(1−η_ref)·S]/η_ref`,
+S the deficit law); `s_WpRe ≡ 1` — Reynolds moves efficiency only; flow is the clearance term below.
 
 **Axial clearance (TM X-52552, 5-in turbine).** η × (1 − 0.00333·Δclr%), flow × (1 − 0.002·Δclr%),
 reference ~2 % (cold rig). In-loop 12 % → η(1→3) ×0.967, flow ×0.980.

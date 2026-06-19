@@ -44,12 +44,21 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
+from generate_reynolds_maps import turbine_s_re_block
+
 HERE = os.path.dirname(__file__)
 DIG = os.path.join(HERE, "..", "..", "data", "digitized")
 MAPS = os.path.join(HERE, "..", "..", "maps", "turbine")
 os.makedirs(MAPS, exist_ok=True)
 
-BETA = np.linspace(0.0, 1.0, 11)
+# NPSS turbine maps are parameterized on corrected speed and PRESSURE RATIO directly
+# (Wc and eff are the map outputs, PR is an independent) -- unlike a compressor R-line/beta map.
+# We therefore tabulate the two output tables WcMap(NcMap, PRmap) and effMap(NcMap, PRmap) on a
+# common PR axis. The swallowing-law and eta(nu) fits are evaluated at every (Nc, PR) node, so the
+# map is rectangular; PR nodes slightly outside a given speed line's measured span are filled by
+# the (monotone, saturating) fit -- the standard way NPSS turbine maps cover a common PR grid.
+PRGRID_TS = np.round(np.linspace(1.45, 2.00, 12), 3)   # total-to-static PR independent axis
+PRGRID_TT = np.round(np.linspace(1.42, 1.95, 12), 3)   # total-to-total  PR independent axis
 SPEEDS = [30, 50, 70, 90, 100, 110]
 Wc_DES = 0.486          # equivalent design mass flow, lb/s (Table I)
 PR_DES = 1.69           # design total-to-static PR (Fig 8 marker)
@@ -133,102 +142,150 @@ def fit_eff(ett, ets):
                 resid_static=es - np.polyval(cs, nus))
 
 
-def build_grid(flow, eff):
-    """Evaluate the smoothed fits on the (speed, beta) grid."""
-    Wc = np.zeros((len(SPEEDS), len(BETA)))
-    PR = np.zeros_like(Wc)
+def build_grid(flow, eff, prgrid=PRGRID_TS):
+    """
+    Evaluate the smoothed fits on the rectangular (speed, PR) grid.
+
+    Returns Nc (1-D), Wc and EF (2-D: nspeed x nPR) as functions of the common PR axis `prgrid`.
+    PR is the independent variable (NPSS turbine convention), so it is no longer an output table.
+    """
+    Wc = np.zeros((len(SPEEDS), len(prgrid)))
     EF = np.zeros_like(Wc)
     for i, spd in enumerate(SPEEDS):
-        PR_g = flow["pr_lo"][spd] + BETA * (flow["pr_hi"][spd] - flow["pr_lo"][spd])
-        Wc_g = flow_form(PR_g, *flow["params"][spd])
-        nu = np.clip(nu_of(spd, PR_g), eff["nu_lo"], eff["nu_hi"])
-        EF_g = np.polyval(eff["coef_total"], nu)
-        PR[i], Wc[i], EF[i] = PR_g, Wc_g / Wc_DES, EF_g
+        Wc[i] = flow_form(prgrid, *flow["params"][spd]) / Wc_DES
+        nu = np.clip(nu_of(spd, prgrid), eff["nu_lo"], eff["nu_hi"])
+        EF[i] = np.polyval(eff["coef_total"], nu)
     Nc = np.array(SPEEDS) / 100.0
-    return Nc, Wc, PR, EF
+    return Nc, Wc, EF
 
 
 # ---- writers ----------------------------------------------------------------
-def write_npss(Nc, Wc, PR, EF, path):
+PR_DES_TT = 1.645        # design total-to-total PR (PR_ts 1.69 -> PR_tt; see _pr_ts_to_tt)
+
+
+def _table(tb_name, leaf, Nc, PR, Z):
+    """One native NPSS turbine table: TB_<q>(NpMap, PRmap), PR the (shared) independent axis."""
+    lines = [f"   Table {tb_name}(real NpMap, real PRmap) {{"]
+    for i, nc in enumerate(Nc):
+        prs = ", ".join(f"{p:.3f}" for p in PR)
+        vals = ", ".join(f"{v:.4f}" for v in Z[i])
+        lines += [f"      NpMap = {nc:.3f} {{", f"         PRmap = {{ {prs} }}",
+                  f"         {leaf} = {{ {vals} }}", "      }"]
+    # Per-axis interp/extrap, inside the table after its speed lines (cubic in speed and PR;
+    # linear extrapolation off the edges, not flagged as an error).
+    lines += ['      NpMap.interp = "lagrange3";  NpMap.extrap = "linear";',
+              '      PRmap.interp = "lagrange3";  PRmap.extrap = "linear";',
+              "      extrapIsError = 0;",
+              "      printExtrap   = 0;"]
+    lines.append("   }")
+    return "\n".join(lines)
+
+
+def _subelement(Nc, PR, Wc, EF, pr_des):
+    """The native 'Subelement TurbinePRmap S_map { ... }' block: design scalars, the two tables, and
+    the embedded Reynolds S_Re subelement (a no-op at design Re, RNI = 1; corrects efficiency off-
+    design via effBase = s_effDes*s_effRe*effMap)."""
+    return "\n".join([
+        "Subelement TurbinePRmap S_map {",
+        f"   PRmapDes = {pr_des:.3f};",
+        "   NpMapDes = 1.000;",
+        "   // ReDes  = 76200.0;   // RNI = Re/ReDes; anchor = ARGON COLD-RIG design Re (TN D-5090). At the",
+        "   //   He-Xe ~10 kWe point RNI ~2 (hot mu at 1600F ~2.5x cuts Re, but the ~1.3 lb/s loop flow more",
+        "   //   than offsets) -> s_effRe ~1.01, a small FAVORABLE bump. See docs/turbine.md.",
+        "",
+        _table("TB_Wp", "WpMap", Nc, PR, Wc),
+        "",
+        _table("TB_eff", "effMap", Nc, PR, EF),
+        "",
+        turbine_s_re_block(),
+        "}",
+    ])
+
+
+def write_npss(Nc, PR, Wc, EF, path):
     hdr = (f"// NASA BRU 4.97-in radial-inflow turbine map\n"
            f"// From digitized NASA TN D-5090 (1969) argon cold-flow rig (Fig 8 flow, Fig 11 eff).\n"
-           f"// Flow: per-speed 3-param swallowing law Wc=W_ch*(1-PR^-a)^b (b free; tunable curvature).\n"
-           f"// Eff: smooth polynomial fit of the collapsed eta-vs-nu curve.\n"
-           f"// NcMap = N/sqrt(theta_cr) normalized to design; betaMap 0=low PR ... 1=high PR.\n"
-           f"// PRmap = inlet-total/exit-static (p1'/p3); effMap = total eff eta_t(1->3);\n"
-           f"// WcMap = (eps*W*sqrt(theta_cr)/delta)/Wc_des,  Wc_des={Wc_DES} lb/s.\n"
-           f"// Design: PR_ts={PR_DES}, nu={NU_DES}, eta_t=0.913. Monatomic-gas independent (Ar/Kr/HeXe).\n"
-           f"// PR is total-to-static; total-to-total variant in turbine_argon_tt.map (see docs/turbine.md).\n")
-
-    def table(col, out, Z):
-        lines = [f"Table S_map.{out}(real NcMap, real betaMap) {{"]
-        for i, nc in enumerate(Nc):
-            betas = ", ".join(f"{b:.2f}" for b in BETA)
-            vals = ", ".join(f"{v:.4f}" for v in Z[i])
-            lines += [f"   NcMap = {nc:.3f} {{", f"      betaMap = {{ {betas} }}",
-                      f"      {out} = {{ {vals} }}", "   }"]
-        lines.append("}")
-        return "\n".join(lines)
+           f"// NPSS turbine map: a 'Subelement TurbinePRmap S_map' block. Corrected speed and PRESSURE\n"
+           f"// RATIO are the independents; the tables TB_Wp, TB_eff output corrected flow (WpMap) and\n"
+           f"// efficiency (effMap).\n"
+           f"// Flow: per-speed 3-param swallowing law Wp=W_ch*(1-PR^-a)^b (b free; tunable curvature).\n"
+           f"// Eff: smooth polynomial fit of the collapsed eta-vs-nu curve, eta=poly(nu(NpMap,PR)).\n"
+           f"// NpMap = N/sqrt(theta_cr) normalized to design (100% = 1.0); PRmap = inlet-total/exit-"
+           f"static (p1'/p3).\n"
+           f"// effMap = total eff eta_t(1->3); WpMap = (eps*W*sqrt(theta_cr)/delta)/Wp_des, "
+           f"Wp_des={Wc_DES} lb/s.\n"
+           f"// Design: PR_ts={PR_DES}, nu={NU_DES}, eta_t=0.913 (PRmapDes, NpMapDes below). The\n"
+           f"// Reynolds correction is the embedded S_Re subelement (no-op at design Re): scales effMap.\n"
+           f"// Monatomic-gas independent (Ar/Kr/HeXe). PR is total-to-static; total-to-total variant\n"
+           f"// in turbine_argon_tt.map (see docs/turbine.md).\n")
     with open(path, "w") as f:
-        f.write(hdr + "\n" + "\n\n".join([table("PR", "PRmap", PR), table("eff", "effMap", EF),
-                                          table("Wc", "WcMap", Wc)]) + "\n")
+        f.write(hdr + "\n" + _subelement(Nc, PR, Wc, EF, PR_DES) + "\n")
 
 
-def write_csv(Nc, Wc, PR, EF, path):
-    rows = [(nc, b, Wc[i, j], PR[i, j], EF[i, j])
-            for i, nc in enumerate(Nc) for j, b in enumerate(BETA)]
-    pd.DataFrame(rows, columns=["NcMap", "betaMap", "WcMap", "PRmap", "effMap"]).to_csv(path, index=False)
+def write_csv(Nc, PR, Wc, EF, path):
+    rows = [(nc, PR[j], Wc[i, j], EF[i, j])
+            for i, nc in enumerate(Nc) for j in range(len(PR))]
+    pd.DataFrame(rows, columns=["NpMap", "PRmap", "WpMap", "effMap"]).to_csv(path, index=False)
 
 
 # ---- total-to-total reconciliation -----------------------------------------
-def build_tt(Nc, PR, EF, eff):
+def _pr_ts_to_tt(PR_ts, nc_pct, eff):
     """
-    Convert the total-to-static PR grid to total-to-total using the exit kinetic energy implied
-    by the two efficiency curves (no assumed exit Mach):
+    total-to-static -> total-to-total PR via the exit kinetic energy implied by the two
+    efficiency curves (no assumed exit Mach):
 
         actual work = eta_tt*Dh_id,tt = eta_ts*Dh_id,ts  (one physical quantity)
         => eta_ts/eta_tt = (1-PR_tt^-k)/(1-PR_ts^-k),  k=(gamma-1)/gamma=0.4
         => PR_tt = [1 - (eta_ts/eta_tt)*(1 - PR_ts^-k)]^(-1/k)
 
-    eta_tt is the map effMap; eta_ts comes from the static-eta poly (Fig 11a) at the same nu.
-    Returns (PR_tt, eta_ts, nu) on the grid.
+    eta_tt is the total-eta poly (Fig 11b); eta_ts the static-eta poly (Fig 11a), both at the
+    same nu(nc, PR_ts).
     """
-    PR_tt = np.zeros_like(PR)
-    ETS = np.zeros_like(PR)
-    NU = np.zeros_like(PR)
-    for i, nc in enumerate(Nc):
-        nu = np.clip(nu_of(nc * 100.0, PR[i]), eff["nu_lo"], eff["nu_hi"])
-        eta_ts = np.polyval(eff["coef_static"], nu)
-        PR_tt[i] = (1.0 - (eta_ts / EF[i]) * (1.0 - PR[i] ** (-GAMMA_EXP))) ** (-1.0 / GAMMA_EXP)
-        ETS[i], NU[i] = eta_ts, nu
-    return PR_tt, ETS, NU
+    nu = np.clip(nu_of(nc_pct, PR_ts), eff["nu_lo"], eff["nu_hi"])
+    eta_tt = np.polyval(eff["coef_total"], nu)
+    eta_ts = np.polyval(eff["coef_static"], nu)
+    PR_tt = (1.0 - (eta_ts / eta_tt) * (1.0 - PR_ts ** (-GAMMA_EXP))) ** (-1.0 / GAMMA_EXP)
+    return PR_tt, eta_tt, eta_ts, nu
 
 
-def write_tt(Nc, Wc, PR_ts, PR_tt, EF, ETS, NU, path_map, path_csv):
-    def table(col, Z):
-        L = [f"Table S_map.{col}(real NcMap, real betaMap) {{"]
-        for i, nc in enumerate(Nc):
-            betas = ", ".join(f"{b:.2f}" for b in BETA)
-            vals = ", ".join(f"{v:.4f}" for v in Z[i])
-            L += [f"   NcMap = {nc:.3f} {{", f"      betaMap = {{ {betas} }}",
-                  f"      {col} = {{ {vals} }}", "   }"]
-        L.append("}")
-        return "\n".join(L)
+def build_tt_grid(flow, eff, prgrid=PRGRID_TT):
+    """
+    Build the rectangular total-to-total turbine map: WcMap and effMap as functions of
+    (NcMap, PR_tt). For each speed line we sweep PR_ts densely, map it to PR_tt (monotone), then
+    invert to read the PR_ts -- and hence Wc and eff -- at each requested PR_tt node.
+    Returns Nc, Wc, EF and reference arrays (PR_ts, eta_ts, nu) on the PR_tt grid.
+    """
+    pr_ts_dense = np.linspace(1.35, 2.10, 400)
+    Wc = np.zeros((len(SPEEDS), len(prgrid)))
+    EF = np.zeros_like(Wc); PRTS = np.zeros_like(Wc); ETS = np.zeros_like(Wc); NU = np.zeros_like(Wc)
+    for i, spd in enumerate(SPEEDS):
+        pr_tt_dense, eta_tt_d, eta_ts_d, nu_d = _pr_ts_to_tt(pr_ts_dense, spd, eff)
+        pr_ts = np.interp(prgrid, pr_tt_dense, pr_ts_dense)   # invert monotone PR_tt(PR_ts)
+        nu = np.clip(nu_of(spd, pr_ts), eff["nu_lo"], eff["nu_hi"])
+        Wc[i] = flow_form(pr_ts, *flow["params"][spd]) / Wc_DES
+        EF[i] = np.polyval(eff["coef_total"], nu)
+        PRTS[i] = pr_ts; ETS[i] = np.polyval(eff["coef_static"], nu); NU[i] = nu
+    Nc = np.array(SPEEDS) / 100.0
+    return Nc, Wc, EF, PRTS, ETS, NU
+
+
+def write_tt(Nc, PR_tt, Wc, EF, PR_ts, ETS, NU, path_map, path_csv):
     hdr = ("// BRU 4.97-in radial-inflow turbine map -- TOTAL-TO-TOTAL coordinates.\n"
-           "// PRmap = Pt_in/Pt_out (total-to-total), effMap = total eta_t(1->3), WcMap = Wc/0.486.\n"
-           "// Converted from the total-to-static map via exit kinetic energy recovered from the\n"
-           "// digitized eta_tt (Fig 11b) and eta_ts (Fig 11a) nu-curves -- no assumed exit Mach.\n"
+           "// NPSS turbine map ('Subelement TurbinePRmap S_map'): independents NpMap and PRmap\n"
+           "// (total-to-total Pt_in/Pt_out); tables TB_Wp, TB_eff output WpMap = Wp/0.486 and\n"
+           "// effMap = total eta_t(1->3). (PR is an input, not output.)\n"
+           "// PR_tt recovered from the total-to-static map via exit kinetic energy from the digitized\n"
+           "// eta_tt (Fig 11b) and eta_ts (Fig 11a) nu-curves -- no assumed exit Mach.\n"
            "// Pairs directly with an NPSS/GasCycle total-to-total turbine expansion-ratio element.\n")
     with open(path_map, "w") as f:
-        f.write(hdr + "\n" + "\n\n".join([table("PRmap", PR_tt), table("effMap", EF),
-                                          table("WcMap", Wc)]) + "\n")
-    rows = [(nc, BETA[j], Wc[i, j], PR_ts[i, j], PR_tt[i, j], EF[i, j], ETS[i, j], NU[i, j])
-            for i, nc in enumerate(Nc) for j in range(len(BETA))]
-    pd.DataFrame(rows, columns=["NcMap", "betaMap", "WcMap", "PR_ts", "PR_tt",
+        f.write(hdr + "\n" + _subelement(Nc, PR_tt, Wc, EF, PR_DES_TT) + "\n")
+    rows = [(nc, PR_tt[j], Wc[i, j], PR_ts[i, j], EF[i, j], ETS[i, j], NU[i, j])
+            for i, nc in enumerate(Nc) for j in range(len(PR_tt))]
+    pd.DataFrame(rows, columns=["NpMap", "PRmap_tt", "WpMap", "PR_ts",
                                 "eta_tt", "eta_ts", "nu"]).to_csv(path_csv, index=False)
 
 
-def validation_plot(mf, flow, eff, Nc, Wc, PR, EF, path):
+def validation_plot(mf, flow, eff, Nc, PR, Wc, EF, path):
     fig, ax = plt.subplots(2, 2, figsize=(13, 9))
     cmap = plt.cm.viridis(np.linspace(0, 1, len(SPEEDS)))
 
@@ -266,9 +323,9 @@ def validation_plot(mf, flow, eff, Nc, Wc, PR, EF, path):
                  title=f"Efficiency vs ν — poly fit (η_total RMS = {rt:.4f})")
     ax[1, 0].legend(fontsize=7)
 
-    # (1,1) eta vs PR derived through the map
+    # (1,1) eta vs PR derived through the map (PR is the shared independent axis)
     for i, spd in enumerate(SPEEDS):
-        ax[1, 1].plot(PR[i], EF[i], "-", color=cmap[i], lw=1.4, label=f"{spd}%")
+        ax[1, 1].plot(PR, EF[i], "-", color=cmap[i], lw=1.4, label=f"{spd}%")
     ax[1, 1].plot(PR_DES, 0.913, "r*", ms=15)
     ax[1, 1].set(xlabel="(p1'/p3) total-to-static PR", ylabel="total efficiency η_t",
                  title="Map efficiency vs PR (smooth, via ν)")
@@ -285,13 +342,15 @@ def main():
     mf, ett, ets = load()
     flow = fit_flow(mf)
     eff = fit_eff(ett, ets)
-    Nc, Wc, PR, EF = build_grid(flow, eff)
-    write_npss(Nc, Wc, PR, EF, os.path.join(MAPS, "turbine_argon.map"))
-    write_csv(Nc, Wc, PR, EF, os.path.join(MAPS, "turbine_map_gridded.csv"))
-    PR_tt, ETS, NU = build_tt(Nc, PR, EF, eff)
-    write_tt(Nc, Wc, PR, PR_tt, EF, ETS, NU, os.path.join(MAPS, "turbine_argon_tt.map"),
+    Nc, Wc, EF = build_grid(flow, eff)
+    write_npss(Nc, PRGRID_TS, Wc, EF, os.path.join(MAPS, "turbine_argon.map"))
+    write_csv(Nc, PRGRID_TS, Wc, EF, os.path.join(MAPS, "turbine_map_gridded.csv"))
+    Nc_tt, Wc_tt, EF_tt, PRTS, ETS, NU = build_tt_grid(flow, eff)
+    write_tt(Nc_tt, PRGRID_TT, Wc_tt, EF_tt, PRTS, ETS, NU,
+             os.path.join(MAPS, "turbine_argon_tt.map"),
              os.path.join(MAPS, "turbine_map_tt_gridded.csv"))
-    validation_plot(mf, flow, eff, Nc, Wc, PR, EF, os.path.join(MAPS, "turbine_map_validation.png"))
+    validation_plot(mf, flow, eff, Nc, PRGRID_TS, Wc, EF,
+                    os.path.join(MAPS, "turbine_map_validation.png"))
 
     # --- diagnostics ---
     print("Wrote turbine_argon.map, turbine_map_gridded.csv, turbine_map_validation.png\n")
@@ -305,7 +364,7 @@ def main():
     print(f"\nDesign reconciliation: fitted 100% line at PR_ts={PR_DES} gives Wc={wfit_des:.4f} "
           f"lb/s vs Table-I {Wc_DES:.4f} (Δ={(wfit_des-Wc_DES)*1000:+.1f}e-3 = {(wfit_des/Wc_DES-1)*100:+.2f}%)")
     i100 = SPEEDS.index(100)
-    pr_at_des = np.interp(1.0, Wc[i100], PR[i100])
+    pr_at_des = np.interp(1.0, Wc[i100], PRGRID_TS)
     ef_at_des = np.interp(1.0, Wc[i100], EF[i100])
     print(f"100% line at WcMap=1.0 (design flow): PR={pr_at_des:.3f} (design 1.69), "
           f"eff={ef_at_des:.3f} (design 0.913)")

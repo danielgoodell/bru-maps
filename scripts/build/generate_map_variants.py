@@ -8,9 +8,11 @@ map that matches the real test-loop density/Reynolds regime.
 Each variant -> a gridded CSV and an NPSS .map file in maps/compressor/variants/, plus one overlay
 plot comparing efficiency (the dominant Reynolds effect) across variants.
 
-Scenarios here are bracketed by Re_U FRACTION of design (3.1e6). The actual loop Re_U for
-the He-Xe / Kr power-system tests will be pinned in Phase 5 from the system reports and the
-verified gas viscosities; until then these are illustrative-but-physical brackets.
+Scenarios here are bracketed by Re_U FRACTION of design (3.1e6). The He-Xe COMPRESSOR operating
+Reynolds is now pinned from the system reports (see docs/compressor.md sec.5): RNI ~0.92 at the
+6 kWe reference design and ~1.6 at the 10 kWe net operational point -- i.e. the He-Xe loop runs AT or
+ABOVE the rig Re, so these low-Re fractional brackets are illustrative low-power / off-design scenarios,
+not the design point. (Kr and the hot turbine Re are still to be pinned.)
 Efficiency & PR corrections are quantified from NASA TN D-6640; the flow/surge-to-lower-flow
 shift it documents is left for loop-data calibration (not fabricated here).
 """
@@ -30,7 +32,7 @@ VAR = os.path.join(MAPS, "variants")
 os.makedirs(VAR, exist_ok=True)
 
 RE_DESIGN = 3.1e6
-BETA = np.linspace(0.0, 1.0, 11)
+ALPHA_LEVELS = [0.0, 1.0]   # two identical sub-maps + linear alpha interp (fixed-geometry BRU)
 
 # name -> Re_U (absolute).  Edit/extend as loop conditions are pinned.
 SCENARIOS = {
@@ -45,6 +47,12 @@ def load_base():
     return pd.read_csv(os.path.join(MAPS, "compressor_map_gridded.csv"))
 
 
+def _rline_des(df):
+    """Design R-line: where the 100% line crosses WcMap = 1.0 (unchanged from the base map)."""
+    d = df[df.NcMap == 1.0].sort_values("WcMap")
+    return float(np.interp(1.0, d.WcMap, d.RlineMap))
+
+
 def write_npss(df, Re_U, path, name):
     Nc = sorted(df.NcMap.unique())
     S = float(rc.loss_scale(Re_U))
@@ -54,24 +62,51 @@ def write_npss(df, Re_U, path, name):
            f"// Reynolds-corrected from NASA TM X-2129 rig map via NASA TN D-6640 loss law.\n"
            f"// loss-scale S={S:.4f}  -> max adiabatic eff ~ {eta_max:.3f} "
            f"(rig {1-rc.LOSS_REF:.3f}).  PR knock-down applied; flow/surge shift NOT (calibrate).\n"
-           f"// Independents NcMap, betaMap; outputs PRmap, effMap, WcMap (Wc=We/{COMP.We_des_lbps}).\n")
+           f"// NPSS R-line map ('Subelement CompressorRlineMap S_map'). Independents alphaMap "
+           f"(fixed-geom: 0.0), NcMap, RlineMap (1.0=surge..3.0=max flow); tables TB_Wc, TB_PR, TB_eff "
+           f"(leaves WcMap=We/{COMP.We_des_lbps}, PRmap, effMap).\n"
+           f"// Surge/stall line = RlineMap 1.00 column (RlineStall below). The Reynolds knock-"
+           f"down here does NOT shift surge flow, so the stall boundary is unchanged from the base map.\n")
 
-    def table(col, out):
-        lines = [f"Table S_map.{out}(real NcMap, real betaMap) {{"]
-        for nc in Nc:
-            d = df[df.NcMap == nc].sort_values("betaMap")
-            betas = ", ".join(f"{b:.2f}" for b in d.betaMap)
-            vals = ", ".join(f"{v:.4f}" for v in d[col])
-            lines += [f"   NcMap = {nc:.3f} {{",
-                      f"      betaMap = {{ {betas} }}",
-                      f"      {out} = {{ {vals} }}", "   }"]
-        lines.append("}")
+    def table(tb_name, leaf):
+        lines = [f"   Table {tb_name}(real alphaMap, real NcMap, real RlineMap) {{"]
+        for a in ALPHA_LEVELS:
+            lines.append(f"      alphaMap = {a:.3f} {{")
+            for nc in Nc:
+                d = df[df.NcMap == nc].sort_values("RlineMap")
+                rlines = ", ".join(f"{r:.2f}" for r in d.RlineMap)
+                vals = ", ".join(f"{v:.4f}" for v in d[leaf])
+                lines += [f"         NcMap = {nc:.3f} {{",
+                          f"            RlineMap = {{ {rlines} }}",
+                          f"            {leaf} = {{ {vals} }}", "         }"]
+            lines.append("      }")
+        lines += [
+            '      alphaMap.interp = "linear";     alphaMap.extrap = "linear";',
+            '      NcMap.interp    = "lagrange3";  NcMap.extrap    = "linear";',
+            '      RlineMap.interp = "lagrange3";  RlineMap.extrap = "linear";',
+            "      extrapIsError = 0;",
+            "      printExtrap   = 0;",
+        ]
+        lines.append("   }")
         return "\n".join(lines)
 
+    sub = [
+        "Subelement CompressorRlineMap S_map {",
+        "   alphaMapDes = 0.000;",
+        "   NcMapDes    = 1.000;",
+        f"   RlineMapDes = {_rline_des(df):.3f};",
+        "   RlineStall  = 1.000;",
+        "   // ReDes    = 3030000.0;   // reference Re_U for the S_Re Reynolds socket (RNI = Re_U/ReDes)",
+        "",
+        table("TB_Wc", "WcMap"),
+        "",
+        table("TB_PR", "PRmap"),
+        "",
+        table("TB_eff", "effMap"),
+        "}",
+    ]
     with open(path, "w") as f:
-        f.write(hdr + "\n" + "\n\n".join(
-            table(c, o) for c, o in [("PRmap", "PRmap"), ("effMap", "effMap"),
-                                     ("WcMap", "WcMap")]) + "\n")
+        f.write(hdr + "\n" + "\n".join(sub) + "\n")
 
 
 def main():

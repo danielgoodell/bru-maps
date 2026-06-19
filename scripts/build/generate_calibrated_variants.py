@@ -30,26 +30,63 @@ MAPS = os.path.join(HERE, "..", "..", "maps", "compressor")
 OUT = os.path.join(MAPS, "calibrated")
 os.makedirs(OUT, exist_ok=True)
 
+ALPHA_LEVELS = [0.0, 1.0]   # two identical sub-maps + linear alpha interp (fixed-geometry BRU)
+
+
+def _rline_des(df):
+    """Design R-line: where the 100% line crosses WcMap = 1.0 (unchanged from the base map)."""
+    d = df[df.NcMap == 1.0].sort_values("WcMap")
+    return float(np.interp(1.0, d.WcMap, d.RlineMap))
+
 
 def write_npss(df, path, name, note):
     Nc = sorted(df.NcMap.unique())
     hdr = (f"// BRU 4.25-in compressor map - calibrated variant '{name}'\n"
            f"// {note}\n"
-           f"// Independents NcMap, betaMap; outputs PRmap, effMap, WcMap (Wc=We/{COMP.We_des_lbps}).\n")
+           f"// NPSS R-line map ('Subelement CompressorRlineMap S_map'). Independents alphaMap "
+           f"(fixed-geom: 0.0), NcMap, RlineMap (1.0=surge..3.0=max flow); tables TB_Wc, TB_PR, TB_eff "
+           f"(leaves WcMap=We/{COMP.We_des_lbps}, PRmap, effMap).\n"
+           f"// Surge/stall line = RlineMap 1.00 column (RlineStall below); efficiency-band "
+           f"calibration does not move the surge flow.\n")
 
-    def table(col, out):
-        lines = [f"Table S_map.{out}(real NcMap, real betaMap) {{"]
-        for nc in Nc:
-            d = df[df.NcMap == nc].sort_values("betaMap")
-            betas = ", ".join(f"{b:.2f}" for b in d.betaMap)
-            vals = ", ".join(f"{v:.4f}" for v in d[col])
-            lines += [f"   NcMap = {nc:.3f} {{", f"      betaMap = {{ {betas} }}",
-                      f"      {out} = {{ {vals} }}", "   }"]
-        lines.append("}")
+    def table(tb_name, leaf):
+        lines = [f"   Table {tb_name}(real alphaMap, real NcMap, real RlineMap) {{"]
+        for a in ALPHA_LEVELS:
+            lines.append(f"      alphaMap = {a:.3f} {{")
+            for nc in Nc:
+                d = df[df.NcMap == nc].sort_values("RlineMap")
+                rlines = ", ".join(f"{r:.2f}" for r in d.RlineMap)
+                vals = ", ".join(f"{v:.4f}" for v in d[leaf])
+                lines += [f"         NcMap = {nc:.3f} {{",
+                          f"            RlineMap = {{ {rlines} }}",
+                          f"            {leaf} = {{ {vals} }}", "         }"]
+            lines.append("      }")
+        lines += [
+            '      alphaMap.interp = "linear";     alphaMap.extrap = "linear";',
+            '      NcMap.interp    = "lagrange3";  NcMap.extrap    = "linear";',
+            '      RlineMap.interp = "lagrange3";  RlineMap.extrap = "linear";',
+            "      extrapIsError = 0;",
+            "      printExtrap   = 0;",
+        ]
+        lines.append("   }")
         return "\n".join(lines)
 
+    sub = [
+        "Subelement CompressorRlineMap S_map {",
+        "   alphaMapDes = 0.000;",
+        "   NcMapDes    = 1.000;",
+        f"   RlineMapDes = {_rline_des(df):.3f};",
+        "   RlineStall  = 1.000;",
+        "",
+        table("TB_Wc", "WcMap"),
+        "",
+        table("TB_PR", "PRmap"),
+        "",
+        table("TB_eff", "effMap"),
+        "}",
+    ]
     with open(path, "w") as f:
-        f.write(hdr + "\n" + "\n\n".join(table(c, c) for c in ("PRmap", "effMap", "WcMap")) + "\n")
+        f.write(hdr + "\n" + "\n".join(sub) + "\n")
 
 
 def main():

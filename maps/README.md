@@ -8,28 +8,37 @@ Generated artifacts (NPSS `.map` files, gridded `.csv`, validation `.png`). All 
 ```
 maps/
 ├── compressor/                         4.25-in centrifugal compressor (NASA TM X-2129)
-│   ├── compressor_argon.map            NPSS β-line map (PRmap, effMap, WcMap vs NcMap, betaMap)
+│   ├── compressor_argon.map        ◀── USE THIS. Self-contained NPSS R-line map: Subelement
+│   │                                     CompressorRlineMap S_map {TB_Wc,TB_PR,TB_eff vs
+│   │                                     alphaMap,NcMap,RlineMap; + embedded S_Re Reynolds socket}
+│   ├── compressor_reynolds_correction.csv  table dump of the embedded S_Re (s_effRe,s_WcRe vs RNI)
 │   ├── compressor_map_gridded.csv      portable long-format grid
 │   ├── compressor_map_validation.png   fitted map vs digitized points
 │   ├── compressor_*_variants.png       calibrated / Reynolds comparison plots
-│   ├── calibrated/                     efficiency bands: aero_{nominal,optimistic,pessimistic},
-│   │                                     indicated_{nominal,pessimistic}  (heat-soak model)
-│   └── variants/                       Reynolds scenarios: rig_design_Re100, loop_Re{48,23,11}
+│   ├── calibrated/   (situational)     efficiency bands: aero_{nominal,optimistic,pessimistic},
+│   │                                     indicated_{nominal,pessimistic} (heat-soak; NOT aero maps)
+│   └── variants/     (situational)     pre-baked Reynolds scenarios: rig_design_Re100, loop_Re{48,23,11}
 └── turbine/                            4.97-in radial-inflow turbine (NASA TN D-5090)
-    ├── turbine_argon.map               PR axis = total-to-STATIC; effMap = total η_t(1→3)
-    ├── turbine_argon_tt.map            PR axis = total-to-TOTAL (pairs with GasCycle Turbine)
+    ├── turbine_argon_tt.map        ◀── USE THIS. Self-contained, PRmap = total-to-TOTAL (pairs with
+    │                                     a cycle turbine element); Subelement TurbinePRmap S_map
+    │                                     {TB_Wp,TB_eff vs NpMap,PRmap; + embedded S_Re socket}
+    ├── turbine_argon.map               same map, PRmap = total-to-STATIC (native report axis)
+    ├── turbine_reynolds_correction.csv table dump of the embedded S_Re (s_effRe,s_WpRe vs RNI)
     ├── turbine_map_gridded.csv         portable grid (ts);  *_tt_gridded.csv = tt + ν, η_ts
     ├── turbine_map_validation.png      fitted map vs digitized points
     ├── turbine_variants.png            clearance / Reynolds comparison plot
-    └── variants/                       aero_nominal, loop_clearance12, loop_clr12_lowRe
+    └── variants/     (situational)     aero_nominal, loop_clearance12, loop_clr12_lowRe
 ```
 
 ## Which file to use
-- **Design-point or clean off-design cycle modeling:** `compressor/compressor_argon.map` +
-  `turbine/turbine_argon_tt.map` (total-to-total PR pairs directly with an NPSS/GasCycle turbine
-  element). Apply design-point map scaling; for He-Xe see the gas-transfer section of `docs/turbine.md`.
-- **Real-loop representation:** pick a `variants/` member (clearance/Reynolds) and, for the
-  compressor, a `calibrated/` efficiency band. Heat leak is handled at the cycle level (Option B).
+- **Nominal-design (or clean off-design) cycle modeling — the common case:** just
+  `compressor/compressor_argon.map` + `turbine/turbine_argon_tt.map`. Both embed the Reynolds `S_Re`
+  socket (a no-op at design Re), so no extra correction file is needed. Apply design-point map scaling;
+  for He-Xe see the gas-transfer section of `docs/turbine.md`.
+- **Real-loop representation (only if you need it):** pick a `variants/` member (clearance/Reynolds)
+  and, for the compressor, a `calibrated/` efficiency band. Heat leak is handled at the cycle level
+  (Option B). The `calibrated/indicated_*` maps reproduce a hot-loop *measurement* artifact and are not
+  aerodynamic maps — do not use them for design modeling.
 
 Usage, conventions, corrections, and validation are documented in `../README.md` and
 `../docs/{compressor,turbine}.md`.

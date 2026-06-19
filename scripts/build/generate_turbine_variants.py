@@ -26,29 +26,46 @@ Wc_DES = 0.486
 
 
 def write_npss(df, path, name, note):
-    Nc = sorted(df.NcMap.unique())
-    hdr = f"// BRU 4.97-in turbine map variant '{name}'\n// {note}\n"
+    Nc = sorted(df.NpMap.unique())
+    hdr = (f"// BRU 4.97-in turbine map variant '{name}'\n// {note}\n"
+           f"// NPSS turbine map ('Subelement TurbinePRmap S_map'): independents NpMap, PRmap "
+           f"(total-to-static p1'/p3); tables TB_Wp, TB_eff output WpMap, effMap.\n")
 
-    def table(col):
-        lines = [f"Table S_map.{col}(real NcMap, real betaMap) {{"]
+    def table(tb_name, leaf):
+        lines = [f"   Table {tb_name}(real NpMap, real PRmap) {{"]
         for nc in Nc:
-            d = df[df.NcMap == nc].sort_values("betaMap")
-            betas = ", ".join(f"{b:.2f}" for b in d.betaMap)
-            vals = ", ".join(f"{v:.4f}" for v in d[col])
-            lines += [f"   NcMap = {nc:.3f} {{", f"      betaMap = {{ {betas} }}",
-                      f"      {col} = {{ {vals} }}", "   }"]
-        lines.append("}")
+            d = df[df.NpMap == nc].sort_values("PRmap")
+            prs = ", ".join(f"{p:.3f}" for p in d.PRmap)
+            vals = ", ".join(f"{v:.4f}" for v in d[leaf])
+            lines += [f"      NpMap = {nc:.3f} {{", f"         PRmap = {{ {prs} }}",
+                      f"         {leaf} = {{ {vals} }}", "      }"]
+        lines += ['      NpMap.interp = "lagrange3";  NpMap.extrap = "linear";',
+                  '      PRmap.interp = "lagrange3";  PRmap.extrap = "linear";',
+                  "      extrapIsError = 0;",
+                  "      printExtrap   = 0;"]
+        lines.append("   }")
         return "\n".join(lines)
+
+    sub = [
+        "Subelement TurbinePRmap S_map {",
+        "   PRmapDes = 1.690;",
+        "   NpMapDes = 1.000;",
+        "",
+        table("TB_Wp", "WpMap"),
+        "",
+        table("TB_eff", "effMap"),
+        "}",
+    ]
     with open(path, "w") as f:
-        f.write(hdr + "\n" + "\n\n".join(table(c) for c in ("PRmap", "effMap", "WcMap")) + "\n")
+        f.write(hdr + "\n" + "\n".join(sub) + "\n")
 
 
 def main():
     base = pd.read_csv(os.path.join(MAPS, "turbine_map_gridded.csv"))
     variants = {}
-    variants["aero_nominal"] = (base.effMap.values, base.WcMap.values,
+    variants["aero_nominal"] = (base.effMap.values, base.WpMap.values,
                                 "cold-rig aero, design Re, ~2% clearance")
-    e, w = tc.correct_clearance(base.effMap.values, base.WcMap.values, 12.0)
+    e, w = tc.correct_clearance(base.effMap.values, base.WpMap.values, 12.0)
     variants["loop_clearance12"] = (e, w, "in-loop 12% axial clearance (TM X-2350), design Re")
     e2 = tc.correct_efficiency_reynolds(e, 46700.0)
     variants["loop_clr12_lowRe"] = (e2, w, "12% clearance + low-power Re~46700")
@@ -56,12 +73,12 @@ def main():
     for name, (eff, wc, note) in variants.items():
         df = base.copy()
         df["effMap"] = np.clip(eff, 0.05, 0.97)
-        df["WcMap"] = wc
+        df["WpMap"] = wc
         df.to_csv(os.path.join(OUT, f"{name}.csv"), index=False)
         write_npss(df, os.path.join(OUT, f"{name}.map"), name, note)
 
     fig, ax = plt.subplots(figsize=(8, 5.5))
-    m = base.NcMap == 1.0
+    m = base.NpMap == 1.0
     PR = base[m].PRmap
     for name, (eff, wc, _) in variants.items():
         ax.plot(PR, np.clip(eff, 0.05, 0.97)[m.values], "-o", ms=3, label=name)
